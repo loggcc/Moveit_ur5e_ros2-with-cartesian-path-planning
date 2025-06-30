@@ -71,4 +71,26 @@ source install/setup.bash
 ros2 run moveit_control_pkg cartesian_control
 ```
 
+## Hand eye calibration
+
+### step 1:
+
+run intrinsic_matrix.py to get the intrinsic matrix and distortion factor of the camera
+
+### step 2:
+
+move the robot arm in various poses with moveit (with ros2 launch ur5e_moveit_config moveit_rviz.launch.py) , record the end effector pose matrix with ros2 run tf2_ros tf2_echo base_link tool0, and record the object(checkerboard) pose in cam matrix with solvepnp.py (can use realsense.py to check your camera view)
+
+
+### step 3:
+
+put all the collected matrix in hand_eye_calibration.py and calculate the hand eye calibration matirx
+
+
+<img src="assets/calibration_pose.png" width="70%">
+
+
+
+
+
 
