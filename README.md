@@ -87,13 +87,5 @@ move the robot arm in various poses with moveit (with ros2 launch ur5e_moveit_co
 put all the collected matrix in hand_eye_calibration.py and calculate the hand eye calibration matirx
 
 
-<img src="assets/calibration_pose.png" width="70%">
-<<<<<<< HEAD
+<img src="hand_eye_calibration/assets/calibration_pose.png" width="70%">
 
-
-
-
-
-
-=======
->>>>>>> 975c919 (update)
