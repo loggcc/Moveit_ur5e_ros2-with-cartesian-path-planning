@@ -1,0 +1,17 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/cartesian_control.dir/src/cartesian_control.cpp.o[0m
+[01m[K/home/ariel/ur5e_ws/src/moveit_control_pkg/src/cartesian_control.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/ariel/ur5e_ws/src/moveit_control_pkg/src/cartesian_control.cpp:170:3:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot_trajectory[m[K’ has not been declared
+  170 |   [01;31m[Krobot_trajectory[m[K::RobotTrajectory rt(move_group.getCurrentState()->getRobotModel(), PLANNING_GROUP_ARM);
+      |   [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ariel/ur5e_ws/src/moveit_control_pkg/src/cartesian_control.cpp:171:3:[m[K [01;31m[Kerror: [m[K‘[01m[Krt[m[K’ was not declared in this scope
+  171 |   [01;31m[Krt[m[K.setRobotTrajectoryMsg(*move_group.getCurrentState(), trajectory);
+      |   [01;31m[K^~[m[K
+[01m[K/home/ariel/ur5e_ws/src/moveit_control_pkg/src/cartesian_control.cpp:172:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ktrajectory_processing[m[K’ has not been declared
+  172 |   [01;31m[Ktrajectory_processing[m[K::IterativeParabolicTimeParameterization iptp;
+      |   [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ariel/ur5e_ws/src/moveit_control_pkg/src/cartesian_control.cpp:173:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kiptp[m[K’ was not declared in this scope
+  173 |   [01;31m[Kiptp[m[K.computeTimeStamps(rt);
+      |   [01;31m[K^~~~[m[K
+gmake[2]: *** [CMakeFiles/cartesian_control.dir/build.make:76: CMakeFiles/cartesian_control.dir/src/cartesian_control.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/cartesian_control.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

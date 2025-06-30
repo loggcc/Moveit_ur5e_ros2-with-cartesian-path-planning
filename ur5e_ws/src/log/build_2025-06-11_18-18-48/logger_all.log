@@ -1,0 +1,325 @@
+[0.064s] [34mcolcon[0m [1;30mDEBUG[0m [32mCommand line arguments: ['/usr/bin/colcon', 'build'][0m
+[0.064s] [34mcolcon[0m [1;30mDEBUG[0m [32mParsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=22, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x70ec1e62f9d0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x70ec1e62f460>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x70ec1e62f460>>, mixin_verb=('build',))[0m
+[0.178s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) check parameters
+[0.178s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) check parameters
+[0.178s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) check parameters
+[0.178s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) check parameters
+[0.178s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) discover
+[0.178s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) discover
+[0.178s] [34mcolcon.colcon_core.package_discovery[0m [1;30mINFO[0m Crawling recursively for packages in '/home/ariel/ur5e_ws/src'
+[0.178s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.178s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore'
+[0.179s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore_ament_install'
+[0.179s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_pkg']
+[0.179s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_pkg'
+[0.179s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_meta']
+[0.179s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_meta'
+[0.179s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ros']
+[0.179s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ros'
+[0.209s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['cmake', 'python']
+[0.209s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'cmake'
+[0.209s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python'
+[0.209s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['python_setup_py']
+[0.209s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python_setup_py'
+[0.209s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(Universal_Robots_ROS2_Description) by extensions ['ignore', 'ignore_ament_install']
+[0.209s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(Universal_Robots_ROS2_Description) by extension 'ignore'
+[0.209s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(Universal_Robots_ROS2_Description) by extension 'ignore_ament_install'
+[0.209s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(Universal_Robots_ROS2_Description) by extensions ['colcon_pkg']
+[0.209s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(Universal_Robots_ROS2_Description) by extension 'colcon_pkg'
+[0.209s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(Universal_Robots_ROS2_Description) by extensions ['colcon_meta']
+[0.209s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(Universal_Robots_ROS2_Description) by extension 'colcon_meta'
+[0.209s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(Universal_Robots_ROS2_Description) by extensions ['ros']
+[0.209s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(Universal_Robots_ROS2_Description) by extension 'ros'
+[0.210s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'Universal_Robots_ROS2_Description' with type 'ros.ament_cmake' and name 'ur_description'[0m
+[0.211s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(Universal_Robots_ROS2_Driver) by extensions ['ignore', 'ignore_ament_install']
+[0.211s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(Universal_Robots_ROS2_Driver) by extension 'ignore'
+[0.211s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(Universal_Robots_ROS2_Driver) by extension 'ignore_ament_install'
+[0.211s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(Universal_Robots_ROS2_Driver) by extensions ['colcon_pkg']
+[0.211s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(Universal_Robots_ROS2_Driver) by extension 'colcon_pkg'
+[0.211s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(Universal_Robots_ROS2_Driver) by extensions ['colcon_meta']
+[0.211s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(Universal_Robots_ROS2_Driver) by extension 'colcon_meta'
+[0.211s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(Universal_Robots_ROS2_Driver) by extensions ['ros']
+[0.211s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(Universal_Robots_ROS2_Driver) by extension 'ros'
+[0.211s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(Universal_Robots_ROS2_Driver) by extensions ['cmake', 'python']
+[0.211s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(Universal_Robots_ROS2_Driver) by extension 'cmake'
+[0.211s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(Universal_Robots_ROS2_Driver) by extension 'python'
+[0.211s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(Universal_Robots_ROS2_Driver) by extensions ['python_setup_py']
+[0.211s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(Universal_Robots_ROS2_Driver) by extension 'python_setup_py'
+[0.211s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(Universal_Robots_ROS2_Driver/ur) by extensions ['ignore', 'ignore_ament_install']
+[0.211s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(Universal_Robots_ROS2_Driver/ur) by extension 'ignore'
+[0.211s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(Universal_Robots_ROS2_Driver/ur) by extension 'ignore_ament_install'
+[0.211s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(Universal_Robots_ROS2_Driver/ur) by extensions ['colcon_pkg']
+[0.211s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(Universal_Robots_ROS2_Driver/ur) by extension 'colcon_pkg'
+[0.211s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(Universal_Robots_ROS2_Driver/ur) by extensions ['colcon_meta']
+[0.211s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(Universal_Robots_ROS2_Driver/ur) by extension 'colcon_meta'
+[0.211s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(Universal_Robots_ROS2_Driver/ur) by extensions ['ros']
+[0.211s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(Universal_Robots_ROS2_Driver/ur) by extension 'ros'
+[0.211s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'Universal_Robots_ROS2_Driver/ur' with type 'ros.ament_cmake' and name 'ur'[0m
+[0.211s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(Universal_Robots_ROS2_Driver/ur_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.212s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(Universal_Robots_ROS2_Driver/ur_bringup) by extension 'ignore'
+[0.212s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(Universal_Robots_ROS2_Driver/ur_bringup) by extension 'ignore_ament_install'
+[0.212s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(Universal_Robots_ROS2_Driver/ur_bringup) by extensions ['colcon_pkg']
+[0.212s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(Universal_Robots_ROS2_Driver/ur_bringup) by extension 'colcon_pkg'
+[0.212s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(Universal_Robots_ROS2_Driver/ur_bringup) by extensions ['colcon_meta']
+[0.212s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(Universal_Robots_ROS2_Driver/ur_bringup) by extension 'colcon_meta'
+[0.212s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(Universal_Robots_ROS2_Driver/ur_bringup) by extensions ['ros']
+[0.212s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(Universal_Robots_ROS2_Driver/ur_bringup) by extension 'ros'
+[0.212s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'Universal_Robots_ROS2_Driver/ur_bringup' with type 'ros.ament_cmake' and name 'ur_bringup'[0m
+[0.212s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(Universal_Robots_ROS2_Driver/ur_calibration) by extensions ['ignore', 'ignore_ament_install']
+[0.212s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(Universal_Robots_ROS2_Driver/ur_calibration) by extension 'ignore'
+[0.212s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(Universal_Robots_ROS2_Driver/ur_calibration) by extension 'ignore_ament_install'
+[0.212s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(Universal_Robots_ROS2_Driver/ur_calibration) by extensions ['colcon_pkg']
+[0.212s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(Universal_Robots_ROS2_Driver/ur_calibration) by extension 'colcon_pkg'
+[0.212s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(Universal_Robots_ROS2_Driver/ur_calibration) by extensions ['colcon_meta']
+[0.212s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(Universal_Robots_ROS2_Driver/ur_calibration) by extension 'colcon_meta'
+[0.212s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(Universal_Robots_ROS2_Driver/ur_calibration) by extensions ['ros']
+[0.212s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(Universal_Robots_ROS2_Driver/ur_calibration) by extension 'ros'
+[0.213s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'Universal_Robots_ROS2_Driver/ur_calibration' with type 'ros.ament_cmake' and name 'ur_calibration'[0m
+[0.213s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(Universal_Robots_ROS2_Driver/ur_controllers) by extensions ['ignore', 'ignore_ament_install']
+[0.213s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(Universal_Robots_ROS2_Driver/ur_controllers) by extension 'ignore'
+[0.213s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(Universal_Robots_ROS2_Driver/ur_controllers) by extension 'ignore_ament_install'
+[0.213s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(Universal_Robots_ROS2_Driver/ur_controllers) by extensions ['colcon_pkg']
+[0.213s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(Universal_Robots_ROS2_Driver/ur_controllers) by extension 'colcon_pkg'
+[0.213s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(Universal_Robots_ROS2_Driver/ur_controllers) by extensions ['colcon_meta']
+[0.213s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(Universal_Robots_ROS2_Driver/ur_controllers) by extension 'colcon_meta'
+[0.213s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(Universal_Robots_ROS2_Driver/ur_controllers) by extensions ['ros']
+[0.213s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(Universal_Robots_ROS2_Driver/ur_controllers) by extension 'ros'
+[0.214s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'Universal_Robots_ROS2_Driver/ur_controllers' with type 'ros.ament_cmake' and name 'ur_controllers'[0m
+[0.214s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(Universal_Robots_ROS2_Driver/ur_dashboard_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.214s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(Universal_Robots_ROS2_Driver/ur_dashboard_msgs) by extension 'ignore'
+[0.214s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(Universal_Robots_ROS2_Driver/ur_dashboard_msgs) by extension 'ignore_ament_install'
+[0.214s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(Universal_Robots_ROS2_Driver/ur_dashboard_msgs) by extensions ['colcon_pkg']
+[0.214s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(Universal_Robots_ROS2_Driver/ur_dashboard_msgs) by extension 'colcon_pkg'
+[0.214s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(Universal_Robots_ROS2_Driver/ur_dashboard_msgs) by extensions ['colcon_meta']
+[0.214s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(Universal_Robots_ROS2_Driver/ur_dashboard_msgs) by extension 'colcon_meta'
+[0.214s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(Universal_Robots_ROS2_Driver/ur_dashboard_msgs) by extensions ['ros']
+[0.214s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(Universal_Robots_ROS2_Driver/ur_dashboard_msgs) by extension 'ros'
+[0.215s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'Universal_Robots_ROS2_Driver/ur_dashboard_msgs' with type 'ros.ament_cmake' and name 'ur_dashboard_msgs'[0m
+[0.215s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(Universal_Robots_ROS2_Driver/ur_moveit_config) by extensions ['ignore', 'ignore_ament_install']
+[0.215s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(Universal_Robots_ROS2_Driver/ur_moveit_config) by extension 'ignore'
+[0.215s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(Universal_Robots_ROS2_Driver/ur_moveit_config) by extension 'ignore_ament_install'
+[0.215s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(Universal_Robots_ROS2_Driver/ur_moveit_config) by extensions ['colcon_pkg']
+[0.215s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(Universal_Robots_ROS2_Driver/ur_moveit_config) by extension 'colcon_pkg'
+[0.215s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(Universal_Robots_ROS2_Driver/ur_moveit_config) by extensions ['colcon_meta']
+[0.215s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(Universal_Robots_ROS2_Driver/ur_moveit_config) by extension 'colcon_meta'
+[0.215s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(Universal_Robots_ROS2_Driver/ur_moveit_config) by extensions ['ros']
+[0.215s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(Universal_Robots_ROS2_Driver/ur_moveit_config) by extension 'ros'
+[0.215s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'Universal_Robots_ROS2_Driver/ur_moveit_config' with type 'ros.ament_cmake' and name 'ur_moveit_config'[0m
+[0.215s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(Universal_Robots_ROS2_Driver/ur_robot_driver) by extensions ['ignore', 'ignore_ament_install']
+[0.215s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(Universal_Robots_ROS2_Driver/ur_robot_driver) by extension 'ignore'
+[0.215s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(Universal_Robots_ROS2_Driver/ur_robot_driver) by extension 'ignore_ament_install'
+[0.215s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(Universal_Robots_ROS2_Driver/ur_robot_driver) by extensions ['colcon_pkg']
+[0.216s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(Universal_Robots_ROS2_Driver/ur_robot_driver) by extension 'colcon_pkg'
+[0.216s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(Universal_Robots_ROS2_Driver/ur_robot_driver) by extensions ['colcon_meta']
+[0.216s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(Universal_Robots_ROS2_Driver/ur_robot_driver) by extension 'colcon_meta'
+[0.216s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(Universal_Robots_ROS2_Driver/ur_robot_driver) by extensions ['ros']
+[0.216s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(Universal_Robots_ROS2_Driver/ur_robot_driver) by extension 'ros'
+[0.217s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'Universal_Robots_ROS2_Driver/ur_robot_driver' with type 'ros.ament_cmake' and name 'ur_robot_driver'[0m
+[0.217s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(Universal_Robots_ROS2_Gazebo_Simulation) by extensions ['ignore', 'ignore_ament_install']
+[0.217s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(Universal_Robots_ROS2_Gazebo_Simulation) by extension 'ignore'
+[0.217s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(Universal_Robots_ROS2_Gazebo_Simulation) by extension 'ignore_ament_install'
+[0.217s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(Universal_Robots_ROS2_Gazebo_Simulation) by extensions ['colcon_pkg']
+[0.217s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(Universal_Robots_ROS2_Gazebo_Simulation) by extension 'colcon_pkg'
+[0.217s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(Universal_Robots_ROS2_Gazebo_Simulation) by extensions ['colcon_meta']
+[0.217s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(Universal_Robots_ROS2_Gazebo_Simulation) by extension 'colcon_meta'
+[0.217s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(Universal_Robots_ROS2_Gazebo_Simulation) by extensions ['ros']
+[0.217s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(Universal_Robots_ROS2_Gazebo_Simulation) by extension 'ros'
+[0.217s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(Universal_Robots_ROS2_Gazebo_Simulation) by extensions ['cmake', 'python']
+[0.217s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(Universal_Robots_ROS2_Gazebo_Simulation) by extension 'cmake'
+[0.217s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(Universal_Robots_ROS2_Gazebo_Simulation) by extension 'python'
+[0.217s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(Universal_Robots_ROS2_Gazebo_Simulation) by extensions ['python_setup_py']
+[0.217s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(Universal_Robots_ROS2_Gazebo_Simulation) by extension 'python_setup_py'
+[0.217s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(Universal_Robots_ROS2_Gazebo_Simulation/ur_simulation_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[0.217s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(Universal_Robots_ROS2_Gazebo_Simulation/ur_simulation_gazebo) by extension 'ignore'
+[0.217s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(Universal_Robots_ROS2_Gazebo_Simulation/ur_simulation_gazebo) by extension 'ignore_ament_install'
+[0.217s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(Universal_Robots_ROS2_Gazebo_Simulation/ur_simulation_gazebo) by extensions ['colcon_pkg']
+[0.217s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(Universal_Robots_ROS2_Gazebo_Simulation/ur_simulation_gazebo) by extension 'colcon_pkg'
+[0.217s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(Universal_Robots_ROS2_Gazebo_Simulation/ur_simulation_gazebo) by extensions ['colcon_meta']
+[0.217s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(Universal_Robots_ROS2_Gazebo_Simulation/ur_simulation_gazebo) by extension 'colcon_meta'
+[0.217s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(Universal_Robots_ROS2_Gazebo_Simulation/ur_simulation_gazebo) by extensions ['ros']
+[0.217s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(Universal_Robots_ROS2_Gazebo_Simulation/ur_simulation_gazebo) by extension 'ros'
+[0.218s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'Universal_Robots_ROS2_Gazebo_Simulation/ur_simulation_gazebo' with type 'ros.ament_cmake' and name 'ur_simulation_gazebo'[0m
+[0.218s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.218s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) by extension 'ignore'
+[0.218s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) ignored
+[0.218s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(goal_sender) by extensions ['ignore', 'ignore_ament_install']
+[0.218s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(goal_sender) by extension 'ignore'
+[0.218s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(goal_sender) by extension 'ignore_ament_install'
+[0.218s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(goal_sender) by extensions ['colcon_pkg']
+[0.218s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(goal_sender) by extension 'colcon_pkg'
+[0.218s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(goal_sender) by extensions ['colcon_meta']
+[0.218s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(goal_sender) by extension 'colcon_meta'
+[0.218s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(goal_sender) by extensions ['ros']
+[0.218s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(goal_sender) by extension 'ros'
+[0.218s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(goal_sender) by extensions ['cmake', 'python']
+[0.218s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(goal_sender) by extension 'cmake'
+[0.218s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(goal_sender) by extension 'python'
+[0.218s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(goal_sender) by extensions ['python_setup_py']
+[0.218s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(goal_sender) by extension 'python_setup_py'
+[0.218s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(goal_sender/scripts) by extensions ['ignore', 'ignore_ament_install']
+[0.218s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(goal_sender/scripts) by extension 'ignore'
+[0.218s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(goal_sender/scripts) by extension 'ignore_ament_install'
+[0.218s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(goal_sender/scripts) by extensions ['colcon_pkg']
+[0.218s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(goal_sender/scripts) by extension 'colcon_pkg'
+[0.218s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(goal_sender/scripts) by extensions ['colcon_meta']
+[0.218s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(goal_sender/scripts) by extension 'colcon_meta'
+[0.218s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(goal_sender/scripts) by extensions ['ros']
+[0.218s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(goal_sender/scripts) by extension 'ros'
+[0.218s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(goal_sender/scripts) by extensions ['cmake', 'python']
+[0.218s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(goal_sender/scripts) by extension 'cmake'
+[0.218s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(goal_sender/scripts) by extension 'python'
+[0.218s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(goal_sender/scripts) by extensions ['python_setup_py']
+[0.218s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(goal_sender/scripts) by extension 'python_setup_py'
+[0.385s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'goal_sender/scripts' with type 'python' and name 'goal_sender'[0m
+[0.385s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.385s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) by extension 'ignore'
+[0.385s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) ignored
+[0.385s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.385s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) by extension 'ignore'
+[0.385s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) ignored
+[0.385s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) using defaults
+[0.385s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) discover
+[0.385s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) using defaults
+[0.385s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) discover
+[0.385s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) using defaults
+[0.397s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) check parameters
+[0.397s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) discover
+[0.398s] [34mcolcon.colcon_installed_package_information.package_discovery[0m [1;30mDEBUG[0m [32mFound 9 installed packages in /home/ariel/ur5e_ws/install[0m
+[0.398s] [34mcolcon.colcon_installed_package_information.package_discovery[0m [1;30mDEBUG[0m [32mFound 336 installed packages in /opt/ros/humble[0m
+[0.399s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) using defaults
+[0.420s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'goal_sender' build argument 'cmake_args' from command line to 'None'
+[0.420s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'goal_sender' build argument 'cmake_target' from command line to 'None'
+[0.420s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'goal_sender' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.420s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'goal_sender' build argument 'cmake_clean_cache' from command line to 'False'
+[0.420s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'goal_sender' build argument 'cmake_clean_first' from command line to 'False'
+[0.420s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'goal_sender' build argument 'cmake_force_configure' from command line to 'False'
+[0.421s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'goal_sender' build argument 'ament_cmake_args' from command line to 'None'
+[0.421s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'goal_sender' build argument 'catkin_cmake_args' from command line to 'None'
+[0.421s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'goal_sender' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.421s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'goal_sender' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ariel/ur5e_ws/src/build/goal_sender', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ariel/ur5e_ws/src/install/goal_sender', 'merge_install': False, 'path': '/home/ariel/ur5e_ws/src/goal_sender/scripts', 'symlink_install': False, 'test_result_base': None}[0m
+[0.421s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ur_dashboard_msgs' build argument 'cmake_args' from command line to 'None'
+[0.421s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ur_dashboard_msgs' build argument 'cmake_target' from command line to 'None'
+[0.421s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ur_dashboard_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.421s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ur_dashboard_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.421s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ur_dashboard_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.421s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ur_dashboard_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.421s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ur_dashboard_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.421s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ur_dashboard_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.421s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ur_dashboard_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.421s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'ur_dashboard_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ariel/ur5e_ws/src/build/ur_dashboard_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ariel/ur5e_ws/src/install/ur_dashboard_msgs', 'merge_install': False, 'path': '/home/ariel/ur5e_ws/src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs', 'symlink_install': False, 'test_result_base': None}[0m
+[0.421s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ur_description' build argument 'cmake_args' from command line to 'None'
+[0.421s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ur_description' build argument 'cmake_target' from command line to 'None'
+[0.421s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ur_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.421s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ur_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.421s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ur_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.421s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ur_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.421s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ur_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.421s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ur_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.421s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ur_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.421s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'ur_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ariel/ur5e_ws/src/build/ur_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ariel/ur5e_ws/src/install/ur_description', 'merge_install': False, 'path': '/home/ariel/ur5e_ws/src/Universal_Robots_ROS2_Description', 'symlink_install': False, 'test_result_base': None}[0m
+[0.421s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ur_controllers' build argument 'cmake_args' from command line to 'None'
+[0.421s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ur_controllers' build argument 'cmake_target' from command line to 'None'
+[0.421s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ur_controllers' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.421s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ur_controllers' build argument 'cmake_clean_cache' from command line to 'False'
+[0.421s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ur_controllers' build argument 'cmake_clean_first' from command line to 'False'
+[0.421s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ur_controllers' build argument 'cmake_force_configure' from command line to 'False'
+[0.421s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ur_controllers' build argument 'ament_cmake_args' from command line to 'None'
+[0.421s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ur_controllers' build argument 'catkin_cmake_args' from command line to 'None'
+[0.421s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ur_controllers' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.421s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'ur_controllers' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ariel/ur5e_ws/src/build/ur_controllers', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ariel/ur5e_ws/src/install/ur_controllers', 'merge_install': False, 'path': '/home/ariel/ur5e_ws/src/Universal_Robots_ROS2_Driver/ur_controllers', 'symlink_install': False, 'test_result_base': None}[0m
+[0.422s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ur_moveit_config' build argument 'cmake_args' from command line to 'None'
+[0.422s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ur_moveit_config' build argument 'cmake_target' from command line to 'None'
+[0.422s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ur_moveit_config' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.422s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ur_moveit_config' build argument 'cmake_clean_cache' from command line to 'False'
+[0.422s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ur_moveit_config' build argument 'cmake_clean_first' from command line to 'False'
+[0.422s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ur_moveit_config' build argument 'cmake_force_configure' from command line to 'False'
+[0.422s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ur_moveit_config' build argument 'ament_cmake_args' from command line to 'None'
+[0.422s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ur_moveit_config' build argument 'catkin_cmake_args' from command line to 'None'
+[0.422s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ur_moveit_config' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.422s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'ur_moveit_config' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ariel/ur5e_ws/src/build/ur_moveit_config', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ariel/ur5e_ws/src/install/ur_moveit_config', 'merge_install': False, 'path': '/home/ariel/ur5e_ws/src/Universal_Robots_ROS2_Driver/ur_moveit_config', 'symlink_install': False, 'test_result_base': None}[0m
+[0.422s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ur_bringup' build argument 'cmake_args' from command line to 'None'
+[0.422s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ur_bringup' build argument 'cmake_target' from command line to 'None'
+[0.422s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ur_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.422s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ur_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.422s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ur_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.422s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ur_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.422s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ur_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.422s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ur_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.422s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ur_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.422s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'ur_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ariel/ur5e_ws/src/build/ur_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ariel/ur5e_ws/src/install/ur_bringup', 'merge_install': False, 'path': '/home/ariel/ur5e_ws/src/Universal_Robots_ROS2_Driver/ur_bringup', 'symlink_install': False, 'test_result_base': None}[0m
+[0.422s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ur_robot_driver' build argument 'cmake_args' from command line to 'None'
+[0.422s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ur_robot_driver' build argument 'cmake_target' from command line to 'None'
+[0.422s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ur_robot_driver' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.422s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ur_robot_driver' build argument 'cmake_clean_cache' from command line to 'False'
+[0.422s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ur_robot_driver' build argument 'cmake_clean_first' from command line to 'False'
+[0.422s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ur_robot_driver' build argument 'cmake_force_configure' from command line to 'False'
+[0.422s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ur_robot_driver' build argument 'ament_cmake_args' from command line to 'None'
+[0.422s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ur_robot_driver' build argument 'catkin_cmake_args' from command line to 'None'
+[0.422s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ur_robot_driver' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.422s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'ur_robot_driver' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ariel/ur5e_ws/src/build/ur_robot_driver', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ariel/ur5e_ws/src/install/ur_robot_driver', 'merge_install': False, 'path': '/home/ariel/ur5e_ws/src/Universal_Robots_ROS2_Driver/ur_robot_driver', 'symlink_install': False, 'test_result_base': None}[0m
+[0.422s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ur_simulation_gazebo' build argument 'cmake_args' from command line to 'None'
+[0.422s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ur_simulation_gazebo' build argument 'cmake_target' from command line to 'None'
+[0.422s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ur_simulation_gazebo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.422s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ur_simulation_gazebo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.422s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ur_simulation_gazebo' build argument 'cmake_clean_first' from command line to 'False'
+[0.422s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ur_simulation_gazebo' build argument 'cmake_force_configure' from command line to 'False'
+[0.422s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ur_simulation_gazebo' build argument 'ament_cmake_args' from command line to 'None'
+[0.422s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ur_simulation_gazebo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.422s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ur_simulation_gazebo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.422s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'ur_simulation_gazebo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ariel/ur5e_ws/src/build/ur_simulation_gazebo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ariel/ur5e_ws/src/install/ur_simulation_gazebo', 'merge_install': False, 'path': '/home/ariel/ur5e_ws/src/Universal_Robots_ROS2_Gazebo_Simulation/ur_simulation_gazebo', 'symlink_install': False, 'test_result_base': None}[0m
+[0.423s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ur_calibration' build argument 'cmake_args' from command line to 'None'
+[0.423s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ur_calibration' build argument 'cmake_target' from command line to 'None'
+[0.423s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ur_calibration' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.423s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ur_calibration' build argument 'cmake_clean_cache' from command line to 'False'
+[0.423s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ur_calibration' build argument 'cmake_clean_first' from command line to 'False'
+[0.423s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ur_calibration' build argument 'cmake_force_configure' from command line to 'False'
+[0.423s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ur_calibration' build argument 'ament_cmake_args' from command line to 'None'
+[0.423s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ur_calibration' build argument 'catkin_cmake_args' from command line to 'None'
+[0.423s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ur_calibration' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.423s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'ur_calibration' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ariel/ur5e_ws/src/build/ur_calibration', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ariel/ur5e_ws/src/install/ur_calibration', 'merge_install': False, 'path': '/home/ariel/ur5e_ws/src/Universal_Robots_ROS2_Driver/ur_calibration', 'symlink_install': False, 'test_result_base': None}[0m
+[0.423s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ur' build argument 'cmake_args' from command line to 'None'
+[0.423s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ur' build argument 'cmake_target' from command line to 'None'
+[0.423s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ur' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.423s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ur' build argument 'cmake_clean_cache' from command line to 'False'
+[0.423s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ur' build argument 'cmake_clean_first' from command line to 'False'
+[0.423s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ur' build argument 'cmake_force_configure' from command line to 'False'
+[0.423s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ur' build argument 'ament_cmake_args' from command line to 'None'
+[0.423s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ur' build argument 'catkin_cmake_args' from command line to 'None'
+[0.423s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ur' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.423s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'ur' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ariel/ur5e_ws/src/build/ur', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ariel/ur5e_ws/src/install/ur', 'merge_install': False, 'path': '/home/ariel/ur5e_ws/src/Universal_Robots_ROS2_Driver/ur', 'symlink_install': False, 'test_result_base': None}[0m
+[0.423s] [34mcolcon.colcon_core.executor[0m [1;30mINFO[0m Executing jobs using 'parallel' executor
+[0.424s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete[0m
+[0.424s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/home/ariel/ur5e_ws/src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs' with build type 'ament_cmake'
+[0.424s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/ariel/ur5e_ws/src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs'
+[0.426s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.426s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.426s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[0.428s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/home/ariel/ur5e_ws/src/Universal_Robots_ROS2_Description' with build type 'ament_cmake'
+[0.428s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/ariel/ur5e_ws/src/Universal_Robots_ROS2_Description'
+[0.428s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.428s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[0.430s] [34mcolcon.colcon_core.task.python.build[0m [1;30mINFO[0m Building Python package in '/home/ariel/ur5e_ws/src/goal_sender/scripts'
+[0.431s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.431s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[0.435s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/ariel/ur5e_ws/src/build/ur_dashboard_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ariel/ur5e_ws/src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs -DCMAKE_INSTALL_PREFIX=/home/ariel/ur5e_ws/src/install/ur_dashboard_msgs[0m
+[0.437s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/ariel/ur5e_ws/src/build/ur_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ariel/ur5e_ws/src/Universal_Robots_ROS2_Description -DCMAKE_INSTALL_PREFIX=/home/ariel/ur5e_ws/src/install/ur_description[0m
+[0.870s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/ariel/ur5e_ws/src/goal_sender/scripts': PYTHONPATH=/home/ariel/ur5e_ws/src/build/goal_sender/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ariel/ur5e_ws/src/install/goal_sender/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/goal_sender build --build-base /home/ariel/ur5e_ws/src/build/goal_sender/build install --record /home/ariel/ur5e_ws/src/build/goal_sender/install.log --single-version-externally-managed install_data[0m
+[1.041s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/ariel/ur5e_ws/src/goal_sender/scripts' returned '1': PYTHONPATH=/home/ariel/ur5e_ws/src/build/goal_sender/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ariel/ur5e_ws/src/install/goal_sender/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/goal_sender build --build-base /home/ariel/ur5e_ws/src/build/goal_sender/build install --record /home/ariel/ur5e_ws/src/build/goal_sender/install.log --single-version-externally-managed install_data[0m
+[2.078s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mclosing loop[0m
+[2.079s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mloop closed[0m
+[2.079s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete finished with '1'[0m
+[2.079s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoining thread[0m
+[2.084s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.084s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.084s] [34mcolcon.colcon_notification.desktop_notification[0m [1;30mINFO[0m Sending desktop notification using 'notify2'
+[2.094s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoined thread[0m
+[2.094s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/ariel/ur5e_ws/src/install/local_setup.ps1'
+[2.095s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module '/home/ariel/ur5e_ws/src/install/_local_setup_util_ps1.py'
+[2.096s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/ariel/ur5e_ws/src/install/setup.ps1'
+[2.097s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/ariel/ur5e_ws/src/install/local_setup.sh'
+[2.097s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module '/home/ariel/ur5e_ws/src/install/_local_setup_util_sh.py'
+[2.097s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/ariel/ur5e_ws/src/install/setup.sh'
+[2.098s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/ariel/ur5e_ws/src/install/local_setup.bash'
+[2.098s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/ariel/ur5e_ws/src/install/setup.bash'
+[2.099s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/ariel/ur5e_ws/src/install/local_setup.zsh'
+[2.099s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/ariel/ur5e_ws/src/install/setup.zsh'

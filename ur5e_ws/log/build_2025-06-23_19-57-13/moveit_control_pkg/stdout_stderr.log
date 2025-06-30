@@ -1,0 +1,13 @@
+[35m[1mConsolidate compiler generated dependencies of target moveit_cpp_ur5e_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/moveit_cpp_ur5e_node.dir/src/moveit_cpp_ur5e_node.cpp.o[0m
+[01m[K/home/ariel/ur5e_ws/src/moveit_control_pkg/src/moveit_cpp_ur5e_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/ariel/ur5e_ws/src/moveit_control_pkg/src/moveit_cpp_ur5e_node.cpp:68:10:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before numeric constant
+   68 |    -0.000[01;31m[K [m[K [32m[K0.000[m[K  1.000  0.415
+      |          [01;31m[K^[m[K [32m[K~~~~~[m[K
+      |          [32m[K;[m[K
+[01m[K/home/ariel/ur5e_ws/src/moveit_control_pkg/src/moveit_cpp_ur5e_node.cpp:68:4:[m[K [01;35m[Kwarning: [m[Kstatement has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+   68 |    [01;35m[K-0.000[m[K  0.000  1.000  0.415
+      |    [01;35m[K^~~~~~[m[K
+gmake[2]: *** [CMakeFiles/moveit_cpp_ur5e_node.dir/build.make:76: CMakeFiles/moveit_cpp_ur5e_node.dir/src/moveit_cpp_ur5e_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/moveit_cpp_ur5e_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,9 @@
+[31mCMake Error at CMakeLists.txt:55 (add_executable):
+  add_executable cannot create target "cartesian_control" because another
+  target with the same name already exists.  The existing target is an
+  executable created in source directory
+  "/home/ariel/ur5e_ws/src/moveit_control_pkg".  See documentation for policy
+  CMP0002 for more details.
+
+[0m
+gmake: *** [Makefile:308: cmake_check_build_system] Error 1

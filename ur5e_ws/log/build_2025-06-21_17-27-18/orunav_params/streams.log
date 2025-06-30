@@ -1,0 +1,41 @@
+[0.030s] Invoking command in '/home/ariel/ur5e_ws/build/orunav_params': /usr/bin/cmake /home/ariel/ur5e_ws/src/navigation_oru-release/orunav_params -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/ariel/ur5e_ws/install/orunav_params
+[0.342s] -- The C compiler identification is GNU 11.4.0
+[0.342s] -- The CXX compiler identification is GNU 11.4.0
+[0.342s] -- Detecting C compiler ABI info
+[0.342s] -- Detecting C compiler ABI info - done
+[0.342s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.342s] -- Detecting C compile features
+[0.342s] -- Detecting C compile features - done
+[0.342s] -- Detecting CXX compiler ABI info
+[0.342s] -- Detecting CXX compiler ABI info - done
+[0.342s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.342s] -- Detecting CXX compile features
+[0.342s] -- Detecting CXX compile features - done
+[0.342s] -- Configuring incomplete, errors occurred!
+[0.342s] See also "/home/ariel/ur5e_ws/build/orunav_params/CMakeFiles/CMakeOutput.log".
+[0.342s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.342s]   Compatibility with CMake < 2.8.12 will be removed from a future version of
+[0.342s]   CMake.
+[0.342s] 
+[0.342s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[0.342s]   CMake that the project does not need compatibility with older versions.
+[0.342s] 
+[0.343s] [0m
+[0.343s] [31mCMake Error at CMakeLists.txt:4 (find_package):
+[0.343s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[0.343s]   asked CMake to find a package configuration file provided by "catkin", but
+[0.343s]   CMake did not find one.
+[0.343s] 
+[0.343s]   Could not find a package configuration file provided by "catkin" with any
+[0.343s]   of the following names:
+[0.343s] 
+[0.343s]     catkinConfig.cmake
+[0.343s]     catkin-config.cmake
+[0.343s] 
+[0.343s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[0.343s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[0.343s]   provides a separate development package or SDK, be sure it has been
+[0.343s]   installed.
+[0.343s] 
+[0.343s] [0m
+[0.356s] Invoked command in '/home/ariel/ur5e_ws/build/orunav_params' returned '1': /usr/bin/cmake /home/ariel/ur5e_ws/src/navigation_oru-release/orunav_params -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/ariel/ur5e_ws/install/orunav_params

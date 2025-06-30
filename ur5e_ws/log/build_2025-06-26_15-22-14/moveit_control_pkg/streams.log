@@ -1,0 +1,17 @@
+[0.022s] Invoking command in '/home/ariel/ur5e_ws/build/moveit_control_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ariel/ws_moveit2/install/moveit_configs_utils:/home/ariel/ws_moveit2/install/launch_param_builder:/home/ariel/ur5e_ws/install/controller_pkg_demo:/opt/ros/humble /usr/bin/cmake --build /home/ariel/ur5e_ws/build/moveit_control_pkg -- -j22 -l22
+[0.066s] [35m[1mConsolidate compiler generated dependencies of target cartesian_control[0m
+[0.091s] [ 50%] Built target moveit_cpp_ur_node
+[0.091s] [ 75%] [32mBuilding CXX object CMakeFiles/cartesian_control.dir/src/cartesian_control.cpp.o[0m
+[4.314s] [01m[K/home/ariel/ur5e_ws/src/moveit_control_pkg/src/cartesian_control.cpp:[m[K In member function ‘[01m[Kbool MotionPlanner::moveToPreGrasp()[m[K’:
+[4.314s] [01m[K/home/ariel/ur5e_ws/src/moveit_control_pkg/src/cartesian_control.cpp:85:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct moveit::planning_interface::MoveGroupInterface::Plan[m[K’ has no member named ‘[01m[Ktrajectory[m[K’; did you mean ‘[01m[Ktrajectory_[m[K’?
+[4.314s]    85 |     if (success && !my_plan.[01;31m[Ktrajectory[m[K.joint_trajectory.points.empty())
+[4.314s]       |                             [01;31m[K^~~~~~~~~~[m[K
+[4.314s]       |                             [32m[Ktrajectory_[m[K
+[4.314s] [01m[K/home/ariel/ur5e_ws/src/moveit_control_pkg/src/cartesian_control.cpp:88:51:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct moveit::planning_interface::MoveGroupInterface::Plan[m[K’ has no member named ‘[01m[Ktrajectory[m[K’; did you mean ‘[01m[Ktrajectory_[m[K’?
+[4.314s]    88 |       visual_tools_.publishTrajectoryLine(my_plan.[01;31m[Ktrajectory[m[K, move_group_.getRobotModel()->getJointModelGroup(PLANNING_GROUP_ARM));
+[4.314s]       |                                                   [01;31m[K^~~~~~~~~~[m[K
+[4.314s]       |                                                   [32m[Ktrajectory_[m[K
+[5.883s] gmake[2]: *** [CMakeFiles/cartesian_control.dir/build.make:76: CMakeFiles/cartesian_control.dir/src/cartesian_control.cpp.o] Error 1
+[5.883s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/cartesian_control.dir/all] Error 2
+[5.883s] gmake: *** [Makefile:146: all] Error 2
+[5.886s] Invoked command in '/home/ariel/ur5e_ws/build/moveit_control_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ariel/ws_moveit2/install/moveit_configs_utils:/home/ariel/ws_moveit2/install/launch_param_builder:/home/ariel/ur5e_ws/install/controller_pkg_demo:/opt/ros/humble /usr/bin/cmake --build /home/ariel/ur5e_ws/build/moveit_control_pkg -- -j22 -l22

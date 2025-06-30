@@ -1,0 +1,17 @@
+source;share/ur_robot_driver/hook/cmake_prefix_path.ps1
+source;share/ur_robot_driver/hook/cmake_prefix_path.dsv
+source;share/ur_robot_driver/hook/cmake_prefix_path.sh
+source;share/ur_robot_driver/hook/ld_library_path_lib.ps1
+source;share/ur_robot_driver/hook/ld_library_path_lib.dsv
+source;share/ur_robot_driver/hook/ld_library_path_lib.sh
+source;share/ur_robot_driver/hook/path.ps1
+source;share/ur_robot_driver/hook/path.dsv
+source;share/ur_robot_driver/hook/path.sh
+source;share/ur_robot_driver/hook/pythonscriptspath.ps1
+source;share/ur_robot_driver/hook/pythonscriptspath.dsv
+source;share/ur_robot_driver/hook/pythonscriptspath.sh
+source;share/ur_robot_driver/local_setup.bash
+source;share/ur_robot_driver/local_setup.dsv
+source;share/ur_robot_driver/local_setup.ps1
+source;share/ur_robot_driver/local_setup.sh
+source;share/ur_robot_driver/local_setup.zsh

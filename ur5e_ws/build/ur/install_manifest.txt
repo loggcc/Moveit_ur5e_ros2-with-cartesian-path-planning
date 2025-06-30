@@ -1,0 +1,15 @@
+/home/ariel/ur5e_ws/install/ur/share/ament_index/resource_index/package_run_dependencies/ur
+/home/ariel/ur5e_ws/install/ur/share/ament_index/resource_index/parent_prefix_path/ur
+/home/ariel/ur5e_ws/install/ur/share/ur/environment/ament_prefix_path.sh
+/home/ariel/ur5e_ws/install/ur/share/ur/environment/ament_prefix_path.dsv
+/home/ariel/ur5e_ws/install/ur/share/ur/environment/path.sh
+/home/ariel/ur5e_ws/install/ur/share/ur/environment/path.dsv
+/home/ariel/ur5e_ws/install/ur/share/ur/local_setup.bash
+/home/ariel/ur5e_ws/install/ur/share/ur/local_setup.sh
+/home/ariel/ur5e_ws/install/ur/share/ur/local_setup.zsh
+/home/ariel/ur5e_ws/install/ur/share/ur/local_setup.dsv
+/home/ariel/ur5e_ws/install/ur/share/ur/package.dsv
+/home/ariel/ur5e_ws/install/ur/share/ament_index/resource_index/packages/ur
+/home/ariel/ur5e_ws/install/ur/share/ur/cmake/urConfig.cmake
+/home/ariel/ur5e_ws/install/ur/share/ur/cmake/urConfig-version.cmake
+/home/ariel/ur5e_ws/install/ur/share/ur/package.xml

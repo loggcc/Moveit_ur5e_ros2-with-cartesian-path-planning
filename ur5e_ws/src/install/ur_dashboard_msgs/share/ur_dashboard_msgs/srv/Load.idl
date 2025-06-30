@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from ur_dashboard_msgs/srv/Load.srv
+// generated code does not contain a copyright notice
+
+
+module ur_dashboard_msgs {
+  module srv {
+    @verbatim (language="comment", text=
+      "Service to load programs or installations")
+    struct Load_Request {
+      string filename;
+    };
+    struct Load_Response {
+      string answer;
+
+      boolean success;
+    };
+  };
+};

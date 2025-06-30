@@ -1,0 +1,25 @@
+[0.012s] Invoking command in '/home/ariel/ur5e_ws/build/moveit_control_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ariel/ws_moveit2/install/moveit_configs_utils:/home/ariel/ws_moveit2/install/launch_param_builder:/home/ariel/ur5e_ws/install/controller_pkg_demo:/opt/ros/humble /usr/bin/cmake --build /home/ariel/ur5e_ws/build/moveit_control_pkg -- -j22 -l22
+[0.075s] [ 50%] [32mBuilding CXX object CMakeFiles/cartesian_control.dir/src/cartesian_control.cpp.o[0m
+[4.360s] [100%] [32m[1mLinking CXX executable cartesian_control[0m
+[4.584s] [100%] Built target cartesian_control
+[4.594s] Invoked command in '/home/ariel/ur5e_ws/build/moveit_control_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ariel/ws_moveit2/install/moveit_configs_utils:/home/ariel/ws_moveit2/install/launch_param_builder:/home/ariel/ur5e_ws/install/controller_pkg_demo:/opt/ros/humble /usr/bin/cmake --build /home/ariel/ur5e_ws/build/moveit_control_pkg -- -j22 -l22
+[4.603s] Invoking command in '/home/ariel/ur5e_ws/build/moveit_control_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ariel/ws_moveit2/install/moveit_configs_utils:/home/ariel/ws_moveit2/install/launch_param_builder:/home/ariel/ur5e_ws/install/controller_pkg_demo:/opt/ros/humble /usr/bin/cmake --install /home/ariel/ur5e_ws/build/moveit_control_pkg
+[4.610s] -- Install configuration: ""
+[4.610s] -- Execute custom install script
+[4.610s] -- Up-to-date symlink: /home/ariel/ur5e_ws/install/moveit_control_pkg/lib/moveit_control_pkg/cartesian_control
+[4.610s] -- Up-to-date symlink: /home/ariel/ur5e_ws/install/moveit_control_pkg/share/ament_index/resource_index/package_run_dependencies/moveit_control_pkg
+[4.610s] -- Up-to-date symlink: /home/ariel/ur5e_ws/install/moveit_control_pkg/share/ament_index/resource_index/parent_prefix_path/moveit_control_pkg
+[4.610s] -- Up-to-date symlink: /home/ariel/ur5e_ws/install/moveit_control_pkg/share/moveit_control_pkg/environment/ament_prefix_path.sh
+[4.611s] -- Up-to-date symlink: /home/ariel/ur5e_ws/install/moveit_control_pkg/share/moveit_control_pkg/environment/ament_prefix_path.dsv
+[4.611s] -- Up-to-date symlink: /home/ariel/ur5e_ws/install/moveit_control_pkg/share/moveit_control_pkg/environment/path.sh
+[4.611s] -- Up-to-date symlink: /home/ariel/ur5e_ws/install/moveit_control_pkg/share/moveit_control_pkg/environment/path.dsv
+[4.611s] -- Up-to-date symlink: /home/ariel/ur5e_ws/install/moveit_control_pkg/share/moveit_control_pkg/local_setup.bash
+[4.611s] -- Up-to-date symlink: /home/ariel/ur5e_ws/install/moveit_control_pkg/share/moveit_control_pkg/local_setup.sh
+[4.611s] -- Up-to-date symlink: /home/ariel/ur5e_ws/install/moveit_control_pkg/share/moveit_control_pkg/local_setup.zsh
+[4.611s] -- Up-to-date symlink: /home/ariel/ur5e_ws/install/moveit_control_pkg/share/moveit_control_pkg/local_setup.dsv
+[4.611s] -- Symlinking: /home/ariel/ur5e_ws/install/moveit_control_pkg/share/moveit_control_pkg/package.dsv
+[4.619s] -- Up-to-date symlink: /home/ariel/ur5e_ws/install/moveit_control_pkg/share/ament_index/resource_index/packages/moveit_control_pkg
+[4.619s] -- Up-to-date symlink: /home/ariel/ur5e_ws/install/moveit_control_pkg/share/moveit_control_pkg/cmake/moveit_control_pkgConfig.cmake
+[4.619s] -- Up-to-date symlink: /home/ariel/ur5e_ws/install/moveit_control_pkg/share/moveit_control_pkg/cmake/moveit_control_pkgConfig-version.cmake
+[4.619s] -- Up-to-date symlink: /home/ariel/ur5e_ws/install/moveit_control_pkg/share/moveit_control_pkg/package.xml
+[4.621s] Invoked command in '/home/ariel/ur5e_ws/build/moveit_control_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ariel/ws_moveit2/install/moveit_configs_utils:/home/ariel/ws_moveit2/install/launch_param_builder:/home/ariel/ur5e_ws/install/controller_pkg_demo:/opt/ros/humble /usr/bin/cmake --install /home/ariel/ur5e_ws/build/moveit_control_pkg

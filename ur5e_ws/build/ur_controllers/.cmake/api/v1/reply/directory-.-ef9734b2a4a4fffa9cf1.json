@@ -1,0 +1,757 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"generate_parameter_library",
+			"pluginlib_export_plugin_description_file",
+			"ament_environment_hooks",
+			"_ament_cmake_export_libraries_register_environment_hook",
+			"ament_export_libraries",
+			"ament_index_register_resource",
+			"ament_cmake_environment_generate_package_run_dependencies_marker",
+			"include",
+			"ament_execute_extensions",
+			"ament_package",
+			"ament_cmake_environment_generate_parent_prefix_path_marker",
+			"ament_generate_package_environment",
+			"ament_index_register_package",
+			"_ament_package"
+		],
+		"files" : 
+		[
+			"/opt/ros/humble/share/generate_parameter_library/cmake/generate_parameter_library.cmake",
+			"CMakeLists.txt",
+			"/opt/ros/humble/share/pluginlib/cmake/pluginlib_export_plugin_description_file.cmake",
+			"/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/ament_environment_hooks.cmake",
+			"/opt/ros/humble/share/ament_cmake_export_libraries/cmake/ament_cmake_export_libraries-extras.cmake",
+			"/opt/ros/humble/share/ament_cmake_export_libraries/cmake/ament_export_libraries.cmake",
+			"/opt/ros/humble/share/ament_cmake_core/cmake/index/ament_index_register_resource.cmake",
+			"/opt/ros/humble/share/ament_cmake_core/cmake/environment/ament_cmake_environment_package_hook.cmake",
+			"/opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake",
+			"/opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package.cmake",
+			"/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/ament_cmake_environment_hooks_package_hook.cmake",
+			"/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/ament_generate_package_environment.cmake",
+			"/opt/ros/humble/share/ament_cmake_core/cmake/index/ament_index_register_package.cmake",
+			"/opt/ros/humble/share/ament_cmake_core/cmake/index/ament_cmake_index_package_hook.cmake",
+			"/opt/ros/humble/share/pluginlib/cmake/pluginlib_package_hook.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 54,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 101,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 59,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 101,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 64,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 101,
+				"parent" : 5
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 69,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 101,
+				"parent" : 7
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 74,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 101,
+				"parent" : 9
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 79,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 101,
+				"parent" : 11
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 84,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 101,
+				"parent" : 13
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 89,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 101,
+				"parent" : 15
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 126,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 2,
+				"line" : 89,
+				"parent" : 17
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 128,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 134,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 138,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 144,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 5,
+				"line" : 35,
+				"parent" : 22
+			},
+			{
+				"command" : 3,
+				"file" : 4,
+				"line" : 25,
+				"parent" : 23
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 70,
+				"parent" : 24
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 87,
+				"parent" : 24
+			},
+			{
+				"command" : 10,
+				"file" : 1,
+				"line" : 183,
+				"parent" : 0
+			},
+			{
+				"command" : 9,
+				"file" : 9,
+				"line" : 66,
+				"parent" : 27
+			},
+			{
+				"command" : 8,
+				"file" : 8,
+				"line" : 48,
+				"parent" : 28
+			},
+			{
+				"file" : 7,
+				"parent" : 29
+			},
+			{
+				"command" : 7,
+				"file" : 7,
+				"line" : 47,
+				"parent" : 30
+			},
+			{
+				"command" : 6,
+				"file" : 7,
+				"line" : 29,
+				"parent" : 31
+			},
+			{
+				"command" : 0,
+				"file" : 6,
+				"line" : 105,
+				"parent" : 32
+			},
+			{
+				"command" : 11,
+				"file" : 7,
+				"line" : 48,
+				"parent" : 30
+			},
+			{
+				"command" : 6,
+				"file" : 7,
+				"line" : 43,
+				"parent" : 34
+			},
+			{
+				"command" : 0,
+				"file" : 6,
+				"line" : 105,
+				"parent" : 35
+			},
+			{
+				"command" : 8,
+				"file" : 8,
+				"line" : 48,
+				"parent" : 28
+			},
+			{
+				"file" : 10,
+				"parent" : 37
+			},
+			{
+				"command" : 3,
+				"file" : 10,
+				"line" : 20,
+				"parent" : 38
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 70,
+				"parent" : 39
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 87,
+				"parent" : 39
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 70,
+				"parent" : 39
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 87,
+				"parent" : 39
+			},
+			{
+				"command" : 12,
+				"file" : 10,
+				"line" : 26,
+				"parent" : 38
+			},
+			{
+				"command" : 0,
+				"file" : 11,
+				"line" : 91,
+				"parent" : 44
+			},
+			{
+				"command" : 0,
+				"file" : 11,
+				"line" : 91,
+				"parent" : 44
+			},
+			{
+				"command" : 0,
+				"file" : 11,
+				"line" : 91,
+				"parent" : 44
+			},
+			{
+				"command" : 0,
+				"file" : 11,
+				"line" : 107,
+				"parent" : 44
+			},
+			{
+				"command" : 0,
+				"file" : 11,
+				"line" : 119,
+				"parent" : 44
+			},
+			{
+				"command" : 8,
+				"file" : 8,
+				"line" : 48,
+				"parent" : 28
+			},
+			{
+				"file" : 13,
+				"parent" : 50
+			},
+			{
+				"command" : 13,
+				"file" : 13,
+				"line" : 16,
+				"parent" : 51
+			},
+			{
+				"command" : 6,
+				"file" : 12,
+				"line" : 29,
+				"parent" : 52
+			},
+			{
+				"command" : 0,
+				"file" : 6,
+				"line" : 105,
+				"parent" : 53
+			},
+			{
+				"command" : 8,
+				"file" : 8,
+				"line" : 48,
+				"parent" : 28
+			},
+			{
+				"file" : 14,
+				"parent" : 55
+			},
+			{
+				"command" : 6,
+				"file" : 14,
+				"line" : 22,
+				"parent" : 56
+			},
+			{
+				"command" : 0,
+				"file" : 6,
+				"line" : 105,
+				"parent" : 57
+			},
+			{
+				"command" : 14,
+				"file" : 9,
+				"line" : 68,
+				"parent" : 27
+			},
+			{
+				"command" : 0,
+				"file" : 9,
+				"line" : 122,
+				"parent" : 59
+			},
+			{
+				"command" : 0,
+				"file" : 9,
+				"line" : 122,
+				"parent" : 59
+			},
+			{
+				"command" : 0,
+				"file" : 9,
+				"line" : 122,
+				"parent" : 59
+			},
+			{
+				"command" : 0,
+				"file" : 9,
+				"line" : 150,
+				"parent" : 59
+			},
+			{
+				"command" : 0,
+				"file" : 9,
+				"line" : 157,
+				"parent" : 59
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "include",
+			"paths" : 
+			[
+				"/home/ariel/ur5e_ws/build/ur_controllers/include/ur_controllers"
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "Unspecified",
+			"destination" : "include",
+			"paths" : 
+			[
+				"/home/ariel/ur5e_ws/build/ur_controllers/include/ur_controllers"
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 6,
+			"component" : "Unspecified",
+			"destination" : "include",
+			"paths" : 
+			[
+				"/home/ariel/ur5e_ws/build/ur_controllers/include/ur_controllers"
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 8,
+			"component" : "Unspecified",
+			"destination" : "include",
+			"paths" : 
+			[
+				"/home/ariel/ur5e_ws/build/ur_controllers/include/ur_controllers"
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 10,
+			"component" : "Unspecified",
+			"destination" : "include",
+			"paths" : 
+			[
+				"/home/ariel/ur5e_ws/build/ur_controllers/include/ur_controllers"
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 12,
+			"component" : "Unspecified",
+			"destination" : "include",
+			"paths" : 
+			[
+				"/home/ariel/ur5e_ws/build/ur_controllers/include/ur_controllers"
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 14,
+			"component" : "Unspecified",
+			"destination" : "include",
+			"paths" : 
+			[
+				"/home/ariel/ur5e_ws/build/ur_controllers/include/ur_controllers"
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 16,
+			"component" : "Unspecified",
+			"destination" : "include",
+			"paths" : 
+			[
+				"/home/ariel/ur5e_ws/build/ur_controllers/include/ur_controllers"
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 18,
+			"component" : "Unspecified",
+			"destination" : "share/ur_controllers",
+			"paths" : 
+			[
+				"controller_plugins.xml"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 19,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"libur_controllers.so"
+			],
+			"targetId" : "ur_controllers::@6890427a1f51a3e7e1df",
+			"targetIndex" : 15,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 20,
+			"component" : "Unspecified",
+			"destination" : "include",
+			"paths" : 
+			[
+				{
+					"from" : "include",
+					"to" : "."
+				}
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 21,
+			"component" : "Unspecified",
+			"destination" : "share/ur_controllers",
+			"paths" : 
+			[
+				"controller_plugins.xml"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 25,
+			"component" : "Unspecified",
+			"destination" : "share/ur_controllers/environment",
+			"paths" : 
+			[
+				"/opt/ros/humble/lib/python3.10/site-packages/ament_package/template/environment_hook/library_path.sh"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 26,
+			"component" : "Unspecified",
+			"destination" : "share/ur_controllers/environment",
+			"paths" : 
+			[
+				"/home/ariel/ur5e_ws/build/ur_controllers/ament_cmake_environment_hooks/library_path.dsv"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 33,
+			"component" : "Unspecified",
+			"destination" : "share/ament_index/resource_index/package_run_dependencies",
+			"paths" : 
+			[
+				"/home/ariel/ur5e_ws/build/ur_controllers/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/ur_controllers"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 36,
+			"component" : "Unspecified",
+			"destination" : "share/ament_index/resource_index/parent_prefix_path",
+			"paths" : 
+			[
+				"/home/ariel/ur5e_ws/build/ur_controllers/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/ur_controllers"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 40,
+			"component" : "Unspecified",
+			"destination" : "share/ur_controllers/environment",
+			"paths" : 
+			[
+				"/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 41,
+			"component" : "Unspecified",
+			"destination" : "share/ur_controllers/environment",
+			"paths" : 
+			[
+				"/home/ariel/ur5e_ws/build/ur_controllers/ament_cmake_environment_hooks/ament_prefix_path.dsv"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 42,
+			"component" : "Unspecified",
+			"destination" : "share/ur_controllers/environment",
+			"paths" : 
+			[
+				"/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 43,
+			"component" : "Unspecified",
+			"destination" : "share/ur_controllers/environment",
+			"paths" : 
+			[
+				"/home/ariel/ur5e_ws/build/ur_controllers/ament_cmake_environment_hooks/path.dsv"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 45,
+			"component" : "Unspecified",
+			"destination" : "share/ur_controllers",
+			"paths" : 
+			[
+				"/home/ariel/ur5e_ws/build/ur_controllers/ament_cmake_environment_hooks/local_setup.bash"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 46,
+			"component" : "Unspecified",
+			"destination" : "share/ur_controllers",
+			"paths" : 
+			[
+				"/home/ariel/ur5e_ws/build/ur_controllers/ament_cmake_environment_hooks/local_setup.sh"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 47,
+			"component" : "Unspecified",
+			"destination" : "share/ur_controllers",
+			"paths" : 
+			[
+				"/home/ariel/ur5e_ws/build/ur_controllers/ament_cmake_environment_hooks/local_setup.zsh"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 48,
+			"component" : "Unspecified",
+			"destination" : "share/ur_controllers",
+			"paths" : 
+			[
+				"/home/ariel/ur5e_ws/build/ur_controllers/ament_cmake_environment_hooks/local_setup.dsv"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 49,
+			"component" : "Unspecified",
+			"destination" : "share/ur_controllers",
+			"paths" : 
+			[
+				"/home/ariel/ur5e_ws/build/ur_controllers/ament_cmake_environment_hooks/package.dsv"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 54,
+			"component" : "Unspecified",
+			"destination" : "share/ament_index/resource_index/packages",
+			"paths" : 
+			[
+				"/home/ariel/ur5e_ws/build/ur_controllers/ament_cmake_index/share/ament_index/resource_index/packages/ur_controllers"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 58,
+			"component" : "Unspecified",
+			"destination" : "share/ament_index/resource_index/controller_interface__pluginlib__plugin",
+			"paths" : 
+			[
+				"/home/ariel/ur5e_ws/build/ur_controllers/ament_cmake_index/share/ament_index/resource_index/controller_interface__pluginlib__plugin/ur_controllers"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 60,
+			"component" : "Unspecified",
+			"destination" : "share/ur_controllers/cmake",
+			"paths" : 
+			[
+				"/home/ariel/ur5e_ws/build/ur_controllers/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 61,
+			"component" : "Unspecified",
+			"destination" : "share/ur_controllers/cmake",
+			"paths" : 
+			[
+				"/home/ariel/ur5e_ws/build/ur_controllers/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 62,
+			"component" : "Unspecified",
+			"destination" : "share/ur_controllers/cmake",
+			"paths" : 
+			[
+				"/home/ariel/ur5e_ws/build/ur_controllers/ament_cmake_export_libraries/ament_cmake_export_libraries-extras.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 63,
+			"component" : "Unspecified",
+			"destination" : "share/ur_controllers/cmake",
+			"paths" : 
+			[
+				"/home/ariel/ur5e_ws/build/ur_controllers/ament_cmake_core/ur_controllersConfig.cmake",
+				"/home/ariel/ur5e_ws/build/ur_controllers/ament_cmake_core/ur_controllersConfig-version.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 64,
+			"component" : "Unspecified",
+			"destination" : "share/ur_controllers",
+			"paths" : 
+			[
+				"package.xml"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	}
+}

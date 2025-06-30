@@ -1,0 +1,4 @@
+[0.023s] Invoking command in '/home/ariel/ur5e_ws/build/robotiq_controllers': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ariel/ws_moveit2/install/moveit_configs_utils:/home/ariel/ws_moveit2/install/launch_param_builder:/home/ariel/ur5e_ws/install/controller_pkg_demo:/opt/ros/humble /usr/bin/cmake --build /home/ariel/ur5e_ws/build/robotiq_controllers -- -j22 -l22
+[0.088s] [ 50%] [32mBuilding CXX object CMakeFiles/robotiq_controllers.dir/src/robotiq_activation_controller.cpp.o[0m
+[2.147s] [100%] [32m[1mLinking CXX shared library librobotiq_controllers.so[0m
+[2.262s] [100%] Built target robotiq_controllers

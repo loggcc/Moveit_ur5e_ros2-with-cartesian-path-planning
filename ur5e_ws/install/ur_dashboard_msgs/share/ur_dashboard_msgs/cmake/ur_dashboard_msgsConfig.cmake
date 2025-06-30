@@ -1,0 +1,1 @@
+/home/ariel/ur5e_ws/build/ur_dashboard_msgs/ament_cmake_core/ur_dashboard_msgsConfig.cmake

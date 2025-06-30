@@ -1,0 +1,7 @@
+setup.py
+ur_moveit_config/__init__.py
+ur_moveit_config/launch_common.py
+ur_moveit_config.egg-info/PKG-INFO
+ur_moveit_config.egg-info/SOURCES.txt
+ur_moveit_config.egg-info/dependency_links.txt
+ur_moveit_config.egg-info/top_level.txt

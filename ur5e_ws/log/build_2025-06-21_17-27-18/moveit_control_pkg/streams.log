@@ -1,0 +1,45 @@
+[0.315s] Invoking command in '/home/ariel/ur5e_ws/build/moveit_control_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ariel/ws_moveit2/install/launch_param_builder:/home/ariel/ur5e_ws/install/controller_pkg_demo:/opt/ros/humble /usr/bin/cmake /home/ariel/ur5e_ws/src/moveit_control_pkg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ariel/ur5e_ws/install/moveit_control_pkg
+[0.360s] -- The C compiler identification is GNU 11.4.0
+[0.408s] -- The CXX compiler identification is GNU 11.4.0
+[0.414s] -- Detecting C compiler ABI info
+[0.465s] -- Detecting C compiler ABI info - done
+[0.470s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.470s] -- Detecting C compile features
+[0.470s] -- Detecting C compile features - done
+[0.473s] -- Detecting CXX compiler ABI info
+[0.534s] -- Detecting CXX compiler ABI info - done
+[0.541s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.541s] -- Detecting CXX compile features
+[0.542s] -- Detecting CXX compile features - done
+[0.545s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.661s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.703s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.724s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[0.751s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.755s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.760s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.768s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.778s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.806s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.808s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[0.822s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.829s] -- Looking for pthread.h
+[0.878s] -- Looking for pthread.h - found
+[0.878s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.935s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.936s] -- Found Threads: TRUE  
+[0.968s] -- Found moveit_ros_planning_interface: 2.5.9 (/opt/ros/humble/share/moveit_ros_planning_interface/cmake)
+[0.986s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread 
+[1.102s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[1.133s] -- Found parameter_traits: 0.5.0 (/opt/ros/humble/share/parameter_traits/cmake)
+[1.141s] -- Found rclcpp_lifecycle: 16.0.12 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[1.158s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[1.227s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[1.253s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.253s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.340s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+[1.359s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options 
+[1.420s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread 
+[1.519s] -- Configuring done
+[1.532s] -- Generating done
+[1.536s] -- Build files have been written to: /home/ariel/ur5e_ws/build/moveit_control_pkg

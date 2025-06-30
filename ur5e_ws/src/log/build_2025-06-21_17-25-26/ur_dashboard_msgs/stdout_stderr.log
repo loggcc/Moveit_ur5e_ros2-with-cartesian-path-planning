@@ -1,0 +1,13 @@
+[ 12%] Built target ur_dashboard_msgs__rosidl_generator_c
+[ 12%] Built target ur_dashboard_msgs__cpp
+[35m[1mConsolidate compiler generated dependencies of target ur_dashboard_msgs__rosidl_typesupport_fastrtps_c[0m
+[35m[1mConsolidate compiler generated dependencies of target ur_dashboard_msgs__rosidl_typesupport_c[0m
+[35m[1mConsolidate compiler generated dependencies of target ur_dashboard_msgs__rosidl_typesupport_introspection_c[0m
+[ 24%] Built target ur_dashboard_msgs__rosidl_typesupport_c
+[ 36%] Built target ur_dashboard_msgs__rosidl_typesupport_fastrtps_c
+[ 48%] Built target ur_dashboard_msgs__rosidl_typesupport_introspection_c
+failed to create symbolic link '/home/ariel/ur5e_ws/src/build/ur_dashboard_msgs/ament_cmake_python/ur_dashboard_msgs/ur_dashboard_msgs' because existing path cannot be removed: Is a directory
+gmake[2]: *** [CMakeFiles/ament_cmake_python_symlink_ur_dashboard_msgs.dir/build.make:70: CMakeFiles/ament_cmake_python_symlink_ur_dashboard_msgs] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:421: CMakeFiles/ament_cmake_python_symlink_ur_dashboard_msgs.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake: *** [Makefile:146: all] Error 2

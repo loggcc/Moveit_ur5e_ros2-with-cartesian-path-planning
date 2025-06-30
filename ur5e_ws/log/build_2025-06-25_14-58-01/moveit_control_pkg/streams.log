@@ -1,0 +1,12 @@
+[0.021s] Invoking command in '/home/ariel/ur5e_ws/build/moveit_control_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ariel/ws_moveit2/install/moveit_configs_utils:/home/ariel/ws_moveit2/install/launch_param_builder:/home/ariel/ur5e_ws/install/controller_pkg_demo:/opt/ros/humble /usr/bin/cmake --build /home/ariel/ur5e_ws/build/moveit_control_pkg -- -j22 -l22
+[0.084s] [35m[1mConsolidate compiler generated dependencies of target cartesian_control[0m
+[0.087s] [ 50%] Built target moveit_cpp_ur_node
+[0.092s] [ 75%] [32mBuilding CXX object CMakeFiles/cartesian_control.dir/src/cartesian_control.cpp.o[0m
+[2.730s] [01m[K/home/ariel/ur5e_ws/src/moveit_control_pkg/src/cartesian_control.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[2.730s] [01m[K/home/ariel/ur5e_ws/src/moveit_control_pkg/src/cartesian_control.cpp:52:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kmy_plan_arm[m[K’ was not declared in this scope
+[2.730s]    52 |   if (move_group.plan([01;31m[Kmy_plan_arm[m[K) == moveit::core::MoveItErrorCode::SUCCESS)
+[2.730s]       |                       [01;31m[K^~~~~~~~~~~[m[K
+[4.231s] gmake[2]: *** [CMakeFiles/cartesian_control.dir/build.make:76: CMakeFiles/cartesian_control.dir/src/cartesian_control.cpp.o] Error 1
+[4.232s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/cartesian_control.dir/all] Error 2
+[4.232s] gmake: *** [Makefile:146: all] Error 2
+[4.235s] Invoked command in '/home/ariel/ur5e_ws/build/moveit_control_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ariel/ws_moveit2/install/moveit_configs_utils:/home/ariel/ws_moveit2/install/launch_param_builder:/home/ariel/ur5e_ws/install/controller_pkg_demo:/opt/ros/humble /usr/bin/cmake --build /home/ariel/ur5e_ws/build/moveit_control_pkg -- -j22 -l22

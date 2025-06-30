@@ -1,0 +1,26 @@
+[01m[K/home/ariel/ur5e_ws/src/moveit_control_pkg/src/cartesian_control.cpp:[m[K In lambda function:
+[01m[K/home/ariel/ur5e_ws/src/moveit_control_pkg/src/cartesian_control.cpp:122:49:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmoveit_visual_tools::MoveItVisualTools::publishWireframeCuboid(Eigen::Vector3d&, Eigen::Vector3d&, rviz_visual_tools::Colors)[m[K’
+  122 |       [01;31m[Kmoveit_visual_tools.publishWireframeCuboid(box_point_1, box_point_2, rviz_visual_tools::LIME_GREEN)[m[K;
+      |       [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/ariel/ws_moveit2/install/moveit_visual_tools/include/moveit_visual_tools/moveit_visual_tools.h:38[m[K,
+                 from [01m[K/home/ariel/ur5e_ws/src/moveit_control_pkg/src/cartesian_control.cpp:5[m[K:
+[01m[K/opt/ros/humble/include/rviz_visual_tools/rviz_visual_tools.hpp:858:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool rviz_visual_tools::RvizVisualTools::publishWireframeCuboid(const Isometry3d&, double, double, double, rviz_visual_tools::Colors, const string&, std::size_t)[m[K’
+  858 |   bool [01;36m[KpublishWireframeCuboid[m[K(const Eigen::Isometry3d& pose, double depth, double width,
+      |        [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rviz_visual_tools/rviz_visual_tools.hpp:858:8:[m[K [01;36m[Knote: [m[K  candidate expects 7 arguments, 3 provided
+[01m[K/opt/ros/humble/include/rviz_visual_tools/rviz_visual_tools.hpp:873:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool rviz_visual_tools::RvizVisualTools::publishWireframeCuboid(const Isometry3d&, const Vector3d&, const Vector3d&, rviz_visual_tools::Colors, const string&, std::size_t)[m[K’
+  873 |   bool [01;36m[KpublishWireframeCuboid[m[K(const Eigen::Isometry3d& pose, const Eigen::Vector3d& min_point,
+      |        [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rviz_visual_tools/rviz_visual_tools.hpp:873:56:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KEigen::Vector3d[m[K’ {aka ‘[01m[KEigen::Matrix<double, 3, 1>[m[K’} to ‘[01m[Kconst Isometry3d&[m[K’ {aka ‘[01m[Kconst Eigen::Transform<double, 3, 1>&[m[K’}
+  873 |   bool publishWireframeCuboid([01;36m[Kconst Eigen::Isometry3d& pose[m[K, const Eigen::Vector3d& min_point,
+      |                               [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/ariel/ur5e_ws/src/moveit_control_pkg/src/cartesian_control.cpp:142:7:[m[K [01;31m[Kerror: [m[K‘[01m[Ktext_pose[m[K’ was not declared in this scope; did you mean ‘[01m[Kbox_pose[m[K’?
+  142 |       [01;31m[Ktext_pose[m[K.translation() = Eigen::Vector3d(center.x(), center.y(), box_point_2.z() + 0.1);
+      |       [01;31m[K^~~~~~~~~[m[K
+      |       [32m[Kbox_pose[m[K
+[01m[K/home/ariel/ur5e_ws/src/moveit_control_pkg/src/cartesian_control.cpp:142:49:[m[K [01;31m[Kerror: [m[K‘[01m[Kcenter[m[K’ was not declared in this scope
+  142 |       text_pose.translation() = Eigen::Vector3d([01;31m[Kcenter[m[K.x(), center.y(), box_point_2.z() + 0.1);
+      |                                                 [01;31m[K^~~~~~[m[K
+gmake[2]: *** [CMakeFiles/cartesian_control.dir/build.make:76: CMakeFiles/cartesian_control.dir/src/cartesian_control.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/cartesian_control.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,47 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from ur_dashboard_msgs/action/SetMode.action
+// generated code does not contain a copyright notice
+
+
+module ur_dashboard_msgs {
+  module action {
+    @verbatim (language="comment", text=
+      "This action is for setting the robot into a desired mode (e.g. RUNNING) and safety mode into a" "\n"
+      "non-critical state (e.g. NORMAL or REDUCED), for example after a safety incident happened.")
+    struct SetMode_Goal {
+      @verbatim (language="comment", text=
+        "Target modes can be one of" "\n"
+        "- 3: ROBOT_MODE_POWER_OFF" "\n"
+        "- 5: ROBOT_MODE_IDLE" "\n"
+        "- 7: ROBOT_MODE_RUNNING")
+      int8 target_robot_mode;
+
+      @verbatim (language="comment", text=
+        "Stop program execution before restoring the target mode. Can be used together with 'play_program'.")
+      boolean stop_program;
+
+      @verbatim (language="comment", text=
+        "Play the currently loaded program after target mode is reached.#" "\n"
+        "NOTE: Requesting mode RUNNING in combination with this will make the robot continue the motion it" "\n"
+        "was doing before. This might probably lead into the same problem (protective stop, EM-Stop due to" "\n"
+        "faulty motion, etc.) If you want to be safe, set the 'stop_program' flag below and manually play" "\n"
+        "the program after robot state is returned to normal." "\n"
+        "This flag will only be used when requesting mode RUNNING")
+      boolean play_program;
+    };
+    @verbatim (language="comment", text=
+      "result")
+    struct SetMode_Result {
+      boolean success;
+
+      string message;
+    };
+    @verbatim (language="comment", text=
+      "feedback")
+    struct SetMode_Feedback {
+      int8 current_robot_mode;
+
+      int8 current_safety_mode;
+    };
+  };
+};

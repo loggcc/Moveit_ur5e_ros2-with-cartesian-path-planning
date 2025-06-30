@@ -1,0 +1,2 @@
+/usr/bin/ar qc libcalibration.a CMakeFiles/calibration.dir/src/calibration.cpp.o CMakeFiles/calibration.dir/src/calibration_consumer.cpp.o
+/usr/bin/ranlib libcalibration.a

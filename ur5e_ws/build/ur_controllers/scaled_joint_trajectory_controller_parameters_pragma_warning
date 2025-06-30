@@ -1,0 +1,1 @@
+#pragma message("#include \"scaled_joint_trajectory_controller_parameters.hpp\" is deprecated. Use #include <ur_controllers/scaled_joint_trajectory_controller_parameters.hpp> instead.")

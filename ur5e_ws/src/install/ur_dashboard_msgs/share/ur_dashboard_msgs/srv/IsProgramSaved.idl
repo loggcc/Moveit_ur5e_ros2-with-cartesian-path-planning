@@ -1,0 +1,25 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from ur_dashboard_msgs/srv/IsProgramSaved.srv
+// generated code does not contain a copyright notice
+
+
+module ur_dashboard_msgs {
+  module srv {
+    struct IsProgramSaved_Request {
+      uint8 structure_needs_at_least_one_member;
+    };
+    struct IsProgramSaved_Response {
+      string answer;
+
+      string program_name;
+
+      @verbatim (language="comment", text=
+        "is the current program saved?")
+      boolean program_saved;
+
+      @verbatim (language="comment", text=
+        "Did the dashboard server call succeed?")
+      boolean success;
+    };
+  };
+};

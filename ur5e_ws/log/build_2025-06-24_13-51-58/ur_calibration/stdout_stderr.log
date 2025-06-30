@@ -1,0 +1,5 @@
+[ 25%] Built target gmock
+[ 41%] Built target gmock_main
+[ 66%] Built target calibration
+[ 91%] Built target calibration_test
+[100%] Built target calibration_correction

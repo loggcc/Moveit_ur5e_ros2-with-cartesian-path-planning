@@ -1,0 +1,23 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from ur_dashboard_msgs/srv/IsProgramRunning.srv
+// generated code does not contain a copyright notice
+
+
+module ur_dashboard_msgs {
+  module srv {
+    struct IsProgramRunning_Request {
+      uint8 structure_needs_at_least_one_member;
+    };
+    struct IsProgramRunning_Response {
+      string answer;
+
+      @verbatim (language="comment", text=
+        "is a program running?")
+      boolean program_running;
+
+      @verbatim (language="comment", text=
+        "Did the dashboard server call succeed?")
+      boolean success;
+    };
+  };
+};

@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from ur_dashboard_msgs/srv/AddToLog.srv
+// generated code does not contain a copyright notice
+
+
+module ur_dashboard_msgs {
+  module srv {
+    struct AddToLog_Request {
+      string message;
+    };
+    struct AddToLog_Response {
+      string answer;
+
+      boolean success;
+    };
+  };
+};

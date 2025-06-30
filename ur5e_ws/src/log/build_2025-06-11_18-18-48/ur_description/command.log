@@ -1,0 +1,1 @@
+Invoking command in '/home/ariel/ur5e_ws/src/build/ur_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ariel/ur5e_ws/src/Universal_Robots_ROS2_Description -DCMAKE_INSTALL_PREFIX=/home/ariel/ur5e_ws/src/install/ur_description

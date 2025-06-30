@@ -1,0 +1,8 @@
+[ 12%] Built target ur_dashboard_msgs__rosidl_generator_c
+[ 12%] Built target ur_dashboard_msgs__cpp
+[35m[1mConsolidate compiler generated dependencies of target ur_dashboard_msgs__rosidl_typesupport_fastrtps_c[0m
+[35m[1mConsolidate compiler generated dependencies of target ur_dashboard_msgs__rosidl_typesupport_c[0m
+[35m[1mConsolidate compiler generated dependencies of target ur_dashboard_msgs__rosidl_typesupport_introspection_c[0m
+[ 24%] Built target ur_dashboard_msgs__rosidl_typesupport_c
+[ 36%] Built target ur_dashboard_msgs__rosidl_typesupport_fastrtps_c
+[ 48%] Built target ur_dashboard_msgs__rosidl_typesupport_introspection_c

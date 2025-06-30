@@ -1,0 +1,361 @@
+[  0%] Built target ur_dashboard_msgs__cpp
+[ 12%] Built target ur_dashboard_msgs__rosidl_generator_c
+[ 12%] Built target ament_cmake_python_symlink_ur_dashboard_msgs
+[ 34%] Built target ur_dashboard_msgs__rosidl_typesupport_introspection_c
+[ 36%] Built target ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp
+[ 48%] Built target ur_dashboard_msgs__rosidl_typesupport_introspection_cpp
+[ 60%] Built target ur_dashboard_msgs__rosidl_typesupport_cpp
+[ 72%] Built target ur_dashboard_msgs__rosidl_typesupport_c
+[ 84%] Built target ur_dashboard_msgs__rosidl_typesupport_fastrtps_c
+[ 84%] Built target ur_dashboard_msgs
+[ 85%] Built target ur_dashboard_msgs__py
+[ 96%] Built target ur_dashboard_msgs__rosidl_generator_py
+[ 97%] Built target ur_dashboard_msgs__rosidl_typesupport_fastrtps_c__pyext
+[ 99%] Built target ur_dashboard_msgs__rosidl_typesupport_introspection_c__pyext
+[100%] Built target ur_dashboard_msgs__rosidl_typesupport_c__pyext
+running egg_info
+writing ur_dashboard_msgs.egg-info/PKG-INFO
+writing dependency_links to ur_dashboard_msgs.egg-info/dependency_links.txt
+writing top-level names to ur_dashboard_msgs.egg-info/top_level.txt
+reading manifest file 'ur_dashboard_msgs.egg-info/SOURCES.txt'
+writing manifest file 'ur_dashboard_msgs.egg-info/SOURCES.txt'
+[100%] Built target ament_cmake_python_build_ur_dashboard_msgs_egg
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/share/ament_index/resource_index/rosidl_interfaces/ur_dashboard_msgs
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail/set_mode__functions.h
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail/set_mode__struct.h
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail/set_mode__type_support.h
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/set_mode.h
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/program_state__functions.h
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/program_state__struct.h
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/program_state__type_support.h
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/robot_mode__functions.h
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/robot_mode__struct.h
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/robot_mode__type_support.h
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/safety_mode__functions.h
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/safety_mode__struct.h
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/safety_mode__type_support.h
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/program_state.h
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/robot_mode.h
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/rosidl_generator_c__visibility_control.h
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/safety_mode.h
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/add_to_log.h
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/add_to_log__functions.h
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/add_to_log__struct.h
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/add_to_log__type_support.h
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_loaded_program__functions.h
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_loaded_program__struct.h
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_loaded_program__type_support.h
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_program_state__functions.h
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_program_state__struct.h
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_program_state__type_support.h
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_robot_mode__functions.h
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_robot_mode__struct.h
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_robot_mode__type_support.h
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_safety_mode__functions.h
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_safety_mode__struct.h
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_safety_mode__type_support.h
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_running__functions.h
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_running__struct.h
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_running__type_support.h
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_saved__functions.h
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_saved__struct.h
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_saved__type_support.h
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/load__functions.h
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/load__struct.h
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/load__type_support.h
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/popup__functions.h
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/popup__struct.h
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/popup__type_support.h
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/raw_request__functions.h
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/raw_request__struct.h
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/raw_request__type_support.h
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/get_loaded_program.h
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/get_program_state.h
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/get_robot_mode.h
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/get_safety_mode.h
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/is_program_running.h
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/is_program_saved.h
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/load.h
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/popup.h
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/raw_request.h
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/environment/library_path.sh
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/environment/library_path.dsv
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail/set_mode__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/program_state__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/robot_mode__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/safety_mode__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/add_to_log__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_loaded_program__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_program_state__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_robot_mode__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_safety_mode__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_running__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_saved__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/load__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/popup__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/raw_request__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail/set_mode__rosidl_typesupport_introspection_c.h
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/program_state__rosidl_typesupport_introspection_c.h
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/robot_mode__rosidl_typesupport_introspection_c.h
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/safety_mode__rosidl_typesupport_introspection_c.h
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/add_to_log__rosidl_typesupport_introspection_c.h
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_loaded_program__rosidl_typesupport_introspection_c.h
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_program_state__rosidl_typesupport_introspection_c.h
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_robot_mode__rosidl_typesupport_introspection_c.h
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_safety_mode__rosidl_typesupport_introspection_c.h
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_running__rosidl_typesupport_introspection_c.h
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_saved__rosidl_typesupport_introspection_c.h
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/load__rosidl_typesupport_introspection_c.h
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/popup__rosidl_typesupport_introspection_c.h
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/raw_request__rosidl_typesupport_introspection_c.h
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail/set_mode__builder.hpp
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail/set_mode__struct.hpp
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail/set_mode__traits.hpp
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail/set_mode__type_support.hpp
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/set_mode.hpp
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/program_state__builder.hpp
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/program_state__struct.hpp
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/program_state__traits.hpp
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/program_state__type_support.hpp
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/robot_mode__builder.hpp
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/robot_mode__struct.hpp
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/robot_mode__traits.hpp
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/robot_mode__type_support.hpp
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/safety_mode__builder.hpp
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/safety_mode__struct.hpp
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/safety_mode__traits.hpp
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/safety_mode__type_support.hpp
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/program_state.hpp
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/robot_mode.hpp
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/safety_mode.hpp
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/add_to_log.hpp
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/add_to_log__builder.hpp
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/add_to_log__struct.hpp
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/add_to_log__traits.hpp
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/add_to_log__type_support.hpp
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_loaded_program__builder.hpp
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_loaded_program__struct.hpp
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_loaded_program__traits.hpp
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_loaded_program__type_support.hpp
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_program_state__builder.hpp
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_program_state__struct.hpp
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_program_state__traits.hpp
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_program_state__type_support.hpp
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_robot_mode__builder.hpp
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_robot_mode__struct.hpp
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_robot_mode__traits.hpp
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_robot_mode__type_support.hpp
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_safety_mode__builder.hpp
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_safety_mode__struct.hpp
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_safety_mode__traits.hpp
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_safety_mode__type_support.hpp
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_running__builder.hpp
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_running__struct.hpp
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_running__traits.hpp
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_running__type_support.hpp
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_saved__builder.hpp
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_saved__struct.hpp
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_saved__traits.hpp
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_saved__type_support.hpp
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/load__builder.hpp
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/load__struct.hpp
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/load__traits.hpp
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/load__type_support.hpp
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/popup__builder.hpp
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/popup__struct.hpp
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/popup__traits.hpp
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/popup__type_support.hpp
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/raw_request__builder.hpp
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/raw_request__struct.hpp
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/raw_request__traits.hpp
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/raw_request__type_support.hpp
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/get_loaded_program.hpp
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/get_program_state.hpp
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/get_robot_mode.hpp
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/get_safety_mode.hpp
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/is_program_running.hpp
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/is_program_saved.hpp
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/load.hpp
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/popup.hpp
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/raw_request.hpp
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail/set_mode__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/program_state__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/robot_mode__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/safety_mode__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/add_to_log__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_loaded_program__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_program_state__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_robot_mode__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_safety_mode__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_running__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_saved__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/load__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/popup__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/raw_request__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail/set_mode__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/program_state__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/robot_mode__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/safety_mode__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/add_to_log__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_loaded_program__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_program_state__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_robot_mode__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_safety_mode__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_running__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_saved__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/load__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/popup__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/raw_request__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/environment/pythonpath.sh
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/environment/pythonpath.dsv
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs-2.8.1-py3.10.egg-info/PKG-INFO
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs-2.8.1-py3.10.egg-info/SOURCES.txt
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs-2.8.1-py3.10.egg-info/dependency_links.txt
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs-2.8.1-py3.10.egg-info/top_level.txt
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/__init__.py
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/_ur_dashboard_msgs_s.ep.rosidl_typesupport_c.c
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/_ur_dashboard_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/_ur_dashboard_msgs_s.ep.rosidl_typesupport_introspection_c.c
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/action/__init__.py
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/action/_set_mode.py
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/action/_set_mode_s.c
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/libur_dashboard_msgs__rosidl_generator_py.so
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/msg/__init__.py
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/msg/_program_state.py
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/msg/_program_state_s.c
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/msg/_robot_mode.py
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/msg/_robot_mode_s.c
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/msg/_safety_mode.py
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/msg/_safety_mode_s.c
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/__init__.py
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_add_to_log.py
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_add_to_log_s.c
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_get_loaded_program.py
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_get_loaded_program_s.c
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_get_program_state.py
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_get_program_state_s.c
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_get_robot_mode.py
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_get_robot_mode_s.c
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_get_safety_mode.py
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_get_safety_mode_s.c
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_is_program_running.py
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_is_program_running_s.c
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_is_program_saved.py
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_is_program_saved_s.c
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_load.py
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_load_s.c
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_popup.py
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_popup_s.c
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_raw_request.py
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_raw_request_s.c
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/ur_dashboard_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/ur_dashboard_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/ur_dashboard_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/ur_dashboard_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/ur_dashboard_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/ur_dashboard_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/msg/ProgramState.idl
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/msg/RobotMode.idl
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/msg/SafetyMode.idl
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/AddToLog.idl
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetLoadedProgram.idl
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetProgramState.idl
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetRobotMode.idl
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetSafetyMode.idl
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/IsProgramRunning.idl
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/IsProgramSaved.idl
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/Load.idl
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/Popup.idl
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/RawRequest.idl
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/action/SetMode.idl
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/msg/ProgramState.msg
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/msg/RobotMode.msg
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/msg/SafetyMode.msg
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/AddToLog.srv
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/AddToLog_Request.msg
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/AddToLog_Response.msg
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetLoadedProgram.srv
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetLoadedProgram_Request.msg
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetLoadedProgram_Response.msg
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetProgramState.srv
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetProgramState_Request.msg
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetProgramState_Response.msg
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetRobotMode.srv
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetRobotMode_Request.msg
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetRobotMode_Response.msg
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetSafetyMode.srv
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetSafetyMode_Request.msg
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetSafetyMode_Response.msg
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/IsProgramRunning.srv
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/IsProgramRunning_Request.msg
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/IsProgramRunning_Response.msg
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/IsProgramSaved.srv
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/IsProgramSaved_Request.msg
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/IsProgramSaved_Response.msg
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/Load.srv
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/Load_Request.msg
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/Load_Response.msg
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/Popup.srv
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/Popup_Request.msg
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/Popup_Response.msg
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/RawRequest.srv
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/RawRequest_Request.msg
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/RawRequest_Response.msg
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/action/SetMode.action
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/share/ament_index/resource_index/package_run_dependencies/ur_dashboard_msgs
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/share/ament_index/resource_index/parent_prefix_path/ur_dashboard_msgs
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/environment/path.sh
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/environment/path.dsv
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/local_setup.bash
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/local_setup.sh
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/local_setup.zsh
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/local_setup.dsv
+-- Symlinking: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/package.dsv
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/share/ament_index/resource_index/packages/ur_dashboard_msgs
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/rosidl_cmake-extras.cmake
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ament_cmake_export_targets-extras.cmake
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ur_dashboard_msgsConfig.cmake
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ur_dashboard_msgsConfig-version.cmake
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/package.xml
+-- Up-to-date: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_generator_c.so
+-- Up-to-date: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_typesupport_fastrtps_c.so
+-- Up-to-date: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_typesupport_introspection_c.so
+-- Up-to-date: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_typesupport_c.so
+-- Up-to-date: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.so
+-- Up-to-date: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_typesupport_introspection_cpp.so
+-- Up-to-date: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_typesupport_cpp.so
+Listing '/home/ariel/ur5e_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs'...
+Listing '/home/ariel/ur5e_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/action'...
+Listing '/home/ariel/ur5e_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/msg'...
+Listing '/home/ariel/ur5e_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv'...
+-- Up-to-date: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_generator_py.so
+-- Up-to-date: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/export_ur_dashboard_msgs__rosidl_generator_cExport.cmake
+-- Up-to-date: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/export_ur_dashboard_msgs__rosidl_generator_cExport-noconfig.cmake
+-- Up-to-date: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/export_ur_dashboard_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+-- Up-to-date: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/export_ur_dashboard_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+-- Up-to-date: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ur_dashboard_msgs__rosidl_typesupport_introspection_cExport.cmake
+-- Up-to-date: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ur_dashboard_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+-- Up-to-date: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ur_dashboard_msgs__rosidl_typesupport_cExport.cmake
+-- Up-to-date: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ur_dashboard_msgs__rosidl_typesupport_cExport-noconfig.cmake
+-- Up-to-date: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/export_ur_dashboard_msgs__rosidl_generator_cppExport.cmake
+-- Up-to-date: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/export_ur_dashboard_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+-- Up-to-date: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/export_ur_dashboard_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+-- Up-to-date: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ur_dashboard_msgs__rosidl_typesupport_introspection_cppExport.cmake
+-- Up-to-date: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ur_dashboard_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+-- Up-to-date: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ur_dashboard_msgs__rosidl_typesupport_cppExport.cmake
+-- Up-to-date: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ur_dashboard_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+-- Up-to-date: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/export_ur_dashboard_msgs__rosidl_generator_pyExport.cmake
+-- Up-to-date: /home/ariel/ur5e_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/export_ur_dashboard_msgs__rosidl_generator_pyExport-noconfig.cmake

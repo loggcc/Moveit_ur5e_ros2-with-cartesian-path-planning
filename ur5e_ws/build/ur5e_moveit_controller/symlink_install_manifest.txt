@@ -1,0 +1,15 @@
+/home/ariel/ur5e_ws/install/ur5e_moveit_controller/share/ament_index/resource_index/package_run_dependencies/ur5e_moveit_controller
+/home/ariel/ur5e_ws/install/ur5e_moveit_controller/share/ament_index/resource_index/parent_prefix_path/ur5e_moveit_controller
+/home/ariel/ur5e_ws/install/ur5e_moveit_controller/share/ur5e_moveit_controller/environment/ament_prefix_path.sh
+/home/ariel/ur5e_ws/install/ur5e_moveit_controller/share/ur5e_moveit_controller/environment/ament_prefix_path.dsv
+/home/ariel/ur5e_ws/install/ur5e_moveit_controller/share/ur5e_moveit_controller/environment/path.sh
+/home/ariel/ur5e_ws/install/ur5e_moveit_controller/share/ur5e_moveit_controller/environment/path.dsv
+/home/ariel/ur5e_ws/install/ur5e_moveit_controller/share/ur5e_moveit_controller/local_setup.bash
+/home/ariel/ur5e_ws/install/ur5e_moveit_controller/share/ur5e_moveit_controller/local_setup.sh
+/home/ariel/ur5e_ws/install/ur5e_moveit_controller/share/ur5e_moveit_controller/local_setup.zsh
+/home/ariel/ur5e_ws/install/ur5e_moveit_controller/share/ur5e_moveit_controller/local_setup.dsv
+/home/ariel/ur5e_ws/install/ur5e_moveit_controller/share/ur5e_moveit_controller/package.dsv
+/home/ariel/ur5e_ws/install/ur5e_moveit_controller/share/ament_index/resource_index/packages/ur5e_moveit_controller
+/home/ariel/ur5e_ws/install/ur5e_moveit_controller/share/ur5e_moveit_controller/cmake/ur5e_moveit_controllerConfig.cmake
+/home/ariel/ur5e_ws/install/ur5e_moveit_controller/share/ur5e_moveit_controller/cmake/ur5e_moveit_controllerConfig-version.cmake
+/home/ariel/ur5e_ws/install/ur5e_moveit_controller/share/ur5e_moveit_controller/package.xml

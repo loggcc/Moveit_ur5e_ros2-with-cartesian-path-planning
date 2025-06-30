@@ -1,0 +1,1 @@
+#pragma message("#include \"ur_configuration_controller_parameters.hpp\" is deprecated. Use #include <ur_controllers/ur_configuration_controller_parameters.hpp> instead.")

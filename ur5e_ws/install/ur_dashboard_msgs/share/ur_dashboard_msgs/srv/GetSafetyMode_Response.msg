@@ -1,0 +1,1 @@
+/home/ariel/ur5e_ws/build/ur_dashboard_msgs/rosidl_cmake/srv/GetSafetyMode_Response.msg

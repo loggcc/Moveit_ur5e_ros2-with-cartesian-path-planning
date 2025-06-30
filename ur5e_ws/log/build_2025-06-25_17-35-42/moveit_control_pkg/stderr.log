@@ -1,0 +1,14 @@
+[01m[K/home/ariel/ur5e_ws/src/moveit_control_pkg/src/cartesian_control.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/ariel/ur5e_ws/src/moveit_control_pkg/src/cartesian_control.cpp:94:35:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kshape_msgs::msg::SolidPrimitive primitive3[m[K’
+   94 |   shape_msgs::msg::SolidPrimitive [01;31m[Kprimitive3[m[K;
+      |                                   [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/ariel/ur5e_ws/src/moveit_control_pkg/src/cartesian_control.cpp:74:35:[m[K [01;36m[Knote: [m[K‘[01m[Kshape_msgs::msg::SolidPrimitive primitive3[m[K’ previously declared here
+   74 |   shape_msgs::msg::SolidPrimitive [01;36m[Kprimitive3[m[K;
+      |                                   [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/ariel/ur5e_ws/src/moveit_control_pkg/src/cartesian_control.cpp:95:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kprimitive4[m[K’ was not declared in this scope; did you mean ‘[01m[Kprimitive3[m[K’?
+   95 |   [01;31m[Kprimitive4[m[K.type = primitive4.BOX;
+      |   [01;31m[K^~~~~~~~~~[m[K
+      |   [32m[Kprimitive3[m[K
+gmake[2]: *** [CMakeFiles/cartesian_control.dir/build.make:76: CMakeFiles/cartesian_control.dir/src/cartesian_control.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/cartesian_control.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,10 @@
+[0.012s] Invoking command in '/home/ariel/ur5e_ws/build/moveit_control_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ariel/ws_moveit2/install/moveit_configs_utils:/home/ariel/ws_moveit2/install/launch_param_builder:/home/ariel/ur5e_ws/install/controller_pkg_demo:/opt/ros/humble /usr/bin/cmake --build /home/ariel/ur5e_ws/build/moveit_control_pkg -- -j22 -l22
+[0.072s] [ 50%] [32mBuilding CXX object CMakeFiles/cartesian_control.dir/src/cartesian_control.cpp.o[0m
+[0.383s] [01m[K/home/ariel/ur5e_ws/src/moveit_control_pkg/src/cartesian_control.cpp:6:10:[m[K [01;31m[Kfatal error: [m[Kmoveit/trajectory_processing/iterative_parabolic_time_parameterization.h: No such file or directory
+[0.384s]     6 | #include [01;31m[K<moveit/trajectory_processing/iterative_parabolic_time_parameterization.h>[m[K
+[0.384s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.384s] compilation terminated.
+[0.395s] gmake[2]: *** [CMakeFiles/cartesian_control.dir/build.make:76: CMakeFiles/cartesian_control.dir/src/cartesian_control.cpp.o] Error 1
+[0.395s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/cartesian_control.dir/all] Error 2
+[0.395s] gmake: *** [Makefile:146: all] Error 2
+[0.397s] Invoked command in '/home/ariel/ur5e_ws/build/moveit_control_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ariel/ws_moveit2/install/moveit_configs_utils:/home/ariel/ws_moveit2/install/launch_param_builder:/home/ariel/ur5e_ws/install/controller_pkg_demo:/opt/ros/humble /usr/bin/cmake --build /home/ariel/ur5e_ws/build/moveit_control_pkg -- -j22 -l22

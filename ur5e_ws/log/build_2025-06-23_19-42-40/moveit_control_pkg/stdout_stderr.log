@@ -1,0 +1,20 @@
+[35m[1mConsolidate compiler generated dependencies of target moveit_cpp_ur5e_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/moveit_cpp_ur5e_node.dir/src/moveit_cpp_ur5e_node.cpp.o[0m
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:164[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Geometry:11[m[K,
+                 from [01m[K/opt/ros/humble/include/moveit/robot_model/joint_model.h:46[m[K,
+                 from [01m[K/opt/ros/humble/include/moveit/robot_model/joint_model_group.h:40[m[K,
+                 from [01m[K/opt/ros/humble/include/moveit/robot_model/robot_model.h:45[m[K,
+                 from [01m[K/opt/ros/humble/include/moveit/robot_state/robot_state.h:40[m[K,
+                 from [01m[K/opt/ros/humble/include/moveit/planning_scene_interface/planning_scene_interface.h:40[m[K,
+                 from [01m[K/home/ariel/ur5e_ws/src/moveit_control_pkg/src/moveit_cpp_ur5e_node.cpp:5[m[K:
+/usr/include/eigen3/Eigen/src/Geometry/Transform.h: In instantiation of ‘[01m[KEigen::Transform<Scalar, Dim, Mode, _Options>::Transform(const Eigen::Transform<_Scalar, Dim, OtherMode, OtherOptions>&) [with int OtherMode = 2; int OtherOptions = 0; _Scalar = double; int _Dim = 3; int _Mode = 1; int _Options = 0][m[K’:
+[01m[K/home/ariel/ur5e_ws/src/moveit_control_pkg/src/moveit_cpp_ur5e_node.cpp:69:36:[m[K   required from here
+[01m[K/usr/include/eigen3/Eigen/src/Geometry/Transform.h:325:25:[m[K [01;31m[Kerror: [m[Kstatic assertion failed: YOU_PERFORMED_AN_INVALID_TRANSFORMATION_CONVERSION
+  325 | GEN_STATIC_ASSERT([01;31m[KEIGEN_IMPLIES[m[K(OtherMode==int(Affine)||OtherMode==int(AffineCompact), Mode!=int(Isometry)),
+      |                   [01;31m[K^~~~~~~~~~~~~[m[K
+
+[01m[K/usr/include/eigen3/Eigen/src/Geometry/Transform.h:325:25:[m[K [01;36m[Knote: [m[K‘[01m[K(((2 != ((int)Eigen::Affine)) && (2 != ((int)Eigen::AffineCompact))) || (((int)Eigen::Transform<double, 3, 1>::Mode) != ((int)Eigen::Isometry)))[m[K’ evaluates to false
+gmake[2]: *** [CMakeFiles/moveit_cpp_ur5e_node.dir/build.make:76: CMakeFiles/moveit_cpp_ur5e_node.dir/src/moveit_cpp_ur5e_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/moveit_cpp_ur5e_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

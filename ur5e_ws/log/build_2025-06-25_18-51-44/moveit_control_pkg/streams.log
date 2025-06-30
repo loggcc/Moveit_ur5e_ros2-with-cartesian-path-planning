@@ -1,0 +1,35 @@
+[0.021s] Invoking command in '/home/ariel/ur5e_ws/build/moveit_control_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ariel/ws_moveit2/install/moveit_configs_utils:/home/ariel/ws_moveit2/install/launch_param_builder:/home/ariel/ur5e_ws/install/controller_pkg_demo:/opt/ros/humble /usr/bin/cmake --build /home/ariel/ur5e_ws/build/moveit_control_pkg -- -j22 -l22
+[0.067s] [35m[1mConsolidate compiler generated dependencies of target cartesian_control[0m
+[0.093s] [ 25%] [32mBuilding CXX object CMakeFiles/moveit_cpp_ur_node.dir/src/moveit_cpp_ur_node.cpp.o[0m
+[0.097s] [ 75%] Built target cartesian_control
+[4.200s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[4.200s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[4.200s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[4.200s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[4.200s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[4.200s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[4.200s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[4.200s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[4.200s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[4.200s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[4.200s]                  from [01m[K/home/ariel/ur5e_ws/src/moveit_control_pkg/src/moveit_cpp_ur_node.cpp:4[m[K:
+[4.200s] [01m[K/home/ariel/ur5e_ws/src/moveit_control_pkg/src/moveit_cpp_ur_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[4.201s] [01m[K/home/ariel/ur5e_ws/src/moveit_control_pkg/src/moveit_cpp_ur_node.cpp:145:15:[m[K [01;31m[Kerror: [m[K‘[01m[KLOGGER[m[K’ was not declared in this scope
+[4.201s]   145 |   RCLCPP_INFO([01;31m[KLOGGER[m[K, "Publishing box constraint visualization...");
+[4.201s]       |               [01;31m[K^~~~~~[m[K
+[4.201s] [01m[K/home/ariel/ur5e_ws/src/moveit_control_pkg/src/moveit_cpp_ur_node.cpp:145:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[4.201s]   145 |   [01;31m[KRCLCPP_INFO[m[K(LOGGER, "Publishing box constraint visualization...");
+[4.201s]       |   [01;31m[K^~~~~~~~~~~[m[K
+[4.201s] [01m[K/home/ariel/ur5e_ws/src/moveit_control_pkg/src/moveit_cpp_ur_node.cpp:145:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[4.201s]   145 |   [01;31m[KRCLCPP_INFO[m[K(LOGGER, "Publishing box constraint visualization...");
+[4.201s]       |   [01;31m[K^~~~~~~~~~~[m[K
+[4.201s] [01m[K/home/ariel/ur5e_ws/src/moveit_control_pkg/src/moveit_cpp_ur_node.cpp:145:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[4.201s]   145 |   [01;31m[KRCLCPP_INFO[m[K(LOGGER, "Publishing box constraint visualization...");
+[4.201s]       |   [01;31m[K^~~~~~~~~~~[m[K
+[4.205s] [01m[K/home/ariel/ur5e_ws/src/moveit_control_pkg/src/moveit_cpp_ur_node.cpp:152:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kmove_group[m[K’ was not declared in this scope
+[4.205s]   152 |   [01;31m[Kmove_group[m[K.setPathConstraints(path_constraints);
+[4.205s]       |   [01;31m[K^~~~~~~~~~[m[K
+[5.793s] gmake[2]: *** [CMakeFiles/moveit_cpp_ur_node.dir/build.make:76: CMakeFiles/moveit_cpp_ur_node.dir/src/moveit_cpp_ur_node.cpp.o] Error 1
+[5.793s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/moveit_cpp_ur_node.dir/all] Error 2
+[5.794s] gmake: *** [Makefile:146: all] Error 2
+[5.796s] Invoked command in '/home/ariel/ur5e_ws/build/moveit_control_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ariel/ws_moveit2/install/moveit_configs_utils:/home/ariel/ws_moveit2/install/launch_param_builder:/home/ariel/ur5e_ws/install/controller_pkg_demo:/opt/ros/humble /usr/bin/cmake --build /home/ariel/ur5e_ws/build/moveit_control_pkg -- -j22 -l22

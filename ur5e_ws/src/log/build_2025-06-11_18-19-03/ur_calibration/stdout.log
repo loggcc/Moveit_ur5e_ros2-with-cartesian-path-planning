@@ -1,0 +1,85 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found ur_robot_driver: 2.8.1 (/home/ariel/ur5e_ws/src/install/ur_robot_driver/share/ur_robot_driver/cmake)
+-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+-- Found Eigen3: TRUE (found version "3.4.0") 
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Found yaml_cpp_vendor: 8.0.2 (/opt/ros/humble/share/yaml_cpp_vendor/cmake)
+-- Found ament_cmake_gmock: 1.3.11 (/opt/ros/humble/share/ament_cmake_gmock/cmake)
+-- Found gmock sources under '/opt/ros/humble/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+-- Found ament_cmake_gtest: 1.3.11 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+-- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/ariel/ur5e_ws/src/build/ur_calibration
+[ 16%] [32mBuilding CXX object CMakeFiles/calibration.dir/src/calibration.cpp.o[0m
+[ 16%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/calibration.dir/src/calibration_consumer.cpp.o[0m
+[ 33%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/humble/src/gtest_vendor/src/gtest-all.cc.o[0m
+[ 41%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[ 50%] [32m[1mLinking CXX static library libgmock_main.a[0m
+[ 50%] Built target gmock_main
+[ 58%] [32m[1mLinking CXX static library libgmock.a[0m
+[ 66%] [32m[1mLinking CXX static library libcalibration.a[0m
+[ 66%] Built target gmock
+[ 66%] Built target calibration
+[ 75%] [32mBuilding CXX object CMakeFiles/calibration_test.dir/test/calibration_test.cpp.o[0m
+[ 83%] [32mBuilding CXX object CMakeFiles/calibration_correction.dir/src/calibration_correction.cpp.o[0m
+[ 91%] [32m[1mLinking CXX executable calibration_correction[0m
+[ 91%] Built target calibration_correction
+[100%] [32m[1mLinking CXX executable calibration_test[0m
+[100%] Built target calibration_test
+-- Install configuration: "RelWithDebInfo"
+-- Installing: /home/ariel/ur5e_ws/src/install/ur_calibration/lib/ur_calibration/calibration_correction
+-- Set runtime path of "/home/ariel/ur5e_ws/src/install/ur_calibration/lib/ur_calibration/calibration_correction" to ""
+-- Installing: /home/ariel/ur5e_ws/src/install/ur_calibration/include
+-- Installing: /home/ariel/ur5e_ws/src/install/ur_calibration/include/ur_calibration
+-- Installing: /home/ariel/ur5e_ws/src/install/ur_calibration/include/ur_calibration/calibration_consumer.hpp
+-- Installing: /home/ariel/ur5e_ws/src/install/ur_calibration/include/ur_calibration/calibration.hpp
+-- Installing: /home/ariel/ur5e_ws/src/install/ur_calibration/share/ur_calibration/launch
+-- Installing: /home/ariel/ur5e_ws/src/install/ur_calibration/share/ur_calibration/launch/calibration_correction.launch.py
+-- Installing: /home/ariel/ur5e_ws/src/install/ur_calibration/share/ament_index/resource_index/package_run_dependencies/ur_calibration
+-- Installing: /home/ariel/ur5e_ws/src/install/ur_calibration/share/ament_index/resource_index/parent_prefix_path/ur_calibration
+-- Installing: /home/ariel/ur5e_ws/src/install/ur_calibration/share/ur_calibration/environment/ament_prefix_path.sh
+-- Installing: /home/ariel/ur5e_ws/src/install/ur_calibration/share/ur_calibration/environment/ament_prefix_path.dsv
+-- Installing: /home/ariel/ur5e_ws/src/install/ur_calibration/share/ur_calibration/environment/path.sh
+-- Installing: /home/ariel/ur5e_ws/src/install/ur_calibration/share/ur_calibration/environment/path.dsv
+-- Installing: /home/ariel/ur5e_ws/src/install/ur_calibration/share/ur_calibration/local_setup.bash
+-- Installing: /home/ariel/ur5e_ws/src/install/ur_calibration/share/ur_calibration/local_setup.sh
+-- Installing: /home/ariel/ur5e_ws/src/install/ur_calibration/share/ur_calibration/local_setup.zsh
+-- Installing: /home/ariel/ur5e_ws/src/install/ur_calibration/share/ur_calibration/local_setup.dsv
+-- Installing: /home/ariel/ur5e_ws/src/install/ur_calibration/share/ur_calibration/package.dsv
+-- Installing: /home/ariel/ur5e_ws/src/install/ur_calibration/share/ament_index/resource_index/packages/ur_calibration
+-- Installing: /home/ariel/ur5e_ws/src/install/ur_calibration/share/ur_calibration/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/ariel/ur5e_ws/src/install/ur_calibration/share/ur_calibration/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/ariel/ur5e_ws/src/install/ur_calibration/share/ur_calibration/cmake/ur_calibrationConfig.cmake
+-- Installing: /home/ariel/ur5e_ws/src/install/ur_calibration/share/ur_calibration/cmake/ur_calibrationConfig-version.cmake
+-- Installing: /home/ariel/ur5e_ws/src/install/ur_calibration/share/ur_calibration/package.xml

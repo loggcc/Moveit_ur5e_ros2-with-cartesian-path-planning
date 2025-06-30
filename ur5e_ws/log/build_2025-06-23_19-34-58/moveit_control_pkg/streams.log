@@ -1,0 +1,91 @@
+[0.013s] Invoking command in '/home/ariel/ur5e_ws/build/moveit_control_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ariel/ws_moveit2/install/moveit_configs_utils:/home/ariel/ws_moveit2/install/launch_param_builder:/home/ariel/ur5e_ws/install/controller_pkg_demo:/opt/ros/humble /usr/bin/cmake --build /home/ariel/ur5e_ws/build/moveit_control_pkg -- -j22 -l22
+[0.035s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.115s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.119s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[0.134s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.135s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.138s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.144s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.151s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.168s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.171s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[0.181s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.205s] -- Found moveit_ros_planning_interface: 2.5.9 (/opt/ros/humble/share/moveit_ros_planning_interface/cmake)
+[0.211s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread 
+[0.292s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[0.307s] -- Found parameter_traits: 0.5.0 (/opt/ros/humble/share/parameter_traits/cmake)
+[0.310s] -- Found rclcpp_lifecycle: 16.0.12 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[0.321s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[0.351s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[0.366s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[0.424s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+[0.440s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options 
+[0.457s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread 
+[0.474s] -- Found moveit_visual_tools: 4.1.2 (/home/ariel/ws_moveit2/install/moveit_visual_tools/share/moveit_visual_tools/cmake)
+[0.517s] -- Setting assimp_DIR to: '/opt/ros/humble/share/rviz_assimp_vendor/cmake/../../../opt/rviz_assimp_vendor/lib/cmake/assimp-4.1'
+[0.527s] -- Setting OGRE_DIR to: '/opt/ros/humble/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'
+[0.528s] -- Found OGRE
+[0.528s] --   static     : OFF
+[0.528s] --   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume
+[0.528s] --   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[0.528s] --   media      : /opt/ros/humble/opt/rviz_ogre_vendor/share/OGRE/Media
+[0.528s] -- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain
+[0.528s] -- OGRE_LIBRARY_DIRS: /opt/ros/humble/opt/rviz_ogre_vendor/lib
+[0.528s] -- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[0.528s] -- OGRE_PLUGIN_DIR: /opt/ros/humble/opt/rviz_ogre_vendor/lib/OGRE
+[0.528s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[0.528s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[0.528s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[0.528s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[0.542s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") 
+[0.547s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   
+[0.660s] -- Found X11: /usr/include   
+[0.661s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+[0.732s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+[0.732s] -- Looking for gethostbyname
+[0.792s] -- Looking for gethostbyname - found
+[0.792s] -- Looking for connect
+[0.850s] -- Looking for connect - found
+[0.850s] -- Looking for remove
+[0.913s] -- Looking for remove - found
+[0.913s] -- Looking for shmat
+[0.972s] -- Looking for shmat - found
+[0.973s] -- Looking for IceConnectionNumber in ICE
+[1.037s] -- Looking for IceConnectionNumber in ICE - found
+[1.110s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.200s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.200s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/ariel/ur5e_ws/src/moveit_control_pkg/include>
+[1.200s] -- Configured cppcheck exclude dirs and/or files: 
+[1.201s] -- Added test 'lint_cmake' to check CMake code style
+[1.202s] -- Added test 'uncrustify' to check C / C++ code style
+[1.202s] -- Configured uncrustify additional arguments: 
+[1.202s] -- Added test 'xmllint' to check XML markup files
+[1.204s] -- Configuring done
+[1.220s] -- Generating done
+[1.224s] -- Build files have been written to: /home/ariel/ur5e_ws/build/moveit_control_pkg
+[1.259s] [35m[1mConsolidate compiler generated dependencies of target moveit_cpp_ur5e_node[0m
+[1.276s] [ 50%] [32mBuilding CXX object CMakeFiles/moveit_cpp_ur5e_node.dir/src/moveit_cpp_ur5e_node.cpp.o[0m
+[6.744s] [100%] [32m[1mLinking CXX executable moveit_cpp_ur5e_node[0m
+[6.938s] /usr/bin/ld: warning: libsrdfdom.so.2.0.7, needed by /opt/ros/humble/lib/libmoveit_robot_model.so.2.5.9, may conflict with libsrdfdom.so.2.0.8
+[7.027s] [100%] Built target moveit_cpp_ur5e_node
+[7.038s] Invoked command in '/home/ariel/ur5e_ws/build/moveit_control_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ariel/ws_moveit2/install/moveit_configs_utils:/home/ariel/ws_moveit2/install/launch_param_builder:/home/ariel/ur5e_ws/install/controller_pkg_demo:/opt/ros/humble /usr/bin/cmake --build /home/ariel/ur5e_ws/build/moveit_control_pkg -- -j22 -l22
+[7.050s] Invoking command in '/home/ariel/ur5e_ws/build/moveit_control_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ariel/ws_moveit2/install/moveit_configs_utils:/home/ariel/ws_moveit2/install/launch_param_builder:/home/ariel/ur5e_ws/install/controller_pkg_demo:/opt/ros/humble /usr/bin/cmake --install /home/ariel/ur5e_ws/build/moveit_control_pkg
+[7.057s] -- Install configuration: ""
+[7.057s] -- Execute custom install script
+[7.057s] -- Up-to-date symlink: /home/ariel/ur5e_ws/install/moveit_control_pkg/lib/moveit_control_pkg/moveit_cpp_ur5e_node
+[7.057s] -- Up-to-date symlink: /home/ariel/ur5e_ws/install/moveit_control_pkg/share/ament_index/resource_index/package_run_dependencies/moveit_control_pkg
+[7.058s] -- Up-to-date symlink: /home/ariel/ur5e_ws/install/moveit_control_pkg/share/ament_index/resource_index/parent_prefix_path/moveit_control_pkg
+[7.058s] -- Up-to-date symlink: /home/ariel/ur5e_ws/install/moveit_control_pkg/share/moveit_control_pkg/environment/ament_prefix_path.sh
+[7.058s] -- Up-to-date symlink: /home/ariel/ur5e_ws/install/moveit_control_pkg/share/moveit_control_pkg/environment/ament_prefix_path.dsv
+[7.058s] -- Up-to-date symlink: /home/ariel/ur5e_ws/install/moveit_control_pkg/share/moveit_control_pkg/environment/path.sh
+[7.058s] -- Up-to-date symlink: /home/ariel/ur5e_ws/install/moveit_control_pkg/share/moveit_control_pkg/environment/path.dsv
+[7.058s] -- Up-to-date symlink: /home/ariel/ur5e_ws/install/moveit_control_pkg/share/moveit_control_pkg/local_setup.bash
+[7.058s] -- Up-to-date symlink: /home/ariel/ur5e_ws/install/moveit_control_pkg/share/moveit_control_pkg/local_setup.sh
+[7.058s] -- Up-to-date symlink: /home/ariel/ur5e_ws/install/moveit_control_pkg/share/moveit_control_pkg/local_setup.zsh
+[7.058s] -- Up-to-date symlink: /home/ariel/ur5e_ws/install/moveit_control_pkg/share/moveit_control_pkg/local_setup.dsv
+[7.058s] -- Symlinking: /home/ariel/ur5e_ws/install/moveit_control_pkg/share/moveit_control_pkg/package.dsv
+[7.068s] -- Up-to-date symlink: /home/ariel/ur5e_ws/install/moveit_control_pkg/share/ament_index/resource_index/packages/moveit_control_pkg
+[7.068s] -- Up-to-date symlink: /home/ariel/ur5e_ws/install/moveit_control_pkg/share/moveit_control_pkg/cmake/moveit_control_pkgConfig.cmake
+[7.068s] -- Up-to-date symlink: /home/ariel/ur5e_ws/install/moveit_control_pkg/share/moveit_control_pkg/cmake/moveit_control_pkgConfig-version.cmake
+[7.068s] -- Up-to-date symlink: /home/ariel/ur5e_ws/install/moveit_control_pkg/share/moveit_control_pkg/package.xml
+[7.069s] Invoked command in '/home/ariel/ur5e_ws/build/moveit_control_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ariel/ws_moveit2/install/moveit_configs_utils:/home/ariel/ws_moveit2/install/launch_param_builder:/home/ariel/ur5e_ws/install/controller_pkg_demo:/opt/ros/humble /usr/bin/cmake --install /home/ariel/ur5e_ws/build/moveit_control_pkg

@@ -1,0 +1,843 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"pluginlib_export_plugin_description_file",
+			"ament_environment_hooks",
+			"_ament_cmake_export_libraries_register_environment_hook",
+			"ament_export_libraries",
+			"_ament_cmake_python_register_environment_hook",
+			"ament_python_install_package",
+			"_ament_cmake_python_install_package",
+			"ament_index_register_resource",
+			"ament_cmake_environment_generate_package_run_dependencies_marker",
+			"include",
+			"ament_execute_extensions",
+			"ament_package",
+			"ament_cmake_environment_generate_parent_prefix_path_marker",
+			"ament_generate_package_environment",
+			"ament_index_register_package",
+			"_ament_package"
+		],
+		"files" : 
+		[
+			"/opt/ros/humble/share/pluginlib/cmake/pluginlib_export_plugin_description_file.cmake",
+			"CMakeLists.txt",
+			"/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/ament_environment_hooks.cmake",
+			"/opt/ros/humble/share/ament_cmake_export_libraries/cmake/ament_cmake_export_libraries-extras.cmake",
+			"/opt/ros/humble/share/ament_cmake_export_libraries/cmake/ament_export_libraries.cmake",
+			"/opt/ros/humble/share/ament_cmake_python/cmake/ament_cmake_python-extras.cmake",
+			"/opt/ros/humble/share/ament_cmake_python/cmake/ament_python_install_package.cmake",
+			"/opt/ros/humble/share/ament_cmake_core/cmake/index/ament_index_register_resource.cmake",
+			"/opt/ros/humble/share/ament_cmake_core/cmake/environment/ament_cmake_environment_package_hook.cmake",
+			"/opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake",
+			"/opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package.cmake",
+			"/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/ament_cmake_environment_hooks_package_hook.cmake",
+			"/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/ament_generate_package_environment.cmake",
+			"/opt/ros/humble/share/ament_cmake_core/cmake/index/ament_index_register_package.cmake",
+			"/opt/ros/humble/share/ament_cmake_core/cmake/index/ament_cmake_index_package_hook.cmake",
+			"/opt/ros/humble/share/pluginlib/cmake/pluginlib_package_hook.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 77,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 89,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 126,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 132,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 136,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 145,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 4,
+				"line" : 35,
+				"parent" : 6
+			},
+			{
+				"command" : 2,
+				"file" : 3,
+				"line" : 25,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 2,
+				"line" : 70,
+				"parent" : 8
+			},
+			{
+				"command" : 0,
+				"file" : 2,
+				"line" : 87,
+				"parent" : 8
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 149,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 155,
+				"parent" : 0
+			},
+			{
+				"command" : 6,
+				"file" : 1,
+				"line" : 168,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 6,
+				"line" : 38,
+				"parent" : 13
+			},
+			{
+				"command" : 2,
+				"file" : 5,
+				"line" : 36,
+				"parent" : 14
+			},
+			{
+				"command" : 0,
+				"file" : 2,
+				"line" : 70,
+				"parent" : 15
+			},
+			{
+				"command" : 0,
+				"file" : 2,
+				"line" : 87,
+				"parent" : 15
+			},
+			{
+				"command" : 7,
+				"file" : 6,
+				"line" : 39,
+				"parent" : 13
+			},
+			{
+				"command" : 0,
+				"file" : 6,
+				"line" : 154,
+				"parent" : 18
+			},
+			{
+				"command" : 0,
+				"file" : 6,
+				"line" : 181,
+				"parent" : 18
+			},
+			{
+				"command" : 0,
+				"file" : 6,
+				"line" : 191,
+				"parent" : 18
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 171,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 180,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 184,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 188,
+				"parent" : 0
+			},
+			{
+				"command" : 12,
+				"file" : 1,
+				"line" : 192,
+				"parent" : 0
+			},
+			{
+				"command" : 11,
+				"file" : 10,
+				"line" : 66,
+				"parent" : 26
+			},
+			{
+				"command" : 10,
+				"file" : 9,
+				"line" : 48,
+				"parent" : 27
+			},
+			{
+				"file" : 8,
+				"parent" : 28
+			},
+			{
+				"command" : 9,
+				"file" : 8,
+				"line" : 47,
+				"parent" : 29
+			},
+			{
+				"command" : 8,
+				"file" : 8,
+				"line" : 29,
+				"parent" : 30
+			},
+			{
+				"command" : 0,
+				"file" : 7,
+				"line" : 105,
+				"parent" : 31
+			},
+			{
+				"command" : 13,
+				"file" : 8,
+				"line" : 48,
+				"parent" : 29
+			},
+			{
+				"command" : 8,
+				"file" : 8,
+				"line" : 43,
+				"parent" : 33
+			},
+			{
+				"command" : 0,
+				"file" : 7,
+				"line" : 105,
+				"parent" : 34
+			},
+			{
+				"command" : 10,
+				"file" : 9,
+				"line" : 48,
+				"parent" : 27
+			},
+			{
+				"file" : 11,
+				"parent" : 36
+			},
+			{
+				"command" : 2,
+				"file" : 11,
+				"line" : 20,
+				"parent" : 37
+			},
+			{
+				"command" : 0,
+				"file" : 2,
+				"line" : 70,
+				"parent" : 38
+			},
+			{
+				"command" : 0,
+				"file" : 2,
+				"line" : 87,
+				"parent" : 38
+			},
+			{
+				"command" : 0,
+				"file" : 2,
+				"line" : 70,
+				"parent" : 38
+			},
+			{
+				"command" : 0,
+				"file" : 2,
+				"line" : 87,
+				"parent" : 38
+			},
+			{
+				"command" : 14,
+				"file" : 11,
+				"line" : 26,
+				"parent" : 37
+			},
+			{
+				"command" : 0,
+				"file" : 12,
+				"line" : 91,
+				"parent" : 43
+			},
+			{
+				"command" : 0,
+				"file" : 12,
+				"line" : 91,
+				"parent" : 43
+			},
+			{
+				"command" : 0,
+				"file" : 12,
+				"line" : 91,
+				"parent" : 43
+			},
+			{
+				"command" : 0,
+				"file" : 12,
+				"line" : 107,
+				"parent" : 43
+			},
+			{
+				"command" : 0,
+				"file" : 12,
+				"line" : 119,
+				"parent" : 43
+			},
+			{
+				"command" : 10,
+				"file" : 9,
+				"line" : 48,
+				"parent" : 27
+			},
+			{
+				"file" : 14,
+				"parent" : 49
+			},
+			{
+				"command" : 15,
+				"file" : 14,
+				"line" : 16,
+				"parent" : 50
+			},
+			{
+				"command" : 8,
+				"file" : 13,
+				"line" : 29,
+				"parent" : 51
+			},
+			{
+				"command" : 0,
+				"file" : 7,
+				"line" : 105,
+				"parent" : 52
+			},
+			{
+				"command" : 10,
+				"file" : 9,
+				"line" : 48,
+				"parent" : 27
+			},
+			{
+				"file" : 15,
+				"parent" : 54
+			},
+			{
+				"command" : 8,
+				"file" : 15,
+				"line" : 22,
+				"parent" : 55
+			},
+			{
+				"command" : 0,
+				"file" : 7,
+				"line" : 105,
+				"parent" : 56
+			},
+			{
+				"command" : 16,
+				"file" : 10,
+				"line" : 68,
+				"parent" : 26
+			},
+			{
+				"command" : 0,
+				"file" : 10,
+				"line" : 122,
+				"parent" : 58
+			},
+			{
+				"command" : 0,
+				"file" : 10,
+				"line" : 122,
+				"parent" : 58
+			},
+			{
+				"command" : 0,
+				"file" : 10,
+				"line" : 122,
+				"parent" : 58
+			},
+			{
+				"command" : 0,
+				"file" : 10,
+				"line" : 150,
+				"parent" : 58
+			},
+			{
+				"command" : 0,
+				"file" : 10,
+				"line" : 157,
+				"parent" : 58
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "share/ur_robot_driver",
+			"paths" : 
+			[
+				"hardware_interface_plugin.xml"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "lib/ur_robot_driver",
+			"paths" : 
+			[
+				"dashboard_client"
+			],
+			"targetId" : "dashboard_client::@6890427a1f51a3e7e1df",
+			"targetIndex" : 3,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "lib/ur_robot_driver",
+			"paths" : 
+			[
+				"ur_ros2_control_node"
+			],
+			"targetId" : "ur_ros2_control_node::@6890427a1f51a3e7e1df",
+			"targetIndex" : 8,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "lib/ur_robot_driver",
+			"paths" : 
+			[
+				"controller_stopper_node"
+			],
+			"targetId" : "controller_stopper_node::@6890427a1f51a3e7e1df",
+			"targetIndex" : 2,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "lib/ur_robot_driver",
+			"paths" : 
+			[
+				"urscript_interface"
+			],
+			"targetId" : "urscript_interface::@6890427a1f51a3e7e1df",
+			"targetIndex" : 9,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "lib/ur_robot_driver",
+			"paths" : 
+			[
+				"robot_state_helper"
+			],
+			"targetId" : "robot_state_helper::@6890427a1f51a3e7e1df",
+			"targetIndex" : 4,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"libur_robot_driver_plugin.so"
+			],
+			"targetId" : "ur_robot_driver_plugin::@6890427a1f51a3e7e1df",
+			"targetIndex" : 6,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "Unspecified",
+			"destination" : "include",
+			"paths" : 
+			[
+				{
+					"from" : "include",
+					"to" : "."
+				}
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 9,
+			"component" : "Unspecified",
+			"destination" : "share/ur_robot_driver/environment",
+			"paths" : 
+			[
+				"/opt/ros/humble/lib/python3.10/site-packages/ament_package/template/environment_hook/library_path.sh"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 10,
+			"component" : "Unspecified",
+			"destination" : "share/ur_robot_driver/environment",
+			"paths" : 
+			[
+				"/home/ariel/ur5e_ws/src/build/ur_robot_driver/ament_cmake_environment_hooks/library_path.dsv"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 11,
+			"component" : "Unspecified",
+			"destination" : "share/ur_robot_driver",
+			"paths" : 
+			[
+				"resources"
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 12,
+			"component" : "Unspecified",
+			"destination" : "include",
+			"paths" : 
+			[
+				{
+					"from" : "include",
+					"to" : "."
+				}
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 16,
+			"component" : "Unspecified",
+			"destination" : "share/ur_robot_driver/environment",
+			"paths" : 
+			[
+				"/home/ariel/ur5e_ws/src/build/ur_robot_driver/ament_cmake_environment_hooks/pythonpath.sh"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 17,
+			"component" : "Unspecified",
+			"destination" : "share/ur_robot_driver/environment",
+			"paths" : 
+			[
+				"/home/ariel/ur5e_ws/src/build/ur_robot_driver/ament_cmake_environment_hooks/pythonpath.dsv"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 19,
+			"component" : "Unspecified",
+			"destination" : "local/lib/python3.10/dist-packages/ur_robot_driver-2.8.1-py3.10.egg-info",
+			"paths" : 
+			[
+				{
+					"from" : "/home/ariel/ur5e_ws/src/build/ur_robot_driver/ament_cmake_python/ur_robot_driver/ur_robot_driver.egg-info",
+					"to" : "."
+				}
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 20,
+			"component" : "Unspecified",
+			"destination" : "local/lib/python3.10/dist-packages/ur_robot_driver",
+			"paths" : 
+			[
+				{
+					"from" : "ur_robot_driver",
+					"to" : "."
+				}
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 21,
+			"component" : "Unspecified",
+			"type" : "code"
+		},
+		{
+			"backtrace" : 22,
+			"component" : "Unspecified",
+			"destination" : "lib/ur_robot_driver",
+			"paths" : 
+			[
+				"scripts/tool_communication.py",
+				"scripts/example_move.py",
+				"scripts/start_ursim.sh",
+				"examples/examples.py",
+				"examples/force_mode.py"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 23,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"scripts/wait_dashboard_server.sh"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 24,
+			"component" : "Unspecified",
+			"destination" : "lib/ur_robot_driver",
+			"paths" : 
+			[
+				"scripts/start_ursim.sh"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 25,
+			"component" : "Unspecified",
+			"destination" : "share/ur_robot_driver",
+			"paths" : 
+			[
+				"config",
+				"launch"
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 32,
+			"component" : "Unspecified",
+			"destination" : "share/ament_index/resource_index/package_run_dependencies",
+			"paths" : 
+			[
+				"/home/ariel/ur5e_ws/src/build/ur_robot_driver/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/ur_robot_driver"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 35,
+			"component" : "Unspecified",
+			"destination" : "share/ament_index/resource_index/parent_prefix_path",
+			"paths" : 
+			[
+				"/home/ariel/ur5e_ws/src/build/ur_robot_driver/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/ur_robot_driver"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 39,
+			"component" : "Unspecified",
+			"destination" : "share/ur_robot_driver/environment",
+			"paths" : 
+			[
+				"/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 40,
+			"component" : "Unspecified",
+			"destination" : "share/ur_robot_driver/environment",
+			"paths" : 
+			[
+				"/home/ariel/ur5e_ws/src/build/ur_robot_driver/ament_cmake_environment_hooks/ament_prefix_path.dsv"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 41,
+			"component" : "Unspecified",
+			"destination" : "share/ur_robot_driver/environment",
+			"paths" : 
+			[
+				"/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 42,
+			"component" : "Unspecified",
+			"destination" : "share/ur_robot_driver/environment",
+			"paths" : 
+			[
+				"/home/ariel/ur5e_ws/src/build/ur_robot_driver/ament_cmake_environment_hooks/path.dsv"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 44,
+			"component" : "Unspecified",
+			"destination" : "share/ur_robot_driver",
+			"paths" : 
+			[
+				"/home/ariel/ur5e_ws/src/build/ur_robot_driver/ament_cmake_environment_hooks/local_setup.bash"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 45,
+			"component" : "Unspecified",
+			"destination" : "share/ur_robot_driver",
+			"paths" : 
+			[
+				"/home/ariel/ur5e_ws/src/build/ur_robot_driver/ament_cmake_environment_hooks/local_setup.sh"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 46,
+			"component" : "Unspecified",
+			"destination" : "share/ur_robot_driver",
+			"paths" : 
+			[
+				"/home/ariel/ur5e_ws/src/build/ur_robot_driver/ament_cmake_environment_hooks/local_setup.zsh"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 47,
+			"component" : "Unspecified",
+			"destination" : "share/ur_robot_driver",
+			"paths" : 
+			[
+				"/home/ariel/ur5e_ws/src/build/ur_robot_driver/ament_cmake_environment_hooks/local_setup.dsv"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 48,
+			"component" : "Unspecified",
+			"destination" : "share/ur_robot_driver",
+			"paths" : 
+			[
+				"/home/ariel/ur5e_ws/src/build/ur_robot_driver/ament_cmake_environment_hooks/package.dsv"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 53,
+			"component" : "Unspecified",
+			"destination" : "share/ament_index/resource_index/packages",
+			"paths" : 
+			[
+				"/home/ariel/ur5e_ws/src/build/ur_robot_driver/ament_cmake_index/share/ament_index/resource_index/packages/ur_robot_driver"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 57,
+			"component" : "Unspecified",
+			"destination" : "share/ament_index/resource_index/hardware_interface__pluginlib__plugin",
+			"paths" : 
+			[
+				"/home/ariel/ur5e_ws/src/build/ur_robot_driver/ament_cmake_index/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/ur_robot_driver"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 59,
+			"component" : "Unspecified",
+			"destination" : "share/ur_robot_driver/cmake",
+			"paths" : 
+			[
+				"/home/ariel/ur5e_ws/src/build/ur_robot_driver/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 60,
+			"component" : "Unspecified",
+			"destination" : "share/ur_robot_driver/cmake",
+			"paths" : 
+			[
+				"/home/ariel/ur5e_ws/src/build/ur_robot_driver/ament_cmake_export_libraries/ament_cmake_export_libraries-extras.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 61,
+			"component" : "Unspecified",
+			"destination" : "share/ur_robot_driver/cmake",
+			"paths" : 
+			[
+				"/home/ariel/ur5e_ws/src/build/ur_robot_driver/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 62,
+			"component" : "Unspecified",
+			"destination" : "share/ur_robot_driver/cmake",
+			"paths" : 
+			[
+				"/home/ariel/ur5e_ws/src/build/ur_robot_driver/ament_cmake_core/ur_robot_driverConfig.cmake",
+				"/home/ariel/ur5e_ws/src/build/ur_robot_driver/ament_cmake_core/ur_robot_driverConfig-version.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 63,
+			"component" : "Unspecified",
+			"destination" : "share/ur_robot_driver",
+			"paths" : 
+			[
+				"package.xml"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	}
+}

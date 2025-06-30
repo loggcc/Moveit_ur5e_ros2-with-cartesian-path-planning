@@ -1,0 +1,4 @@
+[35m[1mConsolidate compiler generated dependencies of target cartesian_control[0m
+[ 50%] Built target moveit_cpp_ur_node
+[ 75%] [32mBuilding CXX object CMakeFiles/cartesian_control.dir/src/cartesian_control.cpp.o[0m
+[100%] [32m[1mLinking CXX executable cartesian_control[0m

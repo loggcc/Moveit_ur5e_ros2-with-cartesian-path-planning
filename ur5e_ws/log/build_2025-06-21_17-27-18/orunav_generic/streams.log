@@ -1,0 +1,41 @@
+[0.041s] Invoking command in '/home/ariel/ur5e_ws/build/orunav_generic': /usr/bin/cmake /home/ariel/ur5e_ws/src/navigation_oru-release/orunav_generic -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/ariel/ur5e_ws/install/orunav_generic
+[0.349s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.349s]   Compatibility with CMake < 2.8.12 will be removed from a future version of
+[0.349s]   CMake.
+[0.349s] 
+[0.349s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[0.349s]   CMake that the project does not need compatibility with older versions.
+[0.349s] 
+[0.349s] [0m
+[0.350s] [31mCMake Error at CMakeLists.txt:4 (find_package):
+[0.350s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[0.350s]   asked CMake to find a package configuration file provided by "catkin", but
+[0.350s]   CMake did not find one.
+[0.350s] 
+[0.350s]   Could not find a package configuration file provided by "catkin" with any
+[0.350s]   of the following names:
+[0.350s] 
+[0.350s]     catkinConfig.cmake
+[0.350s]     catkin-config.cmake
+[0.350s] 
+[0.350s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[0.350s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[0.350s]   provides a separate development package or SDK, be sure it has been
+[0.350s]   installed.
+[0.350s] 
+[0.350s] [0m
+[0.350s] -- The C compiler identification is GNU 11.4.0
+[0.350s] -- The CXX compiler identification is GNU 11.4.0
+[0.350s] -- Detecting C compiler ABI info
+[0.351s] -- Detecting C compiler ABI info - done
+[0.351s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.351s] -- Detecting C compile features
+[0.351s] -- Detecting C compile features - done
+[0.351s] -- Detecting CXX compiler ABI info
+[0.351s] -- Detecting CXX compiler ABI info - done
+[0.351s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.351s] -- Detecting CXX compile features
+[0.351s] -- Detecting CXX compile features - done
+[0.351s] -- Configuring incomplete, errors occurred!
+[0.351s] See also "/home/ariel/ur5e_ws/build/orunav_generic/CMakeFiles/CMakeOutput.log".
+[0.383s] Invoked command in '/home/ariel/ur5e_ws/build/orunav_generic' returned '1': /usr/bin/cmake /home/ariel/ur5e_ws/src/navigation_oru-release/orunav_generic -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/ariel/ur5e_ws/install/orunav_generic

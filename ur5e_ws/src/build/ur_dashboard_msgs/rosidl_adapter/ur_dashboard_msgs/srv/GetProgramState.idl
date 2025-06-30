@@ -1,0 +1,22 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from ur_dashboard_msgs/srv/GetProgramState.srv
+// generated code does not contain a copyright notice
+
+#include "ur_dashboard_msgs/msg/ProgramState.idl"
+
+module ur_dashboard_msgs {
+  module srv {
+    struct GetProgramState_Request {
+      uint8 structure_needs_at_least_one_member;
+    };
+    struct GetProgramState_Response {
+      ur_dashboard_msgs::msg::ProgramState state;
+
+      string program_name;
+
+      string answer;
+
+      boolean success;
+    };
+  };
+};

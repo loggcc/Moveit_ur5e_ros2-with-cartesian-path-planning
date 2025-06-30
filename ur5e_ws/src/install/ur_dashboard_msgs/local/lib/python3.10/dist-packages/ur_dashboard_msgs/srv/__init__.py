@@ -1,0 +1,10 @@
+from ur_dashboard_msgs.srv._add_to_log import AddToLog  # noqa: F401
+from ur_dashboard_msgs.srv._get_loaded_program import GetLoadedProgram  # noqa: F401
+from ur_dashboard_msgs.srv._get_program_state import GetProgramState  # noqa: F401
+from ur_dashboard_msgs.srv._get_robot_mode import GetRobotMode  # noqa: F401
+from ur_dashboard_msgs.srv._get_safety_mode import GetSafetyMode  # noqa: F401
+from ur_dashboard_msgs.srv._is_program_running import IsProgramRunning  # noqa: F401
+from ur_dashboard_msgs.srv._is_program_saved import IsProgramSaved  # noqa: F401
+from ur_dashboard_msgs.srv._load import Load  # noqa: F401
+from ur_dashboard_msgs.srv._popup import Popup  # noqa: F401
+from ur_dashboard_msgs.srv._raw_request import RawRequest  # noqa: F401

@@ -1,0 +1,4 @@
+[0.287s] Invoking command in '/home/ariel/ur5e_ws/src/build/moveit_control_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ariel/ws_moveit2/install/launch_param_builder:/home/ariel/ur5e_ws/install/controller_pkg_demo:/opt/ros/humble /usr/bin/cmake --build /home/ariel/ur5e_ws/src/build/moveit_control_pkg -- -j22 -l22
+[0.322s] [ 50%] [32mBuilding CXX object CMakeFiles/moveit_cpp_ur5e_node.dir/src/moveit_cpp_ur5e_node.cpp.o[0m
+[5.525s] [100%] [32m[1mLinking CXX executable moveit_cpp_ur5e_node[0m
+[5.762s] [100%] Built target moveit_cpp_ur5e_node

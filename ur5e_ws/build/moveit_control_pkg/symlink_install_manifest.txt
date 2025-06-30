@@ -1,0 +1,16 @@
+/home/ariel/ur5e_ws/install/moveit_control_pkg/lib/moveit_control_pkg/cartesian_control
+/home/ariel/ur5e_ws/install/moveit_control_pkg/share/ament_index/resource_index/package_run_dependencies/moveit_control_pkg
+/home/ariel/ur5e_ws/install/moveit_control_pkg/share/ament_index/resource_index/parent_prefix_path/moveit_control_pkg
+/home/ariel/ur5e_ws/install/moveit_control_pkg/share/moveit_control_pkg/environment/ament_prefix_path.sh
+/home/ariel/ur5e_ws/install/moveit_control_pkg/share/moveit_control_pkg/environment/ament_prefix_path.dsv
+/home/ariel/ur5e_ws/install/moveit_control_pkg/share/moveit_control_pkg/environment/path.sh
+/home/ariel/ur5e_ws/install/moveit_control_pkg/share/moveit_control_pkg/environment/path.dsv
+/home/ariel/ur5e_ws/install/moveit_control_pkg/share/moveit_control_pkg/local_setup.bash
+/home/ariel/ur5e_ws/install/moveit_control_pkg/share/moveit_control_pkg/local_setup.sh
+/home/ariel/ur5e_ws/install/moveit_control_pkg/share/moveit_control_pkg/local_setup.zsh
+/home/ariel/ur5e_ws/install/moveit_control_pkg/share/moveit_control_pkg/local_setup.dsv
+/home/ariel/ur5e_ws/install/moveit_control_pkg/share/moveit_control_pkg/package.dsv
+/home/ariel/ur5e_ws/install/moveit_control_pkg/share/ament_index/resource_index/packages/moveit_control_pkg
+/home/ariel/ur5e_ws/install/moveit_control_pkg/share/moveit_control_pkg/cmake/moveit_control_pkgConfig.cmake
+/home/ariel/ur5e_ws/install/moveit_control_pkg/share/moveit_control_pkg/cmake/moveit_control_pkgConfig-version.cmake
+/home/ariel/ur5e_ws/install/moveit_control_pkg/share/moveit_control_pkg/package.xml

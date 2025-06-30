@@ -1,0 +1,538 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"ament_environment_hooks",
+			"_ament_cmake_python_register_environment_hook",
+			"ament_python_install_package",
+			"_ament_cmake_python_install_package",
+			"_ament_cmake_python_install_module",
+			"ament_python_install_module",
+			"ament_index_register_resource",
+			"ament_cmake_environment_generate_package_run_dependencies_marker",
+			"include",
+			"ament_execute_extensions",
+			"ament_package",
+			"ament_cmake_environment_generate_parent_prefix_path_marker",
+			"ament_generate_package_environment",
+			"ament_index_register_package",
+			"_ament_package"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt",
+			"/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/ament_environment_hooks.cmake",
+			"/opt/ros/humble/share/ament_cmake_python/cmake/ament_cmake_python-extras.cmake",
+			"/opt/ros/humble/share/ament_cmake_python/cmake/ament_python_install_package.cmake",
+			"/opt/ros/humble/share/ament_cmake_python/cmake/ament_python_install_module.cmake",
+			"/opt/ros/humble/share/ament_cmake_core/cmake/index/ament_index_register_resource.cmake",
+			"/opt/ros/humble/share/ament_cmake_core/cmake/environment/ament_cmake_environment_package_hook.cmake",
+			"/opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake",
+			"/opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package.cmake",
+			"/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/ament_cmake_environment_hooks_package_hook.cmake",
+			"/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/ament_generate_package_environment.cmake",
+			"/opt/ros/humble/share/ament_cmake_core/cmake/index/ament_index_register_package.cmake",
+			"/opt/ros/humble/share/ament_cmake_core/cmake/index/ament_cmake_index_package_hook.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 7,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 12,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 3,
+				"line" : 38,
+				"parent" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 2,
+				"line" : 36,
+				"parent" : 3
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 70,
+				"parent" : 4
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 87,
+				"parent" : 4
+			},
+			{
+				"command" : 4,
+				"file" : 3,
+				"line" : 39,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 154,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 181,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 191,
+				"parent" : 7
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 13,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 4,
+				"line" : 28,
+				"parent" : 11
+			},
+			{
+				"command" : 0,
+				"file" : 4,
+				"line" : 56,
+				"parent" : 12
+			},
+			{
+				"command" : 0,
+				"file" : 4,
+				"line" : 64,
+				"parent" : 12
+			},
+			{
+				"command" : 11,
+				"file" : 0,
+				"line" : 15,
+				"parent" : 0
+			},
+			{
+				"command" : 10,
+				"file" : 8,
+				"line" : 66,
+				"parent" : 15
+			},
+			{
+				"command" : 9,
+				"file" : 7,
+				"line" : 48,
+				"parent" : 16
+			},
+			{
+				"file" : 6,
+				"parent" : 17
+			},
+			{
+				"command" : 8,
+				"file" : 6,
+				"line" : 47,
+				"parent" : 18
+			},
+			{
+				"command" : 7,
+				"file" : 6,
+				"line" : 29,
+				"parent" : 19
+			},
+			{
+				"command" : 0,
+				"file" : 5,
+				"line" : 105,
+				"parent" : 20
+			},
+			{
+				"command" : 12,
+				"file" : 6,
+				"line" : 48,
+				"parent" : 18
+			},
+			{
+				"command" : 7,
+				"file" : 6,
+				"line" : 43,
+				"parent" : 22
+			},
+			{
+				"command" : 0,
+				"file" : 5,
+				"line" : 105,
+				"parent" : 23
+			},
+			{
+				"command" : 9,
+				"file" : 7,
+				"line" : 48,
+				"parent" : 16
+			},
+			{
+				"file" : 9,
+				"parent" : 25
+			},
+			{
+				"command" : 1,
+				"file" : 9,
+				"line" : 20,
+				"parent" : 26
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 70,
+				"parent" : 27
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 87,
+				"parent" : 27
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 70,
+				"parent" : 27
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 87,
+				"parent" : 27
+			},
+			{
+				"command" : 13,
+				"file" : 9,
+				"line" : 26,
+				"parent" : 26
+			},
+			{
+				"command" : 0,
+				"file" : 10,
+				"line" : 91,
+				"parent" : 32
+			},
+			{
+				"command" : 0,
+				"file" : 10,
+				"line" : 91,
+				"parent" : 32
+			},
+			{
+				"command" : 0,
+				"file" : 10,
+				"line" : 91,
+				"parent" : 32
+			},
+			{
+				"command" : 0,
+				"file" : 10,
+				"line" : 107,
+				"parent" : 32
+			},
+			{
+				"command" : 0,
+				"file" : 10,
+				"line" : 119,
+				"parent" : 32
+			},
+			{
+				"command" : 9,
+				"file" : 7,
+				"line" : 48,
+				"parent" : 16
+			},
+			{
+				"file" : 12,
+				"parent" : 38
+			},
+			{
+				"command" : 14,
+				"file" : 12,
+				"line" : 16,
+				"parent" : 39
+			},
+			{
+				"command" : 7,
+				"file" : 11,
+				"line" : 29,
+				"parent" : 40
+			},
+			{
+				"command" : 0,
+				"file" : 5,
+				"line" : 105,
+				"parent" : 41
+			},
+			{
+				"command" : 15,
+				"file" : 8,
+				"line" : 68,
+				"parent" : 15
+			},
+			{
+				"command" : 0,
+				"file" : 8,
+				"line" : 150,
+				"parent" : 43
+			},
+			{
+				"command" : 0,
+				"file" : 8,
+				"line" : 157,
+				"parent" : 43
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "share/ur_moveit_config",
+			"paths" : 
+			[
+				"config",
+				"launch",
+				"rviz",
+				"srdf"
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "Unspecified",
+			"destination" : "share/ur_moveit_config/environment",
+			"paths" : 
+			[
+				"/home/ariel/ur5e_ws/build/ur_moveit_config/ament_cmake_environment_hooks/pythonpath.sh"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 6,
+			"component" : "Unspecified",
+			"destination" : "share/ur_moveit_config/environment",
+			"paths" : 
+			[
+				"/home/ariel/ur5e_ws/build/ur_moveit_config/ament_cmake_environment_hooks/pythonpath.dsv"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 8,
+			"component" : "Unspecified",
+			"destination" : "local/lib/python3.10/dist-packages/ur_moveit_config-2.8.1-py3.10.egg-info",
+			"paths" : 
+			[
+				{
+					"from" : "/home/ariel/ur5e_ws/build/ur_moveit_config/ament_cmake_python/ur_moveit_config/ur_moveit_config.egg-info",
+					"to" : "."
+				}
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 9,
+			"component" : "Unspecified",
+			"destination" : "local/lib/python3.10/dist-packages/ur_moveit_config",
+			"paths" : 
+			[
+				{
+					"from" : "ur_moveit_config",
+					"to" : "."
+				}
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 10,
+			"component" : "Unspecified",
+			"type" : "code"
+		},
+		{
+			"backtrace" : 13,
+			"component" : "Unspecified",
+			"destination" : "local/lib/python3.10/dist-packages",
+			"paths" : 
+			[
+				"ur_moveit_config/launch_common.py"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 14,
+			"component" : "Unspecified",
+			"type" : "code"
+		},
+		{
+			"backtrace" : 21,
+			"component" : "Unspecified",
+			"destination" : "share/ament_index/resource_index/package_run_dependencies",
+			"paths" : 
+			[
+				"/home/ariel/ur5e_ws/build/ur_moveit_config/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/ur_moveit_config"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 24,
+			"component" : "Unspecified",
+			"destination" : "share/ament_index/resource_index/parent_prefix_path",
+			"paths" : 
+			[
+				"/home/ariel/ur5e_ws/build/ur_moveit_config/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/ur_moveit_config"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 28,
+			"component" : "Unspecified",
+			"destination" : "share/ur_moveit_config/environment",
+			"paths" : 
+			[
+				"/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 29,
+			"component" : "Unspecified",
+			"destination" : "share/ur_moveit_config/environment",
+			"paths" : 
+			[
+				"/home/ariel/ur5e_ws/build/ur_moveit_config/ament_cmake_environment_hooks/ament_prefix_path.dsv"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 30,
+			"component" : "Unspecified",
+			"destination" : "share/ur_moveit_config/environment",
+			"paths" : 
+			[
+				"/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 31,
+			"component" : "Unspecified",
+			"destination" : "share/ur_moveit_config/environment",
+			"paths" : 
+			[
+				"/home/ariel/ur5e_ws/build/ur_moveit_config/ament_cmake_environment_hooks/path.dsv"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 33,
+			"component" : "Unspecified",
+			"destination" : "share/ur_moveit_config",
+			"paths" : 
+			[
+				"/home/ariel/ur5e_ws/build/ur_moveit_config/ament_cmake_environment_hooks/local_setup.bash"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 34,
+			"component" : "Unspecified",
+			"destination" : "share/ur_moveit_config",
+			"paths" : 
+			[
+				"/home/ariel/ur5e_ws/build/ur_moveit_config/ament_cmake_environment_hooks/local_setup.sh"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 35,
+			"component" : "Unspecified",
+			"destination" : "share/ur_moveit_config",
+			"paths" : 
+			[
+				"/home/ariel/ur5e_ws/build/ur_moveit_config/ament_cmake_environment_hooks/local_setup.zsh"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 36,
+			"component" : "Unspecified",
+			"destination" : "share/ur_moveit_config",
+			"paths" : 
+			[
+				"/home/ariel/ur5e_ws/build/ur_moveit_config/ament_cmake_environment_hooks/local_setup.dsv"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 37,
+			"component" : "Unspecified",
+			"destination" : "share/ur_moveit_config",
+			"paths" : 
+			[
+				"/home/ariel/ur5e_ws/build/ur_moveit_config/ament_cmake_environment_hooks/package.dsv"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 42,
+			"component" : "Unspecified",
+			"destination" : "share/ament_index/resource_index/packages",
+			"paths" : 
+			[
+				"/home/ariel/ur5e_ws/build/ur_moveit_config/ament_cmake_index/share/ament_index/resource_index/packages/ur_moveit_config"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 44,
+			"component" : "Unspecified",
+			"destination" : "share/ur_moveit_config/cmake",
+			"paths" : 
+			[
+				"/home/ariel/ur5e_ws/build/ur_moveit_config/ament_cmake_core/ur_moveit_configConfig.cmake",
+				"/home/ariel/ur5e_ws/build/ur_moveit_config/ament_cmake_core/ur_moveit_configConfig-version.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 45,
+			"component" : "Unspecified",
+			"destination" : "share/ur_moveit_config",
+			"paths" : 
+			[
+				"package.xml"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	}
+}

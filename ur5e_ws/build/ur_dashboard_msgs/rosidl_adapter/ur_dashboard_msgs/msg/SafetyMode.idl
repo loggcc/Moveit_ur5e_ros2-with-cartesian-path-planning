@@ -1,0 +1,27 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from ur_dashboard_msgs/msg/SafetyMode.msg
+// generated code does not contain a copyright notice
+
+
+module ur_dashboard_msgs {
+  module msg {
+    module SafetyMode_Constants {
+      const uint8 NORMAL = 1;
+      const uint8 REDUCED = 2;
+      const uint8 PROTECTIVE_STOP = 3;
+      const uint8 RECOVERY = 4;
+      const uint8 SAFEGUARD_STOP = 5;
+      const uint8 SYSTEM_EMERGENCY_STOP = 6;
+      const uint8 ROBOT_EMERGENCY_STOP = 7;
+      const uint8 VIOLATION = 8;
+      const uint8 FAULT = 9;
+      const uint8 VALIDATE_JOINT_ID = 10;
+      const uint8 UNDEFINED_SAFETY_MODE = 11;
+      const uint8 AUTOMATIC_MODE_SAFEGUARD_STOP = 12;
+      const uint8 SYSTEM_THREE_POSITION_ENABLING_STOP = 13;
+    };
+    struct SafetyMode {
+      uint8 mode;
+    };
+  };
+};

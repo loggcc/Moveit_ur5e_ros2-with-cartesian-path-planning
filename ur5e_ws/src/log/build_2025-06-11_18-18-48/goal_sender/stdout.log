@@ -1,0 +1,8 @@
+running egg_info
+creating ../../build/goal_sender/goal_sender.egg-info
+writing ../../build/goal_sender/goal_sender.egg-info/PKG-INFO
+writing dependency_links to ../../build/goal_sender/goal_sender.egg-info/dependency_links.txt
+writing entry points to ../../build/goal_sender/goal_sender.egg-info/entry_points.txt
+writing requirements to ../../build/goal_sender/goal_sender.egg-info/requires.txt
+writing top-level names to ../../build/goal_sender/goal_sender.egg-info/top_level.txt
+writing manifest file '../../build/goal_sender/goal_sender.egg-info/SOURCES.txt'

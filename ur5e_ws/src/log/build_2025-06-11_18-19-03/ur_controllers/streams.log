@@ -1,0 +1,213 @@
+[0.007s] Invoking command in '/home/ariel/ur5e_ws/src/build/ur_controllers': AMENT_PREFIX_PATH=/home/ariel/ur5e_ws/src/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ariel/ur5e_ws/src/install/ur_dashboard_msgs:/home/ariel/ur5e_ws/install/ur_simulation_gazebo:/home/ariel/ur5e_ws/install/ur:/home/ariel/ur5e_ws/install/ur_calibration:/home/ariel/ur5e_ws/install/ur_robot_driver:/home/ariel/ur5e_ws/install/ur_moveit_config:/home/ariel/ur5e_ws/install/ur_bringup:/home/ariel/ur5e_ws/install/ur_description:/home/ariel/ur5e_ws/install/ur_controllers:/home/ariel/ur5e_ws/install/ur_dashboard_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/ariel/ur5e_ws/src/install/ur_dashboard_msgs/lib:/home/ariel/ur5e_ws/install/ur_robot_driver/lib:/home/ariel/ur5e_ws/install/ur_controllers/lib:/home/ariel/ur5e_ws/install/ur_dashboard_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.2/lib64:/home/ariel/.mujoco/mujoco210/bin:/usr/lib/nvidia:/home/ariel/.mujoco/mujoco210/bin PYTHONPATH=/home/ariel/ur5e_ws/src/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/ariel/ur5e_ws/src/Universal_Robots_ROS2_Driver/ur_controllers -DCMAKE_INSTALL_PREFIX=/home/ariel/ur5e_ws/src/install/ur_controllers
+[0.047s] -- The C compiler identification is GNU 11.4.0
+[0.082s] -- The CXX compiler identification is GNU 11.4.0
+[0.087s] -- Detecting C compiler ABI info
+[0.138s] -- Detecting C compiler ABI info - done
+[0.143s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.143s] -- Detecting C compile features
+[0.143s] -- Detecting C compile features - done
+[0.145s] -- Detecting CXX compiler ABI info
+[0.202s] -- Detecting CXX compiler ABI info - done
+[0.209s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.209s] -- Detecting CXX compile features
+[0.209s] -- Detecting CXX compile features - done
+[0.210s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.315s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.370s] -- Found angles: 1.15.0 (/opt/ros/humble/share/angles/cmake)
+[0.371s] -- Found controller_interface: 2.50.0 (/opt/ros/humble/share/controller_interface/cmake)
+[0.395s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.398s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.404s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.410s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.420s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.535s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.537s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.552s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.602s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.604s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.613s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.615s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.621s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.629s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.634s] -- Looking for pthread.h
+[0.695s] -- Looking for pthread.h - found
+[0.695s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.754s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.755s] -- Found Threads: TRUE  
+[0.783s] -- Found joint_trajectory_controller: 2.45.0 (/opt/ros/humble/share/joint_trajectory_controller/cmake)
+[0.829s] -- Found std_srvs: 4.8.0 (/opt/ros/humble/share/std_srvs/cmake)
+[0.834s] -- Found tf2_geometry_msgs: 0.25.12 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[0.839s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[0.840s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[0.840s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[0.871s] -- Found ur_dashboard_msgs: 2.8.1 (/home/ariel/ur5e_ws/src/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake)
+[0.879s] -- Found ur_msgs: 2.2.0 (/opt/ros/humble/share/ur_msgs/cmake)
+[0.899s] -- Found ament_cmake_gmock: 1.3.11 (/opt/ros/humble/share/ament_cmake_gmock/cmake)
+[0.900s] -- Found controller_manager: 2.50.0 (/opt/ros/humble/share/controller_manager/cmake)
+[0.913s] -- Found ros2_control_test_assets: 2.50.0 (/opt/ros/humble/share/ros2_control_test_assets/cmake)
+[0.915s] -- Found gmock sources under '/opt/ros/humble/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[0.918s] -- Found ament_cmake_gtest: 1.3.11 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[0.918s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[1.008s] -- Configuring done
+[1.047s] -- Generating done
+[1.055s] -- Build files have been written to: /home/ariel/ur5e_ws/src/build/ur_controllers
+[1.065s] Invoked command in '/home/ariel/ur5e_ws/src/build/ur_controllers' returned '0': AMENT_PREFIX_PATH=/home/ariel/ur5e_ws/src/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ariel/ur5e_ws/src/install/ur_dashboard_msgs:/home/ariel/ur5e_ws/install/ur_simulation_gazebo:/home/ariel/ur5e_ws/install/ur:/home/ariel/ur5e_ws/install/ur_calibration:/home/ariel/ur5e_ws/install/ur_robot_driver:/home/ariel/ur5e_ws/install/ur_moveit_config:/home/ariel/ur5e_ws/install/ur_bringup:/home/ariel/ur5e_ws/install/ur_description:/home/ariel/ur5e_ws/install/ur_controllers:/home/ariel/ur5e_ws/install/ur_dashboard_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/ariel/ur5e_ws/src/install/ur_dashboard_msgs/lib:/home/ariel/ur5e_ws/install/ur_robot_driver/lib:/home/ariel/ur5e_ws/install/ur_controllers/lib:/home/ariel/ur5e_ws/install/ur_dashboard_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.2/lib64:/home/ariel/.mujoco/mujoco210/bin:/usr/lib/nvidia:/home/ariel/.mujoco/mujoco210/bin PYTHONPATH=/home/ariel/ur5e_ws/src/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/ariel/ur5e_ws/src/Universal_Robots_ROS2_Driver/ur_controllers -DCMAKE_INSTALL_PREFIX=/home/ariel/ur5e_ws/src/install/ur_controllers
+[1.066s] Invoking command in '/home/ariel/ur5e_ws/src/build/ur_controllers': AMENT_PREFIX_PATH=/home/ariel/ur5e_ws/src/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ariel/ur5e_ws/src/install/ur_dashboard_msgs:/home/ariel/ur5e_ws/install/ur_simulation_gazebo:/home/ariel/ur5e_ws/install/ur:/home/ariel/ur5e_ws/install/ur_calibration:/home/ariel/ur5e_ws/install/ur_robot_driver:/home/ariel/ur5e_ws/install/ur_moveit_config:/home/ariel/ur5e_ws/install/ur_bringup:/home/ariel/ur5e_ws/install/ur_description:/home/ariel/ur5e_ws/install/ur_controllers:/home/ariel/ur5e_ws/install/ur_dashboard_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/ariel/ur5e_ws/src/install/ur_dashboard_msgs/lib:/home/ariel/ur5e_ws/install/ur_robot_driver/lib:/home/ariel/ur5e_ws/install/ur_controllers/lib:/home/ariel/ur5e_ws/install/ur_dashboard_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.2/lib64:/home/ariel/.mujoco/mujoco210/bin:/usr/lib/nvidia:/home/ariel/.mujoco/mujoco210/bin PYTHONPATH=/home/ariel/ur5e_ws/src/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ariel/ur5e_ws/src/build/ur_controllers -- -j22 -l22
+[1.101s] [  2%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[1.101s] [  5%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/humble/src/gtest_vendor/src/gtest-all.cc.o[0m
+[1.101s] [ 11%] [34m[1mRunning `/opt/ros/humble/bin/generate_parameter_library_cpp /home/ariel/ur5e_ws/src/build/ur_controllers/include/ur_controllers/force_mode_controller_parameters.hpp /home/ariel/ur5e_ws/src/Universal_Robots_ROS2_Driver/ur_controllers/src/force_mode_controller_parameters.yaml `[0m
+[1.101s] [ 11%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[1.103s] [ 14%] [34m[1mRunning `/opt/ros/humble/bin/generate_parameter_library_cpp /home/ariel/ur5e_ws/src/build/ur_controllers/include/ur_controllers/gpio_controller_parameters.hpp /home/ariel/ur5e_ws/src/Universal_Robots_ROS2_Driver/ur_controllers/src/gpio_controller_parameters.yaml `[0m
+[1.103s] [ 17%] [34m[1mRunning `/opt/ros/humble/bin/generate_parameter_library_cpp /home/ariel/ur5e_ws/src/build/ur_controllers/include/ur_controllers/ur_configuration_controller_parameters.hpp /home/ariel/ur5e_ws/src/Universal_Robots_ROS2_Driver/ur_controllers/src/ur_configuration_controller_parameters.yaml `[0m
+[1.104s] [ 20%] [34m[1mRunning `/opt/ros/humble/bin/generate_parameter_library_cpp /home/ariel/ur5e_ws/src/build/ur_controllers/include/ur_controllers/passthrough_trajectory_controller_parameters.hpp /home/ariel/ur5e_ws/src/Universal_Robots_ROS2_Driver/ur_controllers/src/passthrough_trajectory_controller_parameters.yaml `[0m
+[1.104s] [ 26%] [34m[1mRunning `/opt/ros/humble/bin/generate_parameter_library_cpp /home/ariel/ur5e_ws/src/build/ur_controllers/include/ur_controllers/scaled_joint_trajectory_controller_parameters.hpp /home/ariel/ur5e_ws/src/Universal_Robots_ROS2_Driver/ur_controllers/src/scaled_joint_trajectory_controller_parameters.yaml `[0m
+[1.105s] [ 26%] [34m[1mRunning `/opt/ros/humble/bin/generate_parameter_library_cpp /home/ariel/ur5e_ws/src/build/ur_controllers/include/ur_controllers/freedrive_mode_controller_parameters.hpp /home/ariel/ur5e_ws/src/Universal_Robots_ROS2_Driver/ur_controllers/src/freedrive_mode_controller_parameters.yaml `[0m
+[1.106s] [ 29%] [34m[1mRunning `/opt/ros/humble/bin/generate_parameter_library_cpp /home/ariel/ur5e_ws/src/build/ur_controllers/include/ur_controllers/speed_scaling_state_broadcaster_parameters.hpp /home/ariel/ur5e_ws/src/Universal_Robots_ROS2_Driver/ur_controllers/src/speed_scaling_state_broadcaster_parameters.yaml `[0m
+[1.107s] [ 32%] [34m[1mRunning `/opt/ros/humble/bin/generate_parameter_library_cpp /home/ariel/ur5e_ws/src/build/ur_controllers/include/ur_controllers/tool_contact_controller_parameters.hpp /home/ariel/ur5e_ws/src/Universal_Robots_ROS2_Driver/ur_controllers/src/tool_contact_controller_parameters.yaml `[0m
+[1.200s] [ 35%] [34m[1mCreating deprecated header file /home/ariel/ur5e_ws/src/build/ur_controllers/include/force_mode_controller_parameters.hpp[0m
+[1.206s] [ 38%] [34m[1mCreating deprecated header file /home/ariel/ur5e_ws/src/build/ur_controllers/include/tool_contact_controller_parameters.hpp[0m
+[1.208s] [ 41%] [34m[1mCreating deprecated header file /home/ariel/ur5e_ws/src/build/ur_controllers/include/speed_scaling_state_broadcaster_parameters.hpp[0m
+[1.227s] [ 41%] Built target force_mode_controller_parameters
+[1.233s] [ 41%] Built target speed_scaling_state_broadcaster_parameters
+[1.235s] [ 41%] Built target tool_contact_controller_parameters
+[1.244s] [ 44%] [34m[1mCreating deprecated header file /home/ariel/ur5e_ws/src/build/ur_controllers/include/ur_configuration_controller_parameters.hpp[0m
+[1.247s] [ 47%] [34m[1mCreating deprecated header file /home/ariel/ur5e_ws/src/build/ur_controllers/include/scaled_joint_trajectory_controller_parameters.hpp[0m
+[1.269s] [ 50%] [34m[1mCreating deprecated header file /home/ariel/ur5e_ws/src/build/ur_controllers/include/freedrive_mode_controller_parameters.hpp[0m
+[1.274s] [ 52%] [34m[1mCreating deprecated header file /home/ariel/ur5e_ws/src/build/ur_controllers/include/gpio_controller_parameters.hpp[0m
+[1.276s] [ 52%] Built target scaled_joint_trajectory_controller_parameters
+[1.280s] [ 52%] Built target ur_configuration_controller_parameters
+[1.299s] [ 52%] Built target freedrive_mode_controller_parameters
+[1.305s] [ 52%] Built target gpio_controller_parameters
+[1.312s] [ 55%] [34m[1mCreating deprecated header file /home/ariel/ur5e_ws/src/build/ur_controllers/include/passthrough_trajectory_controller_parameters.hpp[0m
+[1.347s] [ 55%] Built target passthrough_trajectory_controller_parameters
+[1.366s] [ 61%] [32mBuilding CXX object CMakeFiles/ur_controllers.dir/src/speed_scaling_state_broadcaster.cpp.o[0m
+[1.366s] [ 61%] [32mBuilding CXX object CMakeFiles/ur_controllers.dir/src/passthrough_trajectory_controller.cpp.o[0m
+[1.367s] [ 64%] [32mBuilding CXX object CMakeFiles/ur_controllers.dir/src/gpio_controller.cpp.o[0m
+[1.367s] [ 70%] [32mBuilding CXX object CMakeFiles/ur_controllers.dir/src/tool_contact_controller.cpp.o[0m
+[1.367s] [ 70%] [32mBuilding CXX object CMakeFiles/ur_controllers.dir/src/scaled_joint_trajectory_controller.cpp.o[0m
+[1.367s] [ 73%] [32mBuilding CXX object CMakeFiles/ur_controllers.dir/src/freedrive_mode_controller.cpp.o[0m
+[1.367s] [ 76%] [32mBuilding CXX object CMakeFiles/ur_controllers.dir/src/force_mode_controller.cpp.o[0m
+[1.368s] [ 79%] [32mBuilding CXX object CMakeFiles/ur_controllers.dir/src/ur_configuration_controller.cpp.o[0m
+[2.058s] [ 82%] [32m[1mLinking CXX static library libgmock_main.a[0m
+[2.090s] [ 82%] Built target gmock_main
+[2.927s] [ 85%] [32m[1mLinking CXX static library libgmock.a[0m
+[2.978s] [ 85%] Built target gmock
+[7.594s] [ 88%] [32m[1mLinking CXX shared library libur_controllers.so[0m
+[8.565s] [ 88%] Built target ur_controllers
+[8.583s] [ 91%] [32mBuilding CXX object CMakeFiles/test_load_force_mode_controller.dir/test/test_load_force_mode_controller.cpp.o[0m
+[8.585s] [ 94%] [32mBuilding CXX object CMakeFiles/test_load_freedrive_mode_controller.dir/test/test_load_freedrive_mode_controller.cpp.o[0m
+[11.410s] [ 97%] [32m[1mLinking CXX executable test_load_force_mode_controller[0m
+[11.563s] [100%] [32m[1mLinking CXX executable test_load_freedrive_mode_controller[0m
+[11.652s] [100%] Built target test_load_force_mode_controller
+[11.806s] [100%] Built target test_load_freedrive_mode_controller
+[11.817s] Invoked command in '/home/ariel/ur5e_ws/src/build/ur_controllers' returned '0': AMENT_PREFIX_PATH=/home/ariel/ur5e_ws/src/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ariel/ur5e_ws/src/install/ur_dashboard_msgs:/home/ariel/ur5e_ws/install/ur_simulation_gazebo:/home/ariel/ur5e_ws/install/ur:/home/ariel/ur5e_ws/install/ur_calibration:/home/ariel/ur5e_ws/install/ur_robot_driver:/home/ariel/ur5e_ws/install/ur_moveit_config:/home/ariel/ur5e_ws/install/ur_bringup:/home/ariel/ur5e_ws/install/ur_description:/home/ariel/ur5e_ws/install/ur_controllers:/home/ariel/ur5e_ws/install/ur_dashboard_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/ariel/ur5e_ws/src/install/ur_dashboard_msgs/lib:/home/ariel/ur5e_ws/install/ur_robot_driver/lib:/home/ariel/ur5e_ws/install/ur_controllers/lib:/home/ariel/ur5e_ws/install/ur_dashboard_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.2/lib64:/home/ariel/.mujoco/mujoco210/bin:/usr/lib/nvidia:/home/ariel/.mujoco/mujoco210/bin PYTHONPATH=/home/ariel/ur5e_ws/src/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ariel/ur5e_ws/src/build/ur_controllers -- -j22 -l22
+[11.819s] Invoking command in '/home/ariel/ur5e_ws/src/build/ur_controllers': AMENT_PREFIX_PATH=/home/ariel/ur5e_ws/src/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ariel/ur5e_ws/src/install/ur_dashboard_msgs:/home/ariel/ur5e_ws/install/ur_simulation_gazebo:/home/ariel/ur5e_ws/install/ur:/home/ariel/ur5e_ws/install/ur_calibration:/home/ariel/ur5e_ws/install/ur_robot_driver:/home/ariel/ur5e_ws/install/ur_moveit_config:/home/ariel/ur5e_ws/install/ur_bringup:/home/ariel/ur5e_ws/install/ur_description:/home/ariel/ur5e_ws/install/ur_controllers:/home/ariel/ur5e_ws/install/ur_dashboard_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/ariel/ur5e_ws/src/install/ur_dashboard_msgs/lib:/home/ariel/ur5e_ws/install/ur_robot_driver/lib:/home/ariel/ur5e_ws/install/ur_controllers/lib:/home/ariel/ur5e_ws/install/ur_dashboard_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.2/lib64:/home/ariel/.mujoco/mujoco210/bin:/usr/lib/nvidia:/home/ariel/.mujoco/mujoco210/bin PYTHONPATH=/home/ariel/ur5e_ws/src/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ariel/ur5e_ws/src/build/ur_controllers
+[11.824s] -- Install configuration: ""
+[11.824s] -- Installing: /home/ariel/ur5e_ws/src/install/ur_controllers/include/ur_controllers
+[11.824s] -- Installing: /home/ariel/ur5e_ws/src/install/ur_controllers/include/ur_controllers/freedrive_mode_controller_parameters.hpp
+[11.825s] -- Installing: /home/ariel/ur5e_ws/src/install/ur_controllers/include/ur_controllers/tool_contact_controller_parameters.hpp
+[11.825s] -- Installing: /home/ariel/ur5e_ws/src/install/ur_controllers/include/ur_controllers/passthrough_trajectory_controller_parameters.hpp
+[11.825s] -- Installing: /home/ariel/ur5e_ws/src/install/ur_controllers/include/ur_controllers/speed_scaling_state_broadcaster_parameters.hpp
+[11.825s] -- Installing: /home/ariel/ur5e_ws/src/install/ur_controllers/include/ur_controllers/gpio_controller_parameters.hpp
+[11.825s] -- Installing: /home/ariel/ur5e_ws/src/install/ur_controllers/include/ur_controllers/scaled_joint_trajectory_controller_parameters.hpp
+[11.825s] -- Installing: /home/ariel/ur5e_ws/src/install/ur_controllers/include/ur_controllers/force_mode_controller_parameters.hpp
+[11.825s] -- Installing: /home/ariel/ur5e_ws/src/install/ur_controllers/include/ur_controllers/ur_configuration_controller_parameters.hpp
+[11.825s] -- Up-to-date: /home/ariel/ur5e_ws/src/install/ur_controllers/include/ur_controllers
+[11.825s] -- Up-to-date: /home/ariel/ur5e_ws/src/install/ur_controllers/include/ur_controllers/freedrive_mode_controller_parameters.hpp
+[11.826s] -- Up-to-date: /home/ariel/ur5e_ws/src/install/ur_controllers/include/ur_controllers/tool_contact_controller_parameters.hpp
+[11.826s] -- Up-to-date: /home/ariel/ur5e_ws/src/install/ur_controllers/include/ur_controllers/passthrough_trajectory_controller_parameters.hpp
+[11.826s] -- Up-to-date: /home/ariel/ur5e_ws/src/install/ur_controllers/include/ur_controllers/speed_scaling_state_broadcaster_parameters.hpp
+[11.826s] -- Up-to-date: /home/ariel/ur5e_ws/src/install/ur_controllers/include/ur_controllers/gpio_controller_parameters.hpp
+[11.826s] -- Up-to-date: /home/ariel/ur5e_ws/src/install/ur_controllers/include/ur_controllers/scaled_joint_trajectory_controller_parameters.hpp
+[11.826s] -- Up-to-date: /home/ariel/ur5e_ws/src/install/ur_controllers/include/ur_controllers/force_mode_controller_parameters.hpp
+[11.826s] -- Up-to-date: /home/ariel/ur5e_ws/src/install/ur_controllers/include/ur_controllers/ur_configuration_controller_parameters.hpp
+[11.826s] -- Up-to-date: /home/ariel/ur5e_ws/src/install/ur_controllers/include/ur_controllers
+[11.826s] -- Up-to-date: /home/ariel/ur5e_ws/src/install/ur_controllers/include/ur_controllers/freedrive_mode_controller_parameters.hpp
+[11.826s] -- Up-to-date: /home/ariel/ur5e_ws/src/install/ur_controllers/include/ur_controllers/tool_contact_controller_parameters.hpp
+[11.826s] -- Up-to-date: /home/ariel/ur5e_ws/src/install/ur_controllers/include/ur_controllers/passthrough_trajectory_controller_parameters.hpp
+[11.826s] -- Up-to-date: /home/ariel/ur5e_ws/src/install/ur_controllers/include/ur_controllers/speed_scaling_state_broadcaster_parameters.hpp
+[11.826s] -- Up-to-date: /home/ariel/ur5e_ws/src/install/ur_controllers/include/ur_controllers/gpio_controller_parameters.hpp
+[11.826s] -- Up-to-date: /home/ariel/ur5e_ws/src/install/ur_controllers/include/ur_controllers/scaled_joint_trajectory_controller_parameters.hpp
+[11.826s] -- Up-to-date: /home/ariel/ur5e_ws/src/install/ur_controllers/include/ur_controllers/force_mode_controller_parameters.hpp
+[11.826s] -- Up-to-date: /home/ariel/ur5e_ws/src/install/ur_controllers/include/ur_controllers/ur_configuration_controller_parameters.hpp
+[11.826s] -- Up-to-date: /home/ariel/ur5e_ws/src/install/ur_controllers/include/ur_controllers
+[11.827s] -- Up-to-date: /home/ariel/ur5e_ws/src/install/ur_controllers/include/ur_controllers/freedrive_mode_controller_parameters.hpp
+[11.827s] -- Up-to-date: /home/ariel/ur5e_ws/src/install/ur_controllers/include/ur_controllers/tool_contact_controller_parameters.hpp
+[11.827s] -- Up-to-date: /home/ariel/ur5e_ws/src/install/ur_controllers/include/ur_controllers/passthrough_trajectory_controller_parameters.hpp
+[11.827s] -- Up-to-date: /home/ariel/ur5e_ws/src/install/ur_controllers/include/ur_controllers/speed_scaling_state_broadcaster_parameters.hpp
+[11.827s] -- Up-to-date: /home/ariel/ur5e_ws/src/install/ur_controllers/include/ur_controllers/gpio_controller_parameters.hpp
+[11.827s] -- Up-to-date: /home/ariel/ur5e_ws/src/install/ur_controllers/include/ur_controllers/scaled_joint_trajectory_controller_parameters.hpp
+[11.827s] -- Up-to-date: /home/ariel/ur5e_ws/src/install/ur_controllers/include/ur_controllers/force_mode_controller_parameters.hpp
+[11.827s] -- Up-to-date: /home/ariel/ur5e_ws/src/install/ur_controllers/include/ur_controllers/ur_configuration_controller_parameters.hpp
+[11.827s] -- Up-to-date: /home/ariel/ur5e_ws/src/install/ur_controllers/include/ur_controllers
+[11.827s] -- Up-to-date: /home/ariel/ur5e_ws/src/install/ur_controllers/include/ur_controllers/freedrive_mode_controller_parameters.hpp
+[11.827s] -- Up-to-date: /home/ariel/ur5e_ws/src/install/ur_controllers/include/ur_controllers/tool_contact_controller_parameters.hpp
+[11.827s] -- Up-to-date: /home/ariel/ur5e_ws/src/install/ur_controllers/include/ur_controllers/passthrough_trajectory_controller_parameters.hpp
+[11.827s] -- Up-to-date: /home/ariel/ur5e_ws/src/install/ur_controllers/include/ur_controllers/speed_scaling_state_broadcaster_parameters.hpp
+[11.827s] -- Up-to-date: /home/ariel/ur5e_ws/src/install/ur_controllers/include/ur_controllers/gpio_controller_parameters.hpp
+[11.827s] -- Up-to-date: /home/ariel/ur5e_ws/src/install/ur_controllers/include/ur_controllers/scaled_joint_trajectory_controller_parameters.hpp
+[11.827s] -- Up-to-date: /home/ariel/ur5e_ws/src/install/ur_controllers/include/ur_controllers/force_mode_controller_parameters.hpp
+[11.827s] -- Up-to-date: /home/ariel/ur5e_ws/src/install/ur_controllers/include/ur_controllers/ur_configuration_controller_parameters.hpp
+[11.827s] -- Up-to-date: /home/ariel/ur5e_ws/src/install/ur_controllers/include/ur_controllers
+[11.827s] -- Up-to-date: /home/ariel/ur5e_ws/src/install/ur_controllers/include/ur_controllers/freedrive_mode_controller_parameters.hpp
+[11.828s] -- Up-to-date: /home/ariel/ur5e_ws/src/install/ur_controllers/include/ur_controllers/tool_contact_controller_parameters.hpp
+[11.828s] -- Up-to-date: /home/ariel/ur5e_ws/src/install/ur_controllers/include/ur_controllers/passthrough_trajectory_controller_parameters.hpp
+[11.828s] -- Up-to-date: /home/ariel/ur5e_ws/src/install/ur_controllers/include/ur_controllers/speed_scaling_state_broadcaster_parameters.hpp
+[11.828s] -- Up-to-date: /home/ariel/ur5e_ws/src/install/ur_controllers/include/ur_controllers/gpio_controller_parameters.hpp
+[11.828s] -- Up-to-date: /home/ariel/ur5e_ws/src/install/ur_controllers/include/ur_controllers/scaled_joint_trajectory_controller_parameters.hpp
+[11.828s] -- Up-to-date: /home/ariel/ur5e_ws/src/install/ur_controllers/include/ur_controllers/force_mode_controller_parameters.hpp
+[11.828s] -- Up-to-date: /home/ariel/ur5e_ws/src/install/ur_controllers/include/ur_controllers/ur_configuration_controller_parameters.hpp
+[11.828s] -- Up-to-date: /home/ariel/ur5e_ws/src/install/ur_controllers/include/ur_controllers
+[11.828s] -- Up-to-date: /home/ariel/ur5e_ws/src/install/ur_controllers/include/ur_controllers/freedrive_mode_controller_parameters.hpp
+[11.828s] -- Up-to-date: /home/ariel/ur5e_ws/src/install/ur_controllers/include/ur_controllers/tool_contact_controller_parameters.hpp
+[11.828s] -- Up-to-date: /home/ariel/ur5e_ws/src/install/ur_controllers/include/ur_controllers/passthrough_trajectory_controller_parameters.hpp
+[11.828s] -- Up-to-date: /home/ariel/ur5e_ws/src/install/ur_controllers/include/ur_controllers/speed_scaling_state_broadcaster_parameters.hpp
+[11.828s] -- Up-to-date: /home/ariel/ur5e_ws/src/install/ur_controllers/include/ur_controllers/gpio_controller_parameters.hpp
+[11.828s] -- Up-to-date: /home/ariel/ur5e_ws/src/install/ur_controllers/include/ur_controllers/scaled_joint_trajectory_controller_parameters.hpp
+[11.828s] -- Up-to-date: /home/ariel/ur5e_ws/src/install/ur_controllers/include/ur_controllers/force_mode_controller_parameters.hpp
+[11.828s] -- Up-to-date: /home/ariel/ur5e_ws/src/install/ur_controllers/include/ur_controllers/ur_configuration_controller_parameters.hpp
+[11.828s] -- Up-to-date: /home/ariel/ur5e_ws/src/install/ur_controllers/include/ur_controllers
+[11.828s] -- Up-to-date: /home/ariel/ur5e_ws/src/install/ur_controllers/include/ur_controllers/freedrive_mode_controller_parameters.hpp
+[11.828s] -- Up-to-date: /home/ariel/ur5e_ws/src/install/ur_controllers/include/ur_controllers/tool_contact_controller_parameters.hpp
+[11.828s] -- Up-to-date: /home/ariel/ur5e_ws/src/install/ur_controllers/include/ur_controllers/passthrough_trajectory_controller_parameters.hpp
+[11.828s] -- Up-to-date: /home/ariel/ur5e_ws/src/install/ur_controllers/include/ur_controllers/speed_scaling_state_broadcaster_parameters.hpp
+[11.828s] -- Up-to-date: /home/ariel/ur5e_ws/src/install/ur_controllers/include/ur_controllers/gpio_controller_parameters.hpp
+[11.828s] -- Up-to-date: /home/ariel/ur5e_ws/src/install/ur_controllers/include/ur_controllers/scaled_joint_trajectory_controller_parameters.hpp
+[11.828s] -- Up-to-date: /home/ariel/ur5e_ws/src/install/ur_controllers/include/ur_controllers/force_mode_controller_parameters.hpp
+[11.828s] -- Up-to-date: /home/ariel/ur5e_ws/src/install/ur_controllers/include/ur_controllers/ur_configuration_controller_parameters.hpp
+[11.828s] -- Installing: /home/ariel/ur5e_ws/src/install/ur_controllers/share/ur_controllers/controller_plugins.xml
+[11.828s] -- Installing: /home/ariel/ur5e_ws/src/install/ur_controllers/lib/libur_controllers.so
+[11.837s] -- Set runtime path of "/home/ariel/ur5e_ws/src/install/ur_controllers/lib/libur_controllers.so" to ""
+[11.837s] -- Up-to-date: /home/ariel/ur5e_ws/src/install/ur_controllers/include
+[11.837s] -- Up-to-date: /home/ariel/ur5e_ws/src/install/ur_controllers/include/ur_controllers
+[11.837s] -- Installing: /home/ariel/ur5e_ws/src/install/ur_controllers/include/ur_controllers/speed_scaling_state_broadcaster.hpp
+[11.837s] -- Installing: /home/ariel/ur5e_ws/src/install/ur_controllers/include/ur_controllers/scaled_joint_trajectory_controller.hpp
+[11.837s] -- Installing: /home/ariel/ur5e_ws/src/install/ur_controllers/include/ur_controllers/force_mode_controller.hpp
+[11.837s] -- Installing: /home/ariel/ur5e_ws/src/install/ur_controllers/include/ur_controllers/gpio_controller.hpp
+[11.837s] -- Installing: /home/ariel/ur5e_ws/src/install/ur_controllers/include/ur_controllers/freedrive_mode_controller.hpp
+[11.837s] -- Installing: /home/ariel/ur5e_ws/src/install/ur_controllers/include/ur_controllers/ur_configuration_controller.hpp
+[11.837s] -- Installing: /home/ariel/ur5e_ws/src/install/ur_controllers/include/ur_controllers/tool_contact_controller.hpp
+[11.837s] -- Installing: /home/ariel/ur5e_ws/src/install/ur_controllers/include/ur_controllers/passthrough_trajectory_controller.hpp
+[11.837s] -- Up-to-date: /home/ariel/ur5e_ws/src/install/ur_controllers/share/ur_controllers/controller_plugins.xml
+[11.837s] -- Installing: /home/ariel/ur5e_ws/src/install/ur_controllers/share/ur_controllers/environment/library_path.sh
+[11.837s] -- Installing: /home/ariel/ur5e_ws/src/install/ur_controllers/share/ur_controllers/environment/library_path.dsv
+[11.837s] -- Installing: /home/ariel/ur5e_ws/src/install/ur_controllers/share/ament_index/resource_index/package_run_dependencies/ur_controllers
+[11.837s] -- Installing: /home/ariel/ur5e_ws/src/install/ur_controllers/share/ament_index/resource_index/parent_prefix_path/ur_controllers
+[11.837s] -- Installing: /home/ariel/ur5e_ws/src/install/ur_controllers/share/ur_controllers/environment/ament_prefix_path.sh
+[11.837s] -- Installing: /home/ariel/ur5e_ws/src/install/ur_controllers/share/ur_controllers/environment/ament_prefix_path.dsv
+[11.838s] -- Installing: /home/ariel/ur5e_ws/src/install/ur_controllers/share/ur_controllers/environment/path.sh
+[11.838s] -- Installing: /home/ariel/ur5e_ws/src/install/ur_controllers/share/ur_controllers/environment/path.dsv
+[11.838s] -- Installing: /home/ariel/ur5e_ws/src/install/ur_controllers/share/ur_controllers/local_setup.bash
+[11.838s] -- Installing: /home/ariel/ur5e_ws/src/install/ur_controllers/share/ur_controllers/local_setup.sh
+[11.838s] -- Installing: /home/ariel/ur5e_ws/src/install/ur_controllers/share/ur_controllers/local_setup.zsh
+[11.838s] -- Installing: /home/ariel/ur5e_ws/src/install/ur_controllers/share/ur_controllers/local_setup.dsv
+[11.838s] -- Installing: /home/ariel/ur5e_ws/src/install/ur_controllers/share/ur_controllers/package.dsv
+[11.838s] -- Installing: /home/ariel/ur5e_ws/src/install/ur_controllers/share/ament_index/resource_index/packages/ur_controllers
+[11.838s] -- Installing: /home/ariel/ur5e_ws/src/install/ur_controllers/share/ament_index/resource_index/controller_interface__pluginlib__plugin/ur_controllers
+[11.838s] -- Installing: /home/ariel/ur5e_ws/src/install/ur_controllers/share/ur_controllers/cmake/ament_cmake_export_dependencies-extras.cmake
+[11.838s] -- Installing: /home/ariel/ur5e_ws/src/install/ur_controllers/share/ur_controllers/cmake/ament_cmake_export_include_directories-extras.cmake
+[11.838s] -- Installing: /home/ariel/ur5e_ws/src/install/ur_controllers/share/ur_controllers/cmake/ament_cmake_export_libraries-extras.cmake
+[11.838s] -- Installing: /home/ariel/ur5e_ws/src/install/ur_controllers/share/ur_controllers/cmake/ur_controllersConfig.cmake
+[11.838s] -- Installing: /home/ariel/ur5e_ws/src/install/ur_controllers/share/ur_controllers/cmake/ur_controllersConfig-version.cmake
+[11.838s] -- Installing: /home/ariel/ur5e_ws/src/install/ur_controllers/share/ur_controllers/package.xml
+[11.840s] Invoked command in '/home/ariel/ur5e_ws/src/build/ur_controllers' returned '0': AMENT_PREFIX_PATH=/home/ariel/ur5e_ws/src/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ariel/ur5e_ws/src/install/ur_dashboard_msgs:/home/ariel/ur5e_ws/install/ur_simulation_gazebo:/home/ariel/ur5e_ws/install/ur:/home/ariel/ur5e_ws/install/ur_calibration:/home/ariel/ur5e_ws/install/ur_robot_driver:/home/ariel/ur5e_ws/install/ur_moveit_config:/home/ariel/ur5e_ws/install/ur_bringup:/home/ariel/ur5e_ws/install/ur_description:/home/ariel/ur5e_ws/install/ur_controllers:/home/ariel/ur5e_ws/install/ur_dashboard_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/ariel/ur5e_ws/src/install/ur_dashboard_msgs/lib:/home/ariel/ur5e_ws/install/ur_robot_driver/lib:/home/ariel/ur5e_ws/install/ur_controllers/lib:/home/ariel/ur5e_ws/install/ur_dashboard_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.2/lib64:/home/ariel/.mujoco/mujoco210/bin:/usr/lib/nvidia:/home/ariel/.mujoco/mujoco210/bin PYTHONPATH=/home/ariel/ur5e_ws/src/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ariel/ur5e_ws/src/build/ur_controllers

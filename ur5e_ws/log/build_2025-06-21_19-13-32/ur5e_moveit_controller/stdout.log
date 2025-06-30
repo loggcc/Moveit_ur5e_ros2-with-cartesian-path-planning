@@ -1,0 +1,17 @@
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur5e_moveit_controller/share/ament_index/resource_index/package_run_dependencies/ur5e_moveit_controller
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur5e_moveit_controller/share/ament_index/resource_index/parent_prefix_path/ur5e_moveit_controller
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur5e_moveit_controller/share/ur5e_moveit_controller/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur5e_moveit_controller/share/ur5e_moveit_controller/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur5e_moveit_controller/share/ur5e_moveit_controller/environment/path.sh
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur5e_moveit_controller/share/ur5e_moveit_controller/environment/path.dsv
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur5e_moveit_controller/share/ur5e_moveit_controller/local_setup.bash
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur5e_moveit_controller/share/ur5e_moveit_controller/local_setup.sh
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur5e_moveit_controller/share/ur5e_moveit_controller/local_setup.zsh
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur5e_moveit_controller/share/ur5e_moveit_controller/local_setup.dsv
+-- Symlinking: /home/ariel/ur5e_ws/install/ur5e_moveit_controller/share/ur5e_moveit_controller/package.dsv
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur5e_moveit_controller/share/ament_index/resource_index/packages/ur5e_moveit_controller
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur5e_moveit_controller/share/ur5e_moveit_controller/cmake/ur5e_moveit_controllerConfig.cmake
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur5e_moveit_controller/share/ur5e_moveit_controller/cmake/ur5e_moveit_controllerConfig-version.cmake
+-- Up-to-date symlink: /home/ariel/ur5e_ws/install/ur5e_moveit_controller/share/ur5e_moveit_controller/package.xml

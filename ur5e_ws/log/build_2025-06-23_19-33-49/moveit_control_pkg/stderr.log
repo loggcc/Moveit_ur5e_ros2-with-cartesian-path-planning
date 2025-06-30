@@ -1,0 +1,8 @@
+In file included from [01m[K/home/ariel/ur5e_ws/src/moveit_control_pkg/src/moveit_cpp_ur5e_node.cpp:9[m[K:
+[01m[K/opt/ros/humble/include/moveit_visual_tools/moveit_visual_tools.h:56:10:[m[K [01;31m[Kfatal error: [m[Kgraph_msgs/msg/geometry_graph.hpp: No such file or directory
+   56 | #include [01;31m[K<graph_msgs/msg/geometry_graph.hpp>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/moveit_cpp_ur5e_node.dir/build.make:76: CMakeFiles/moveit_cpp_ur5e_node.dir/src/moveit_cpp_ur5e_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/moveit_cpp_ur5e_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

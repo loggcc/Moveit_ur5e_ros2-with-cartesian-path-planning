@@ -1,0 +1,3 @@
+
+string answer
+bool success

@@ -1,0 +1,41 @@
+[0.043s] Invoking command in '/home/ariel/ur5e_ws/src/build/orunav_msgs': /usr/bin/cmake /home/ariel/ur5e_ws/src/navigation_oru-release/orunav_msgs -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/ariel/ur5e_ws/src/install/orunav_msgs
+[0.322s] -- The C compiler identification is GNU 11.4.0
+[0.322s] -- The CXX compiler identification is GNU 11.4.0
+[0.322s] -- Detecting C compiler ABI info
+[0.322s] -- Detecting C compiler ABI info - done
+[0.322s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.322s] -- Detecting C compile features
+[0.322s] -- Detecting C compile features - done
+[0.322s] -- Detecting CXX compiler ABI info
+[0.322s] -- Detecting CXX compiler ABI info - done
+[0.322s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.322s] -- Detecting CXX compile features
+[0.322s] -- Detecting CXX compile features - done
+[0.322s] -- Configuring incomplete, errors occurred!
+[0.323s] See also "/home/ariel/ur5e_ws/src/build/orunav_msgs/CMakeFiles/CMakeOutput.log".
+[0.323s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.323s]   Compatibility with CMake < 2.8.12 will be removed from a future version of
+[0.323s]   CMake.
+[0.323s] 
+[0.323s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[0.323s]   CMake that the project does not need compatibility with older versions.
+[0.323s] 
+[0.324s] [0m
+[0.324s] [31mCMake Error at CMakeLists.txt:4 (find_package):
+[0.324s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[0.324s]   asked CMake to find a package configuration file provided by "catkin", but
+[0.324s]   CMake did not find one.
+[0.324s] 
+[0.324s]   Could not find a package configuration file provided by "catkin" with any
+[0.324s]   of the following names:
+[0.324s] 
+[0.324s]     catkinConfig.cmake
+[0.324s]     catkin-config.cmake
+[0.324s] 
+[0.325s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[0.325s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[0.325s]   provides a separate development package or SDK, be sure it has been
+[0.325s]   installed.
+[0.325s] 
+[0.325s] [0m
+[0.360s] Invoked command in '/home/ariel/ur5e_ws/src/build/orunav_msgs' returned '1': /usr/bin/cmake /home/ariel/ur5e_ws/src/navigation_oru-release/orunav_msgs -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/ariel/ur5e_ws/src/install/orunav_msgs

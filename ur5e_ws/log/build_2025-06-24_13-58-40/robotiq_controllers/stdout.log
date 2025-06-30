@@ -1,0 +1,33 @@
+[35m[1mConsolidate compiler generated dependencies of target robotiq_controllers[0m
+[100%] Built target robotiq_controllers
+-- Install configuration: ""
+-- Installing: /home/ariel/ur5e_ws/install/robotiq_controllers/share/robotiq_controllers/controller_plugins.xml
+-- Installing: /home/ariel/ur5e_ws/install/robotiq_controllers/lib/librobotiq_controllers.so
+-- Set runtime path of "/home/ariel/ur5e_ws/install/robotiq_controllers/lib/librobotiq_controllers.so" to ""
+-- Installing: /home/ariel/ur5e_ws/install/robotiq_controllers/include
+-- Installing: /home/ariel/ur5e_ws/install/robotiq_controllers/include/robotiq_controllers
+-- Installing: /home/ariel/ur5e_ws/install/robotiq_controllers/include/robotiq_controllers/robotiq_activation_controller.hpp
+-- Installing: /home/ariel/ur5e_ws/install/robotiq_controllers/share/robotiq_controllers/environment/library_path.sh
+-- Installing: /home/ariel/ur5e_ws/install/robotiq_controllers/share/robotiq_controllers/environment/library_path.dsv
+-- Installing: /home/ariel/ur5e_ws/install/robotiq_controllers/share/ament_index/resource_index/package_run_dependencies/robotiq_controllers
+-- Installing: /home/ariel/ur5e_ws/install/robotiq_controllers/share/ament_index/resource_index/parent_prefix_path/robotiq_controllers
+-- Installing: /home/ariel/ur5e_ws/install/robotiq_controllers/share/robotiq_controllers/environment/ament_prefix_path.sh
+-- Installing: /home/ariel/ur5e_ws/install/robotiq_controllers/share/robotiq_controllers/environment/ament_prefix_path.dsv
+-- Installing: /home/ariel/ur5e_ws/install/robotiq_controllers/share/robotiq_controllers/environment/path.sh
+-- Installing: /home/ariel/ur5e_ws/install/robotiq_controllers/share/robotiq_controllers/environment/path.dsv
+-- Installing: /home/ariel/ur5e_ws/install/robotiq_controllers/share/robotiq_controllers/local_setup.bash
+-- Installing: /home/ariel/ur5e_ws/install/robotiq_controllers/share/robotiq_controllers/local_setup.sh
+-- Installing: /home/ariel/ur5e_ws/install/robotiq_controllers/share/robotiq_controllers/local_setup.zsh
+-- Installing: /home/ariel/ur5e_ws/install/robotiq_controllers/share/robotiq_controllers/local_setup.dsv
+-- Installing: /home/ariel/ur5e_ws/install/robotiq_controllers/share/robotiq_controllers/package.dsv
+-- Installing: /home/ariel/ur5e_ws/install/robotiq_controllers/share/ament_index/resource_index/packages/robotiq_controllers
+-- Installing: /home/ariel/ur5e_ws/install/robotiq_controllers/share/ament_index/resource_index/controller_interface__pluginlib__plugin/robotiq_controllers
+-- Installing: /home/ariel/ur5e_ws/install/robotiq_controllers/share/robotiq_controllers/cmake/export_robotiq_controllersExport.cmake
+-- Installing: /home/ariel/ur5e_ws/install/robotiq_controllers/share/robotiq_controllers/cmake/export_robotiq_controllersExport-noconfig.cmake
+-- Installing: /home/ariel/ur5e_ws/install/robotiq_controllers/share/robotiq_controllers/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/ariel/ur5e_ws/install/robotiq_controllers/share/robotiq_controllers/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/ariel/ur5e_ws/install/robotiq_controllers/share/robotiq_controllers/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /home/ariel/ur5e_ws/install/robotiq_controllers/share/robotiq_controllers/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/ariel/ur5e_ws/install/robotiq_controllers/share/robotiq_controllers/cmake/robotiq_controllersConfig.cmake
+-- Installing: /home/ariel/ur5e_ws/install/robotiq_controllers/share/robotiq_controllers/cmake/robotiq_controllersConfig-version.cmake
+-- Installing: /home/ariel/ur5e_ws/install/robotiq_controllers/share/robotiq_controllers/package.xml

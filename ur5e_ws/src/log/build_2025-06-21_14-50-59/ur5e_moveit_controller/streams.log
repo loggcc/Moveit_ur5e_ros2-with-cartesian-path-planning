@@ -1,0 +1,47 @@
+[0.205s] Invoking command in '/home/ariel/ur5e_ws/src/build/ur5e_moveit_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ariel/ws_moveit2/install/launch_param_builder:/home/ariel/ur5e_ws/install/controller_pkg_demo:/opt/ros/humble /usr/bin/cmake /home/ariel/ur5e_ws/src/ur5e_moveit_controller -DCMAKE_INSTALL_PREFIX=/home/ariel/ur5e_ws/src/install/ur5e_moveit_controller
+[0.280s] -- The C compiler identification is GNU 11.4.0
+[0.349s] -- The CXX compiler identification is GNU 11.4.0
+[0.354s] -- Detecting C compiler ABI info
+[0.413s] -- Detecting C compiler ABI info - done
+[0.418s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.418s] -- Detecting C compile features
+[0.418s] -- Detecting C compile features - done
+[0.420s] -- Detecting CXX compiler ABI info
+[0.484s] -- Detecting CXX compiler ABI info - done
+[0.489s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.489s] -- Detecting CXX compile features
+[0.490s] -- Detecting CXX compile features - done
+[0.492s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.608s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.685s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[0.722s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.725s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.731s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.741s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.752s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.789s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.792s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[0.813s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.822s] -- Looking for pthread.h
+[0.882s] -- Looking for pthread.h - found
+[0.882s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.944s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.944s] -- Found Threads: TRUE  
+[0.990s] -- Found moveit_ros_planning_interface: 2.5.9 (/opt/ros/humble/share/moveit_ros_planning_interface/cmake)
+[1.016s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread 
+[1.140s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[1.184s] -- Found parameter_traits: 0.5.0 (/opt/ros/humble/share/parameter_traits/cmake)
+[1.195s] -- Found rclcpp_lifecycle: 16.0.12 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[1.214s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[1.288s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[1.316s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.316s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.419s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+[1.442s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options 
+[1.509s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread 
+[1.530s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.620s] -- Added test 'lint_cmake' to check CMake code style
+[1.621s] -- Added test 'xmllint' to check XML markup files
+[1.622s] -- Configuring done
+[1.626s] -- Generating done
+[1.627s] -- Build files have been written to: /home/ariel/ur5e_ws/src/build/ur5e_moveit_controller

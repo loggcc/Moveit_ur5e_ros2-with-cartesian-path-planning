@@ -1,0 +1,59 @@
+[0.017s] Invoking command in '/home/ariel/ur5e_ws/build/moveit_control_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ariel/ws_moveit2/install/moveit_configs_utils:/home/ariel/ws_moveit2/install/launch_param_builder:/home/ariel/ur5e_ws/install/controller_pkg_demo:/opt/ros/humble /usr/bin/cmake --build /home/ariel/ur5e_ws/build/moveit_control_pkg -- -j22 -l22
+[0.089s] [35m[1mConsolidate compiler generated dependencies of target moveit_cpp_ur_node[0m
+[0.152s] [ 50%] [32mBuilding CXX object CMakeFiles/moveit_cpp_ur_node.dir/src/moveit_cpp_ur_node.cpp.o[0m
+[4.481s] [01m[K/home/ariel/ur5e_ws/src/moveit_control_pkg/src/moveit_cpp_ur_node.cpp:[m[K In lambda function:
+[4.481s] [01m[K/home/ariel/ur5e_ws/src/moveit_control_pkg/src/moveit_cpp_ur_node.cpp:54:46:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmoveit_visual_tools::MoveItVisualTools::publishTrajectoryLine(const RobotTrajectory&, const string&, moveit::core::RobotModelConstPtr)[m[K’
+[4.482s]    54 |     [01;31m[Kmoveit_visual_tools.publishTrajectoryLine([m[K
+[4.482s]       |     [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[4.482s]    55 | [01;31m[K      trajectory,[m[K
+[4.482s]       |       [01;31m[K~~~~~~~~~~~[m[K                             
+[4.482s]    56 | [01;31m[K      move_group_interface.getEndEffectorLink(),[m[K
+[4.482s]       |       [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.482s]    57 | [01;31m[K      move_group_interface.getRobotModel())[m[K;
+[4.482s]       |       [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K   
+[4.482s] In file included from [01m[K/home/ariel/ur5e_ws/src/moveit_control_pkg/src/moveit_cpp_ur_node.cpp:9[m[K:
+[4.482s] [01m[K/home/ariel/ws_moveit2/install/moveit_visual_tools/include/moveit_visual_tools/moveit_visual_tools.h:591:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool moveit_visual_tools::MoveItVisualTools::publishTrajectoryLine(const RobotTrajectory&, const moveit::core::LinkModel*, const moveit::core::JointModelGroup*, const rviz_visual_tools::Colors&)[m[K’
+[4.482s]   591 |   bool [01;36m[KpublishTrajectoryLine[m[K(const moveit_msgs::msg::RobotTrajectory& trajectory_msg,
+[4.482s]       |        [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[4.482s] [01m[K/home/ariel/ws_moveit2/install/moveit_visual_tools/include/moveit_visual_tools/moveit_visual_tools.h:592:61:[m[K [01;36m[Knote: [m[K  no known conversion for argument 2 from ‘[01m[Kconst string[m[K’ {aka ‘[01m[Kconst std::__cxx11::basic_string<char>[m[K’} to ‘[01m[Kconst moveit::core::LinkModel*[m[K’
+[4.483s]   592 |                              [01;36m[Kconst moveit::core::LinkModel* ee_parent_link[m[K,
+[4.483s]       |                              [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[4.483s] [01m[K/home/ariel/ws_moveit2/install/moveit_visual_tools/include/moveit_visual_tools/moveit_visual_tools.h:595:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool moveit_visual_tools::MoveItVisualTools::publishTrajectoryLine(const RobotTrajectoryPtr&, const moveit::core::LinkModel*, const rviz_visual_tools::Colors&)[m[K’
+[4.483s]   595 |   bool [01;36m[KpublishTrajectoryLine[m[K(const robot_trajectory::RobotTrajectoryPtr& robot_trajectory,
+[4.483s]       |        [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[4.483s] [01m[K/home/ariel/ws_moveit2/install/moveit_visual_tools/include/moveit_visual_tools/moveit_visual_tools.h:595:74:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst RobotTrajectory[m[K’ {aka ‘[01m[Kconst moveit_msgs::msg::RobotTrajectory_<std::allocator<void> >[m[K’} to ‘[01m[Kconst RobotTrajectoryPtr&[m[K’ {aka ‘[01m[Kconst std::shared_ptr<robot_trajectory::RobotTrajectory>&[m[K’}
+[4.483s]   595 | hTrajectoryLine([01;36m[Kconst robot_trajectory::RobotTrajectoryPtr& robot_trajectory[m[K,
+[4.483s]       |                 [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~[m[K
+[4.483s] 
+[4.483s] [01m[K/home/ariel/ws_moveit2/install/moveit_visual_tools/include/moveit_visual_tools/moveit_visual_tools.h:598:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool moveit_visual_tools::MoveItVisualTools::publishTrajectoryLine(const robot_trajectory::RobotTrajectory&, const moveit::core::LinkModel*, const rviz_visual_tools::Colors&)[m[K’
+[4.483s]   598 |   bool [01;36m[KpublishTrajectoryLine[m[K(const robot_trajectory::RobotTrajectory& robot_trajectory,
+[4.483s]       |        [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[4.483s] [01m[K/home/ariel/ws_moveit2/install/moveit_visual_tools/include/moveit_visual_tools/moveit_visual_tools.h:598:71:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst RobotTrajectory[m[K’ {aka ‘[01m[Kconst moveit_msgs::msg::RobotTrajectory_<std::allocator<void> >[m[K’} to ‘[01m[Kconst robot_trajectory::RobotTrajectory&[m[K’
+[4.483s]   598 | lishTrajectoryLine([01;36m[Kconst robot_trajectory::RobotTrajectory& robot_trajectory[m[K,
+[4.484s]       |                    [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~[m[K
+[4.484s] 
+[4.484s] [01m[K/home/ariel/ws_moveit2/install/moveit_visual_tools/include/moveit_visual_tools/moveit_visual_tools.h:610:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool moveit_visual_tools::MoveItVisualTools::publishTrajectoryLine(const RobotTrajectory&, const moveit::core::JointModelGroup*, const rviz_visual_tools::Colors&)[m[K’
+[4.484s]   610 |   bool [01;36m[KpublishTrajectoryLine[m[K(const moveit_msgs::msg::RobotTrajectory& trajectory_msg,
+[4.484s]       |        [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[4.484s] [01m[K/home/ariel/ws_moveit2/install/moveit_visual_tools/include/moveit_visual_tools/moveit_visual_tools.h:611:67:[m[K [01;36m[Knote: [m[K  no known conversion for argument 2 from ‘[01m[Kconst string[m[K’ {aka ‘[01m[Kconst std::__cxx11::basic_string<char>[m[K’} to ‘[01m[Kconst moveit::core::JointModelGroup*[m[K’
+[4.484s]   611 |                           [01;36m[Kconst moveit::core::JointModelGroup* arm_jmg[m[K,
+[4.484s]       |                           [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[4.484s] 
+[4.484s] [01m[K/home/ariel/ws_moveit2/install/moveit_visual_tools/include/moveit_visual_tools/moveit_visual_tools.h:613:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool moveit_visual_tools::MoveItVisualTools::publishTrajectoryLine(const RobotTrajectoryPtr&, const moveit::core::JointModelGroup*, const rviz_visual_tools::Colors&)[m[K’
+[4.484s]   613 |   bool [01;36m[KpublishTrajectoryLine[m[K(const robot_trajectory::RobotTrajectoryPtr& robot_trajectory,
+[4.484s]       |        [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[4.484s] [01m[K/home/ariel/ws_moveit2/install/moveit_visual_tools/include/moveit_visual_tools/moveit_visual_tools.h:613:74:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst RobotTrajectory[m[K’ {aka ‘[01m[Kconst moveit_msgs::msg::RobotTrajectory_<std::allocator<void> >[m[K’} to ‘[01m[Kconst RobotTrajectoryPtr&[m[K’ {aka ‘[01m[Kconst std::shared_ptr<robot_trajectory::RobotTrajectory>&[m[K’}
+[4.484s]   613 | hTrajectoryLine([01;36m[Kconst robot_trajectory::RobotTrajectoryPtr& robot_trajectory[m[K,
+[4.484s]       |                 [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~[m[K
+[4.484s] 
+[4.484s] [01m[K/home/ariel/ws_moveit2/install/moveit_visual_tools/include/moveit_visual_tools/moveit_visual_tools.h:616:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool moveit_visual_tools::MoveItVisualTools::publishTrajectoryLine(const robot_trajectory::RobotTrajectory&, const moveit::core::JointModelGroup*, const rviz_visual_tools::Colors&)[m[K’
+[4.484s]   616 |   bool [01;36m[KpublishTrajectoryLine[m[K(const robot_trajectory::RobotTrajectory& robot_trajectory,
+[4.484s]       |        [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[4.484s] [01m[K/home/ariel/ws_moveit2/install/moveit_visual_tools/include/moveit_visual_tools/moveit_visual_tools.h:616:71:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst RobotTrajectory[m[K’ {aka ‘[01m[Kconst moveit_msgs::msg::RobotTrajectory_<std::allocator<void> >[m[K’} to ‘[01m[Kconst robot_trajectory::RobotTrajectory&[m[K’
+[4.484s]   616 | lishTrajectoryLine([01;36m[Kconst robot_trajectory::RobotTrajectory& robot_trajectory[m[K,
+[4.484s]       |                    [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~[m[K
+[4.484s] 
+[6.037s] gmake[2]: *** [CMakeFiles/moveit_cpp_ur_node.dir/build.make:76: CMakeFiles/moveit_cpp_ur_node.dir/src/moveit_cpp_ur_node.cpp.o] Error 1
+[6.037s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/moveit_cpp_ur_node.dir/all] Error 2
+[6.038s] gmake: *** [Makefile:146: all] Error 2
+[6.041s] Invoked command in '/home/ariel/ur5e_ws/build/moveit_control_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ariel/ws_moveit2/install/moveit_configs_utils:/home/ariel/ws_moveit2/install/launch_param_builder:/home/ariel/ur5e_ws/install/controller_pkg_demo:/opt/ros/humble /usr/bin/cmake --build /home/ariel/ur5e_ws/build/moveit_control_pkg -- -j22 -l22

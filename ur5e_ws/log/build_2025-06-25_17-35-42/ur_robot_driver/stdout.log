@@ -1,0 +1,112 @@
+[ 10%] Built target urscript_interface
+[ 15%] Built target ament_cmake_python_copy_ur_robot_driver
+[ 30%] Built target dashboard_client
+[ 50%] Built target robot_state_helper
+[ 60%] Built target ur_ros2_control_node
+[ 75%] Built target controller_stopper_node
+[100%] Built target ur_robot_driver_plugin
+running egg_info
+writing ur_robot_driver.egg-info/PKG-INFO
+writing dependency_links to ur_robot_driver.egg-info/dependency_links.txt
+writing top-level names to ur_robot_driver.egg-info/top_level.txt
+reading manifest file 'ur_robot_driver.egg-info/SOURCES.txt'
+writing manifest file 'ur_robot_driver.egg-info/SOURCES.txt'
+[100%] Built target ament_cmake_python_build_ur_robot_driver_egg
+-- Install configuration: "RelWithDebInfo"
+-- Up-to-date: /home/ariel/ur5e_ws/install/ur_robot_driver/share/ur_robot_driver/hardware_interface_plugin.xml
+-- Up-to-date: /home/ariel/ur5e_ws/install/ur_robot_driver/lib/ur_robot_driver/dashboard_client
+-- Up-to-date: /home/ariel/ur5e_ws/install/ur_robot_driver/lib/ur_robot_driver/ur_ros2_control_node
+-- Up-to-date: /home/ariel/ur5e_ws/install/ur_robot_driver/lib/ur_robot_driver/controller_stopper_node
+-- Up-to-date: /home/ariel/ur5e_ws/install/ur_robot_driver/lib/ur_robot_driver/urscript_interface
+-- Up-to-date: /home/ariel/ur5e_ws/install/ur_robot_driver/lib/ur_robot_driver/robot_state_helper
+-- Up-to-date: /home/ariel/ur5e_ws/install/ur_robot_driver/lib/libur_robot_driver_plugin.so
+-- Up-to-date: /home/ariel/ur5e_ws/install/ur_robot_driver/include
+-- Up-to-date: /home/ariel/ur5e_ws/install/ur_robot_driver/include/ur_robot_driver
+-- Up-to-date: /home/ariel/ur5e_ws/install/ur_robot_driver/include/ur_robot_driver/hardware_interface.hpp
+-- Up-to-date: /home/ariel/ur5e_ws/install/ur_robot_driver/include/ur_robot_driver/controller_stopper.hpp
+-- Up-to-date: /home/ariel/ur5e_ws/install/ur_robot_driver/include/ur_robot_driver/urcl_log_handler.hpp
+-- Up-to-date: /home/ariel/ur5e_ws/install/ur_robot_driver/include/ur_robot_driver/robot_state_helper.hpp
+-- Up-to-date: /home/ariel/ur5e_ws/install/ur_robot_driver/include/ur_robot_driver/dashboard_client_ros.hpp
+-- Up-to-date: /home/ariel/ur5e_ws/install/ur_robot_driver/share/ur_robot_driver/environment/library_path.sh
+-- Up-to-date: /home/ariel/ur5e_ws/install/ur_robot_driver/share/ur_robot_driver/environment/library_path.dsv
+-- Up-to-date: /home/ariel/ur5e_ws/install/ur_robot_driver/share/ur_robot_driver/resources
+-- Up-to-date: /home/ariel/ur5e_ws/install/ur_robot_driver/share/ur_robot_driver/resources/externalcontrol-1.0.5.urcap
+-- Up-to-date: /home/ariel/ur5e_ws/install/ur_robot_driver/share/ur_robot_driver/resources/rtde_input_recipe.txt
+-- Up-to-date: /home/ariel/ur5e_ws/install/ur_robot_driver/share/ur_robot_driver/resources/rtde_output_recipe.txt
+-- Up-to-date: /home/ariel/ur5e_ws/install/ur_robot_driver/share/ur_robot_driver/resources/rs485-1.0.urcap
+-- Up-to-date: /home/ariel/ur5e_ws/install/ur_robot_driver/share/ur_robot_driver/resources/ros_control.urscript
+-- Up-to-date: /home/ariel/ur5e_ws/install/ur_robot_driver/include
+-- Up-to-date: /home/ariel/ur5e_ws/install/ur_robot_driver/include/ur_robot_driver
+-- Up-to-date: /home/ariel/ur5e_ws/install/ur_robot_driver/include/ur_robot_driver/hardware_interface.hpp
+-- Up-to-date: /home/ariel/ur5e_ws/install/ur_robot_driver/include/ur_robot_driver/controller_stopper.hpp
+-- Up-to-date: /home/ariel/ur5e_ws/install/ur_robot_driver/include/ur_robot_driver/urcl_log_handler.hpp
+-- Up-to-date: /home/ariel/ur5e_ws/install/ur_robot_driver/include/ur_robot_driver/robot_state_helper.hpp
+-- Up-to-date: /home/ariel/ur5e_ws/install/ur_robot_driver/include/ur_robot_driver/dashboard_client_ros.hpp
+-- Up-to-date: /home/ariel/ur5e_ws/install/ur_robot_driver/share/ur_robot_driver/environment/pythonpath.sh
+-- Up-to-date: /home/ariel/ur5e_ws/install/ur_robot_driver/share/ur_robot_driver/environment/pythonpath.dsv
+-- Up-to-date: /home/ariel/ur5e_ws/install/ur_robot_driver/local/lib/python3.10/dist-packages/ur_robot_driver-2.8.1-py3.10.egg-info
+-- Installing: /home/ariel/ur5e_ws/install/ur_robot_driver/local/lib/python3.10/dist-packages/ur_robot_driver-2.8.1-py3.10.egg-info/SOURCES.txt
+-- Installing: /home/ariel/ur5e_ws/install/ur_robot_driver/local/lib/python3.10/dist-packages/ur_robot_driver-2.8.1-py3.10.egg-info/dependency_links.txt
+-- Installing: /home/ariel/ur5e_ws/install/ur_robot_driver/local/lib/python3.10/dist-packages/ur_robot_driver-2.8.1-py3.10.egg-info/PKG-INFO
+-- Installing: /home/ariel/ur5e_ws/install/ur_robot_driver/local/lib/python3.10/dist-packages/ur_robot_driver-2.8.1-py3.10.egg-info/top_level.txt
+-- Up-to-date: /home/ariel/ur5e_ws/install/ur_robot_driver/local/lib/python3.10/dist-packages/ur_robot_driver
+-- Up-to-date: /home/ariel/ur5e_ws/install/ur_robot_driver/local/lib/python3.10/dist-packages/ur_robot_driver/__init__.py
+Listing '/home/ariel/ur5e_ws/install/ur_robot_driver/local/lib/python3.10/dist-packages/ur_robot_driver'...
+-- Up-to-date: /home/ariel/ur5e_ws/install/ur_robot_driver/lib/ur_robot_driver/tool_communication.py
+-- Up-to-date: /home/ariel/ur5e_ws/install/ur_robot_driver/lib/ur_robot_driver/example_move.py
+-- Up-to-date: /home/ariel/ur5e_ws/install/ur_robot_driver/lib/ur_robot_driver/start_ursim.sh
+-- Up-to-date: /home/ariel/ur5e_ws/install/ur_robot_driver/lib/ur_robot_driver/examples.py
+-- Up-to-date: /home/ariel/ur5e_ws/install/ur_robot_driver/lib/ur_robot_driver/force_mode.py
+-- Up-to-date: /home/ariel/ur5e_ws/install/ur_robot_driver/bin/wait_dashboard_server.sh
+-- Up-to-date: /home/ariel/ur5e_ws/install/ur_robot_driver/lib/ur_robot_driver/start_ursim.sh
+-- Up-to-date: /home/ariel/ur5e_ws/install/ur_robot_driver/share/ur_robot_driver/config
+-- Up-to-date: /home/ariel/ur5e_ws/install/ur_robot_driver/share/ur_robot_driver/config/ur3e_update_rate.yaml
+-- Up-to-date: /home/ariel/ur5e_ws/install/ur_robot_driver/share/ur_robot_driver/config/test_velocity_goal_publishers_config.yaml
+-- Up-to-date: /home/ariel/ur5e_ws/install/ur_robot_driver/share/ur_robot_driver/config/ur5_update_rate.yaml
+-- Up-to-date: /home/ariel/ur5e_ws/install/ur_robot_driver/share/ur_robot_driver/config/ur30_update_rate.yaml
+-- Up-to-date: /home/ariel/ur5e_ws/install/ur_robot_driver/share/ur_robot_driver/config/ur20_update_rate.yaml
+-- Up-to-date: /home/ariel/ur5e_ws/install/ur_robot_driver/share/ur_robot_driver/config/ur_controllers.yaml
+-- Up-to-date: /home/ariel/ur5e_ws/install/ur_robot_driver/share/ur_robot_driver/config/ur10e_update_rate.yaml
+-- Up-to-date: /home/ariel/ur5e_ws/install/ur_robot_driver/share/ur_robot_driver/config/test_goal_publishers_config.yaml
+-- Up-to-date: /home/ariel/ur5e_ws/install/ur_robot_driver/share/ur_robot_driver/config/ur16e_update_rate.yaml
+-- Up-to-date: /home/ariel/ur5e_ws/install/ur_robot_driver/share/ur_robot_driver/config/ur3_update_rate.yaml
+-- Up-to-date: /home/ariel/ur5e_ws/install/ur_robot_driver/share/ur_robot_driver/config/ur5e_update_rate.yaml
+-- Up-to-date: /home/ariel/ur5e_ws/install/ur_robot_driver/share/ur_robot_driver/config/ur10_update_rate.yaml
+-- Up-to-date: /home/ariel/ur5e_ws/install/ur_robot_driver/share/ur_robot_driver/config/ur15_update_rate.yaml
+-- Up-to-date: /home/ariel/ur5e_ws/install/ur_robot_driver/share/ur_robot_driver/launch
+-- Up-to-date: /home/ariel/ur5e_ws/install/ur_robot_driver/share/ur_robot_driver/launch/ur30.launch.py
+-- Up-to-date: /home/ariel/ur5e_ws/install/ur_robot_driver/share/ur_robot_driver/launch/test_joint_trajectory_controller.launch.py
+-- Up-to-date: /home/ariel/ur5e_ws/install/ur_robot_driver/share/ur_robot_driver/launch/ur20.launch.py
+-- Up-to-date: /home/ariel/ur5e_ws/install/ur_robot_driver/share/ur_robot_driver/launch/ur16e.launch.py
+-- Up-to-date: /home/ariel/ur5e_ws/install/ur_robot_driver/share/ur_robot_driver/launch/ur5e.launch.py
+-- Up-to-date: /home/ariel/ur5e_ws/install/ur_robot_driver/share/ur_robot_driver/launch/ur10e.launch.py
+-- Up-to-date: /home/ariel/ur5e_ws/install/ur_robot_driver/share/ur_robot_driver/launch/ur7e.launch.py
+-- Up-to-date: /home/ariel/ur5e_ws/install/ur_robot_driver/share/ur_robot_driver/launch/ur5.launch.py
+-- Up-to-date: /home/ariel/ur5e_ws/install/ur_robot_driver/share/ur_robot_driver/launch/ur_control.launch.py
+-- Up-to-date: /home/ariel/ur5e_ws/install/ur_robot_driver/share/ur_robot_driver/launch/test_scaled_joint_trajectory_controller.launch.py
+-- Up-to-date: /home/ariel/ur5e_ws/install/ur_robot_driver/share/ur_robot_driver/launch/test_forward_velocity_controller.launch.py
+-- Up-to-date: /home/ariel/ur5e_ws/install/ur_robot_driver/share/ur_robot_driver/launch/ur10.launch.py
+-- Up-to-date: /home/ariel/ur5e_ws/install/ur_robot_driver/share/ur_robot_driver/launch/ur3.launch.py
+-- Up-to-date: /home/ariel/ur5e_ws/install/ur_robot_driver/share/ur_robot_driver/launch/ur12e.launch.py
+-- Up-to-date: /home/ariel/ur5e_ws/install/ur_robot_driver/share/ur_robot_driver/launch/ur_dashboard_client.launch.py
+-- Up-to-date: /home/ariel/ur5e_ws/install/ur_robot_driver/share/ur_robot_driver/launch/ur3e.launch.py
+-- Up-to-date: /home/ariel/ur5e_ws/install/ur_robot_driver/share/ur_robot_driver/launch/ur15.launch.py
+-- Up-to-date: /home/ariel/ur5e_ws/install/ur_robot_driver/share/ament_index/resource_index/package_run_dependencies/ur_robot_driver
+-- Up-to-date: /home/ariel/ur5e_ws/install/ur_robot_driver/share/ament_index/resource_index/parent_prefix_path/ur_robot_driver
+-- Up-to-date: /home/ariel/ur5e_ws/install/ur_robot_driver/share/ur_robot_driver/environment/ament_prefix_path.sh
+-- Up-to-date: /home/ariel/ur5e_ws/install/ur_robot_driver/share/ur_robot_driver/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/ariel/ur5e_ws/install/ur_robot_driver/share/ur_robot_driver/environment/path.sh
+-- Up-to-date: /home/ariel/ur5e_ws/install/ur_robot_driver/share/ur_robot_driver/environment/path.dsv
+-- Up-to-date: /home/ariel/ur5e_ws/install/ur_robot_driver/share/ur_robot_driver/local_setup.bash
+-- Up-to-date: /home/ariel/ur5e_ws/install/ur_robot_driver/share/ur_robot_driver/local_setup.sh
+-- Up-to-date: /home/ariel/ur5e_ws/install/ur_robot_driver/share/ur_robot_driver/local_setup.zsh
+-- Up-to-date: /home/ariel/ur5e_ws/install/ur_robot_driver/share/ur_robot_driver/local_setup.dsv
+-- Installing: /home/ariel/ur5e_ws/install/ur_robot_driver/share/ur_robot_driver/package.dsv
+-- Up-to-date: /home/ariel/ur5e_ws/install/ur_robot_driver/share/ament_index/resource_index/packages/ur_robot_driver
+-- Up-to-date: /home/ariel/ur5e_ws/install/ur_robot_driver/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/ur_robot_driver
+-- Up-to-date: /home/ariel/ur5e_ws/install/ur_robot_driver/share/ur_robot_driver/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date: /home/ariel/ur5e_ws/install/ur_robot_driver/share/ur_robot_driver/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date: /home/ariel/ur5e_ws/install/ur_robot_driver/share/ur_robot_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date: /home/ariel/ur5e_ws/install/ur_robot_driver/share/ur_robot_driver/cmake/ur_robot_driverConfig.cmake
+-- Up-to-date: /home/ariel/ur5e_ws/install/ur_robot_driver/share/ur_robot_driver/cmake/ur_robot_driverConfig-version.cmake
+-- Up-to-date: /home/ariel/ur5e_ws/install/ur_robot_driver/share/ur_robot_driver/package.xml
