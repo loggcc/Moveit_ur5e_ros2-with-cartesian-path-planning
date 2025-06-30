@@ -1,0 +1,74 @@
+# UR5e ROS2 MoveIt2 Cartesian Control
+
+This repository contains the complete setup for using ROS 2 Humble and MoveIt 2 to control a real UR5e robot arm with Cartesian path planning.
+
+## Environment Setup
+
+### 1. Clone UR ROS 2 Packages
+
+```bash
+cd ~/ur5e_ws/src
+# Clone UR ROS 2 driver
+git clone https://github.com/UniversalRobots/Universal_Robots_ROS2_Driver.git
+# Clone UR ROS 2 description
+git clone https://github.com/UniversalRobots/Universal_Robots_ROS2_Description.git
+```
+
+### 2. intall moveit2
+
+Launch the MoveIt Setup Assistant:
+```
+cd ~/ws_moveit2/src
+ros2 launch moveit_setup_assistant setup_assistant.launch.py verbose:=true
+```
+### 3. moveit setup:
+
+Go to the moveit workspace:
+cd /ws_moveit2/src
+```
+ros2 launch moveit_setup_assistant setup_assistant.launch.py verbose:=true
+```
+### 4. Run on hardware
+
+Step 1: Network
+
+Ensure the IP of your PC is on the same subnet as the UR5e
+Example robot IP: 192.168.1.103
+
+Step 2: Launch UR Driver
+
+```
+cd ur5e_ws
+source /opt/ros/humble/setup.bash
+ros2 launch ur_robot_driver ur5e.launch.py  robot_ip:=192.168.1.103 initial_joint_controller:=joint_trajectory_controller launch_rviz:=true
+```
+
+Step 3: Run External Control on UR5e Teach Pendant
+
+Open URCaps in Program → External Control → Play Control by NC
+
+Step 4: Launch MoveIt Control Nodes
+Terminal 2:
+```
+cd ~/ur5e_ws
+source /opt/ros/humble/setup.bash
+source install/setup.bash
+ros2 launch ur5e_moveit_config move_group.launch.py
+```
+Terminal3:
+```
+cd ~/ur5e_ws
+source /opt/ros/humble/setup.bash
+source install/setup.bash
+ros2 launch ur5e_moveit_config moveit_rviz.launch.py
+
+```
+Terminal4:
+```
+cd ~/ur5e_ws
+source /opt/ros/humble/setup.bash
+source install/setup.bash
+ros2 run moveit_control_pkg cartesian_control
+```
+
+
