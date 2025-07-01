@@ -16,10 +16,10 @@ git clone https://github.com/UniversalRobots/Universal_Robots_ROS2_Description.g
 
 
 ### 2. build
-
+```
 cd ur5e
 colcon build
-
+```
 ### 3. intall moveit2
 
 Launch the MoveIt Setup Assistant:
