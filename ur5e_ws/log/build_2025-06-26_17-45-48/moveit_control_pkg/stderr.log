@@ -1,8 +1,0 @@
-[01m[K/home/ariel/ur5e_ws/src/moveit_control_pkg/src/cartesian_control.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
-[01m[K/home/ariel/ur5e_ws/src/moveit_control_pkg/src/cartesian_control.cpp:183:51:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass rclcpp::Duration[m[K’ has no member named ‘[01m[Kto_builtin[m[K’
-  183 | tart = (original_time * 1.5).[01;31m[Kto_builtin[m[K();
-      |                              [01;31m[K^~~~~~~~~~[m[K
-
-gmake[2]: *** [CMakeFiles/cartesian_control.dir/build.make:76: CMakeFiles/cartesian_control.dir/src/cartesian_control.cpp.o] Error 1
-gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/cartesian_control.dir/all] Error 2
-gmake: *** [Makefile:146: all] Error 2

@@ -14,21 +14,27 @@ git clone https://github.com/UniversalRobots/Universal_Robots_ROS2_Driver.git
 git clone https://github.com/UniversalRobots/Universal_Robots_ROS2_Description.git
 ```
 
-### 2. intall moveit2
+
+### 2. build
+
+cd ur5e
+colcon build
+
+### 3. intall moveit2
 
 Launch the MoveIt Setup Assistant:
 ```
 cd ~/ws_moveit2/src
 ros2 launch moveit_setup_assistant setup_assistant.launch.py verbose:=true
 ```
-### 3. moveit setup:
+### 4. moveit setup:
 
 Go to the moveit workspace:
 cd /ws_moveit2/src
 ```
 ros2 launch moveit_setup_assistant setup_assistant.launch.py verbose:=true
 ```
-### 4. Run on hardware
+### 5. Run on hardware
 
 Step 1: Network
 
@@ -86,6 +92,4 @@ move the robot arm in various poses with moveit (with ros2 launch ur5e_moveit_co
 
 put all the collected matrix in hand_eye_calibration.py and calculate the hand eye calibration matirx
 
-
 <img src="hand_eye_calibration/assets/calibration_pose.png" width="70%">
-
