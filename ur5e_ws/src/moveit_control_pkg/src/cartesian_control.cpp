@@ -2,8 +2,7 @@
 #include <moveit/planning_scene_interface/planning_scene_interface.h>
 #include <moveit_msgs/msg/display_robot_state.hpp>
 #include <moveit_msgs/msg/display_trajectory.hpp>
-
-
+#include <ur_msgs/srv/set_io.hpp>
 #include <moveit/robot_trajectory/robot_trajectory.h>
 #include <moveit/trajectory_processing/iterative_time_parameterization.h>
 #include <iostream>  // For std::cin and std::cout
@@ -33,39 +32,6 @@ int main(int argc, char **argv) {
   std::vector<moveit_msgs::msg::CollisionObject> collision_objects;
   std::string frame_id = move_group.getPlanningFrame();
 
-// setting constraints
-  // // Box 1
-  // moveit_msgs::msg::CollisionObject box1;
-  // box1.header.frame_id = frame_id;
-  // box1.id = "box1";
-
-
-  // shape_msgs::msg::SolidPrimitive primitive1;
-  // primitive1.type = primitive1.BOX;
-  // primitive1.dimensions = {1.0, 0.1, 1.0};
-
-
-  // geometry_msgs::msg::Pose pose1;
-  // pose1.orientation.w = 1.0;
-  // pose1.position.x = -0.6;
-  // pose1.position.y = -0.4;
-  // pose1.position.z = 0.5;
-
-
-  // box1.primitives.push_back(primitive1);
-  // box1.primitive_poses.push_back(pose1);
-  // box1.operation = box1.ADD;
-  // collision_objects.push_back(box1);
-
-
-
-
-
-// Apply constraints
-  // planning_scene_interface.applyCollisionObjects(collision_objects);
-
-
-
 
  RCLCPP_INFO(LOGGER, "Approaching target pose with Cartesian path...");
 
@@ -84,10 +50,6 @@ target_pose1.orientation.w = 0.0;
 target_pose1.position.x = x;
 target_pose1.position.y = y;
 target_pose1.position.z = z;
-
-
-
-
 
 
 // Generate waypoints for Cartesian motion
@@ -112,7 +74,6 @@ const double eef_step = 0.01;     // resolution (meters)
 const double jump_threshold = 0.0;  // disable jump detection
 double fraction = move_group.computeCartesianPath(waypoints, eef_step, jump_threshold, trajectory);
 
-
 if (fraction > 0.99) {
 
 
@@ -129,10 +90,7 @@ if (fraction > 0.99) {
     }
 
 
-
-
   std::cout << "**************************************** second vel  ****************" << std::endl;
-
 
   // time parameterized the trajectory
   robot_trajectory::RobotTrajectory rt(move_group.getRobotModel(), move_group.getName());
@@ -152,20 +110,34 @@ if (fraction > 0.99) {
       std::cout << std::endl;
   }
 
-
   plan.trajectory_ = trajectory;
   // motion execution
   
-  
   move_group.execute(plan);
+
+  // reach target pose, open gripper by setting digital output pin 1 to HIGH
+  auto client = move_group_node->create_client<ur_msgs::srv::SetIO>("/io_and_status_controller/set_io");
+  auto request = std::make_shared<ur_msgs::srv::SetIO::Request>();
+  request->fun = 1;       // set digital output
+  request->pin = 1;       // pin index
+  request->state = 1.0;   // high
+
+  if (client->wait_for_service(std::chrono::seconds(1))) {
+    auto future = client->async_send_request(request);
+    if (rclcpp::spin_until_future_complete(move_group_node, future) ==
+        rclcpp::FutureReturnCode::SUCCESS) {
+      RCLCPP_INFO(LOGGER, "Digital output pin 1 set to HIGH");
+    } else {
+      RCLCPP_WARN(LOGGER, "Failed to set digital output");
+    }
+  } else {
+    RCLCPP_WARN(LOGGER, "Service /io_and_status_controller/set_io not available");
+  }
+
+
 } else {
   RCLCPP_WARN(LOGGER, "Cartesian path planning failed, only achieved %.2f%% of the path", fraction * 100.0);
 }
-
-
-
-
-
 
 
   rclcpp::shutdown();
