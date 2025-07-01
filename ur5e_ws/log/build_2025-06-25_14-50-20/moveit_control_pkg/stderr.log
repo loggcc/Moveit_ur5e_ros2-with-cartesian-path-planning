@@ -1,9 +1,0 @@
-[01m[K/home/ariel/ur5e_ws/src/moveit_control_pkg/src/cartesian_control.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
-[01m[K/home/ariel/ur5e_ws/src/moveit_control_pkg/src/cartesian_control.cpp:38:84:[m[K [01;35m[Kwarning: [m[K‘[01m[Kusing MoveItErrorCode = class moveit::core::MoveItErrorCode[m[K’ is deprecated: Use moveit::core::MoveItErrorCode [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
-   38 |   if (move_group.plan(my_plan_arm) == moveit::planning_interface::MoveItErrorCode::[01;35m[KSUCCESS[m[K)
-      |                                                                                    [01;35m[K^~~~~~~[m[K
-In file included from [01m[K/home/ariel/ur5e_ws/src/moveit_control_pkg/src/cartesian_control.cpp:1[m[K:
-[01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h:71:7:[m[K [01;36m[Knote: [m[Kdeclared here
-   71 | using [01;36m[KMoveItErrorCode[m[K [[deprecated("Use moveit::core::MoveItErrorCode")]] = moveit::core::MoveItErrorCode;
-      |       [01;36m[K^~~~~~~~~~~~~~~[m[K
-/usr/bin/ld: warning: libsrdfdom.so.2.0.7, needed by /opt/ros/humble/lib/libmoveit_robot_model.so.2.5.9, may conflict with libsrdfdom.so.2.0.8

@@ -1,2 +1,0 @@
-Invoking command in '/home/ariel/ur5e_ws/build/orunav_launch': /usr/bin/cmake /home/ariel/ur5e_ws/src/navigation_oru-release/orunav_launch -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/ariel/ur5e_ws/install/orunav_launch
-Invoked command in '/home/ariel/ur5e_ws/build/orunav_launch' returned '1': /usr/bin/cmake /home/ariel/ur5e_ws/src/navigation_oru-release/orunav_launch -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/ariel/ur5e_ws/install/orunav_launch

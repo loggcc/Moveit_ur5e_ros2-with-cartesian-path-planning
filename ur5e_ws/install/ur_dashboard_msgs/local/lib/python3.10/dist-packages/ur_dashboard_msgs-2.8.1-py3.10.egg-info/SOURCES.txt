@@ -1,1 +1,0 @@
-/home/ariel/ur5e_ws/build/ur_dashboard_msgs/ament_cmake_python/ur_dashboard_msgs/ur_dashboard_msgs.egg-info/SOURCES.txt

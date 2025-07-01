@@ -1,3 +1,0 @@
-
-string answer
-bool success

@@ -1,3 +1,0 @@
-[ 50%] [32mBuilding CXX object CMakeFiles/robotiq_controllers.dir/src/robotiq_activation_controller.cpp.o[0m
-[100%] [32m[1mLinking CXX shared library librobotiq_controllers.so[0m
-[100%] Built target robotiq_controllers

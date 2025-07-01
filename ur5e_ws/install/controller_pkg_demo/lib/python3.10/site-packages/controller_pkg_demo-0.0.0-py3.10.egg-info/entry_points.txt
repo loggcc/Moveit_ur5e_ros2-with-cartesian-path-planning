@@ -1,5 +1,0 @@
-[console_scripts]
-joint_command_publisher = controller_pkg_demo.joint_command_publisher:main
-move_to_pose = controller_pkg_demo.move_to_pose:main
-test_moveit_cartesian = controller_pkg_demo.test_moveit_cartesian:main
-
